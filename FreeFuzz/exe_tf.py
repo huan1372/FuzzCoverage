@@ -16,7 +16,7 @@ TIME_HIGH_KEY = "time_high"
 current_dir = "/home/usr/FreeFuzz/src/tf-output/crash-oracle/success"
 
 import argparse
-import os,glob
+import os
 
 def init_parser():
     parser = argparse.ArgumentParser()
