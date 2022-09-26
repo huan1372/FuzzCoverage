@@ -1336,7 +1336,7 @@ Name                                                                            
 /usr/local/lib/python3.8/site-packages/tensorflow/python/ops/map_fn.py                                                           157    120    24%
 /usr/local/lib/python3.8/site-packages/tensorflow/python/ops/map_ops.py                                                           39     39     0%
 /usr/local/lib/python3.8/site-packages/tensorflow/python/ops/math_grad.py                                                       1208    922    24%
-/usr/local/lib/python3.8/site-packages/tensorflow/python/ops/math_ops.py                                                        1287    706    45%
+/usr/local/lib/python3.8/site-packages/tensorflow/python/ops/math_ops.py                                                        1287    702    45%
 /usr/local/lib/python3.8/site-packages/tensorflow/python/ops/metrics.py                                                            2      0   100%
 /usr/local/lib/python3.8/site-packages/tensorflow/python/ops/metrics_impl.py                                                     793    681    14%
 /usr/local/lib/python3.8/site-packages/tensorflow/python/ops/nccl_ops.py                                                          82     57    30%
@@ -1703,7 +1703,7 @@ Name                                                                            
 /usr/local/lib/python3.8/site-packages/tensorflow/python/util/serialization.py                                                    30     30     0%
 /usr/local/lib/python3.8/site-packages/tensorflow/python/util/tf_contextlib.py                                                     6      0   100%
 /usr/local/lib/python3.8/site-packages/tensorflow/python/util/tf_decorator.py                                                     93     30    68%
-/usr/local/lib/python3.8/site-packages/tensorflow/python/util/tf_export.py                                                       149     43    71%
+/usr/local/lib/python3.8/site-packages/tensorflow/python/util/tf_export.py                                                       149     45    70%
 /usr/local/lib/python3.8/site-packages/tensorflow/python/util/tf_inspect.py                                                      147     66    55%
 /usr/local/lib/python3.8/site-packages/tensorflow/python/util/tf_should_use.py                                                   109     73    33%
 /usr/local/lib/python3.8/site-packages/tensorflow/python/util/tf_stack.py                                                         80     43    46%
@@ -1733,4 +1733,4 @@ Name                                                                            
 /usr/local/lib/python3.8/site-packages/tensorflow/tools/pip_package/setup.py                                                      85     85     0%
 /usr/local/lib/python3.8/site-packages/tensorflow/tools/pip_package/simple_console.py                                              8      8     0%
 --------------------------------------------------------------------------------------------------------------------------------------------------
-TOTAL                                                                                                                         270510 200967    26%
+TOTAL                                                                                                                         270510 200965    26%

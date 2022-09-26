@@ -27,8 +27,8 @@ def TestOneInput(input_bytes):
     name = fh.get_string() if name_index==len(name_list) else name_list[name_index]
     shared_index_1 = fh.get_int(min_int=-1024,max_int=1024)
     shared_index_2 = fh.get_int(min_int=-1024,max_int=1024)
-    shared_axes = [shared_index_1,shared_index_2] if name_index%2==0 else None
-    #x = tf.saturate_cast(tf.random.uniform(shape=shape, dtype=dtype, seed=seed))
+    shared_axes = [shared_index_1,shared_index_2,] if name_index%2==0 else None
+    #x = fh.get_random_numeric_tensor()
     #arg_input_0 = tf.identity(x)
     #arg_input = [arg_input_0,]
     try:
