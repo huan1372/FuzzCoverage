@@ -13,8 +13,9 @@ def TestOneInput(data):
     # half, tf.complex64,tf.complex128 but get_random_numeric_tensor only generates
     # tf.float16, tf.float32, tf.float64, tf.int32, tf.int64
     # ! TODO: ADD Complex number, and half generator in python fuzzing
-    input_tensor = fh.get_random_numeric_tensor()
-
+    _TF_SQRT_DTYPES = [tf.float16, tf.float32, tf.float64]
+    input_tensor = fh.get_random_numeric_tensor(dtype=fh.get_tf_dtype(allowed_set=_TF_SQRT_DTYPES))
+    
     _ = tf.math.sqrt(x=input_tensor)
 
 
