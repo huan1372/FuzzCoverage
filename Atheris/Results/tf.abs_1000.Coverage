@@ -922,7 +922,7 @@ Name                                                                            
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/cpp_shape_inference_pb2.py                                     33      0   100%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/device.py                                                      52     28    46%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/device_spec.py                                                163     32    80%
-/usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/dtypes.py                                                     259     66    75%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/dtypes.py                                                     259     61    76%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/error_interpolation.py                                        142    112    21%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/errors.py                                                       3      0   100%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/errors_impl.py                                                205     79    61%
@@ -948,7 +948,7 @@ Name                                                                            
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/op_def_library.py                                             449    391    13%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/op_def_library_pybind.py                                        9      4    56%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/op_def_registry.py                                             25     16    36%
-/usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/ops.py                                                       2362   1638    31%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/ops.py                                                       2362   1637    31%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/python_memory_checker.py                                       75     75     0%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/random_seed.py                                                 44     16    64%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/registry.py                                                    31      8    74%
@@ -1143,7 +1143,7 @@ Name                                                                            
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/module/module.py                                                        105     67    36%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/__init__.py                                                           0      0   100%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/array_grad.py                                                       617    447    28%
-/usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/array_ops.py                                                       1280    908    29%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/array_ops.py                                                       1280    901    30%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/batch_ops.py                                                         24     14    42%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/bincount_ops.py                                                     159    136    14%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/bitwise_ops.py                                                       10      0   100%
@@ -1196,7 +1196,7 @@ Name                                                                            
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/embedding_ops.py                                                    251    209    17%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/filesystem_ops.py                                                     6      6     0%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/functional_ops.py                                                   297    244    18%
-/usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_array_ops.py                                                   5481   4965     9%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_array_ops.py                                                   5481   4959    10%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_audio_ops.py                                                    237    203    14%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_batch_ops.py                                                    273    247    10%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_bitwise_ops.py                                                  375    317    15%
@@ -1226,7 +1226,7 @@ Name                                                                            
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_lookup_ops.py                                                   904    808    11%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_manip_ops.py                                                     48     32    33%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_map_ops.py                                                      401    401     0%
-/usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_math_ops.py                                                    6658   5903    11%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_math_ops.py                                                    6658   5891    12%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_nccl_ops.py                                                     128    106    17%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_nn_ops.py                                                      5746   5342     7%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_parsing_ops.py                                                 1069    998     7%
@@ -1322,7 +1322,7 @@ Name                                                                            
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/map_fn.py                                                           157    120    24%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/map_ops.py                                                           39     39     0%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/math_grad.py                                                       1208    922    24%
-/usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/math_ops.py                                                        1287    702    45%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/math_ops.py                                                        1287    692    46%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/metrics.py                                                            2      0   100%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/metrics_impl.py                                                     793    681    14%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/nccl_ops.py                                                          82     57    30%
@@ -1718,4 +1718,4 @@ Name                                                                            
 /usr/local/lib/python3.8/dist-packages/tensorflow/tools/pip_package/setup.py                                                      85     85     0%
 /usr/local/lib/python3.8/dist-packages/tensorflow/tools/pip_package/simple_console.py                                              8      8     0%
 --------------------------------------------------------------------------------------------------------------------------------------------------
-TOTAL                                                                                                                         269448 200198    26%
+TOTAL                                                                                                                         269448 200157    26%
