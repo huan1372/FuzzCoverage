@@ -1,7 +1,19 @@
 import os
+import argparse
+import FreeFuzz.exe_tf as extf
 
 Atheris_dir = "./Atheris/Results/"
 FreeFuzz_dir = "./FreeFuzz/Results/"
+Atheris_fuzzer_dir = "/home/usr/FreeFuzz/FuzzCoverage/Atheris/Tests/"
+
+Time = {"tf.abs":["300","1214"],"tf.math.sqrt":["","2640"]}
+def init_parser():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-fc","--func",help="generate coverage report for FreeFuzz with function name")
+    parser.add_argument("-f","--file",help="file contains function names")
+    parser.add_argument("-gr","--genreport",help="generate report based on .Coverage")
+    parser.add_argument("-Afc","--AtherisFunc",help="Generate fun")
+    return parser
 
 def get_info(cur_dir,filename):
     """get file number,stats_covered,stats_miss in file
@@ -10,12 +22,23 @@ def get_info(cur_dir,filename):
         cur_dir (string): dir to work
         filename (string): filename
     """
+    stats_covered = 0
+    stats_miss = 0
+    file_nums = 0
     with open(cur_dir+filename) as f:
-        contents = f.readlines()
-        file_nums = len(contents) -4
-        info_need = contents[-1].split()
-        stats_covered = info_need[-3]
-        stats_miss = info_need[-2]
+        f.readline()
+        f.readline()
+        for i in f.readlines():
+            if i.startswith("----"):
+                break
+            line = i.split()
+            stats = int(line[-3])
+            miss = int(line[-2])
+            stats_covered += stats
+            stats_miss += miss
+            file_nums +=1
+            if (stats == miss) and (line[-1]=="0%"):
+                file_nums -= 1
     return file_nums,stats_covered,stats_miss
 
 def add_results(results,cur_dir,tool):
@@ -39,18 +62,54 @@ def write_results(results):
     f = open("results.txt","w")
     max_width = max(len(i) for i in results.keys())
     for key,value in results.items():
-        f.write("===============================================================\n")
-        f.write(key.ljust(max_width+3)+ " | files Cov | " + "stats Cov | " + "stats Miss |" + "\n")
-        f.write("---------------------------------------------------------------\n")
+        f.write("====================================================================================\n")
+        f.write(key.ljust(max_width+3)+ " | files Cov | " + "stats Tot | " + "stats Miss | " + "Time |"+"\n")
+        f.write("------------------------------------------------------------------------------------\n")
         for value_in in value:
-            f.write(value_in[0].ljust(max_width+6) + value_in[1].ljust(9+3) + value_in[2].ljust(9+3) + value_in[3].ljust(10+2) + "\n")
+            if key in Time.keys():
+                if value_in[0] == "Atheris":
+                    time_info = Time[key][0]
+                else:
+                    time_info = Time[key][1]
+            else:
+                time_info = ""
+            f.write(value_in[0].ljust(max_width+6) + value_in[1].ljust(9+3) + value_in[2].ljust(9+3) + value_in[3].ljust(10+3) + time_info.ljust(4+2) + "\n")
     f.close()
 
-def main():
+def generate_report():
+    """function to generate report
+    """
     results ={}
     add_results(results,Atheris_dir,"Atheris")
     add_results(results,FreeFuzz_dir,"FreeFuzz")
     write_results(results)
+    return results
 
-if __name__ == "__main__":
+def run_Atheris(func):
+    for file in os.listdir(Atheris_fuzzer_dir):
+        print(file)
+        if file.startswith(func) and file.endswith("_fuzz.py"):
+            os.system("python3 -m coverage run -L --source=/usr/local/lib/python3.8/dist-packages/tensorflow " + Atheris_fuzzer_dir + file + " -atheris_runs=10000")
+            os.system("python3 -m coverage report --include=/usr/local/lib/python3.8/dist-packages/tensorflow/*.py > " + "./Atheris/Results/" + func + "_1000.Coverage")
+            break
+def run_all_Atheris():
+    for file in os.listdir(Atheris_fuzzer_dir):
+        if file.startswith(func) and file.endswith("_fuzz.py"):
+            os.system("python3 -m coverage run -L --source=/usr/local/lib/python3.8/dist-packages/tensorflow " + Atheris_fuzzer_dir + file + " -atheris_runs=20000")
+            os.system("python3 -m coverage report --include=/usr/local/lib/python3.8/dist-packages/tensorflow/*.py > " + "./Atheris/Results/" + func + "_1000.Coverage")
+            break
+def main():
+    parser = init_parser()
+    args = parser.parse_args()
+    if args.func:
+        extf.run_func(args.func)
+    elif args.file:
+        extf.run_file(args.file)
+
+    if args.AtherisFunc:
+        run_Atheris(args.AtherisFunc)
+    if args.genreport:
+        generate_report()
+
+if __name__ == "__main__": 
     main()
