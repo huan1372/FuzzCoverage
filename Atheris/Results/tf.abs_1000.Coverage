@@ -848,7 +848,7 @@ Name                                                                            
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/eager/benchmarks_test_base.py                                            34     34     0%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/eager/cancellation.py                                                    13      4    69%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/eager/context.py                                                       1231    679    45%
-/usr/local/lib/python3.8/dist-packages/tensorflow/python/eager/core.py                                                            25     11    56%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/eager/core.py                                                            25      4    84%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/eager/def_function.py                                                   518    358    31%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/eager/execute.py                                                        152    121    20%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/eager/executor.py                                                        23     12    48%
@@ -922,10 +922,10 @@ Name                                                                            
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/cpp_shape_inference_pb2.py                                     33      0   100%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/device.py                                                      52     28    46%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/device_spec.py                                                163     32    80%
-/usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/dtypes.py                                                     259     61    76%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/dtypes.py                                                     259     46    82%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/error_interpolation.py                                        142    112    21%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/errors.py                                                       3      0   100%
-/usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/errors_impl.py                                                205     79    61%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/errors_impl.py                                                205     70    66%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/extension_type.py                                             434    241    44%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/extension_type_field.py                                       153     93    39%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/framework_lib.py                                               37     37     0%
@@ -948,7 +948,7 @@ Name                                                                            
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/op_def_library.py                                             449    391    13%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/op_def_library_pybind.py                                        9      4    56%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/op_def_registry.py                                             25     16    36%
-/usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/ops.py                                                       2362   1637    31%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/ops.py                                                       2362   1635    31%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/python_memory_checker.py                                       75     75     0%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/random_seed.py                                                 44     16    64%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/framework/registry.py                                                    31      8    74%
@@ -1016,7 +1016,7 @@ Name                                                                            
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/keras/layers/advanced_activations.py                                    156     99    37%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/keras/layers/convolutional.py                                           819    669    18%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/keras/layers/convolutional_recurrent.py                                 339    258    24%
-/usr/local/lib/python3.8/dist-packages/tensorflow/python/keras/layers/core.py                                                    672    479    29%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/keras/layers/core.py                                                    672    477    29%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/keras/layers/cudnn_recurrent.py                                         184    141    23%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/keras/layers/dense_attention.py                                         133     99    26%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/keras/layers/embeddings.py                                               68     47    31%
@@ -1226,7 +1226,7 @@ Name                                                                            
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_lookup_ops.py                                                   904    808    11%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_manip_ops.py                                                     48     32    33%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_map_ops.py                                                      401    401     0%
-/usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_math_ops.py                                                    6658   5891    12%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_math_ops.py                                                    6658   5879    12%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_nccl_ops.py                                                     128    106    17%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_nn_ops.py                                                      5746   5342     7%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_parsing_ops.py                                                 1069    998     7%
@@ -1234,7 +1234,7 @@ Name                                                                            
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_ragged_conversion_ops.py                                        231    201    13%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_ragged_math_ops.py                                               55     38    31%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_random_index_shuffle_ops.py                                      69     49    29%
-/usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_random_ops.py                                                   523    465    11%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_random_ops.py                                                   523    463    11%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_resource_variable_ops.py                                        693    617    11%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_rnn_ops.py                                                      359    314    13%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/gen_script_ops.py                                                   140    118    16%
@@ -1322,7 +1322,7 @@ Name                                                                            
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/map_fn.py                                                           157    120    24%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/map_ops.py                                                           39     39     0%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/math_grad.py                                                       1208    922    24%
-/usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/math_ops.py                                                        1287    692    46%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/math_ops.py                                                        1287    674    48%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/metrics.py                                                            2      0   100%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/metrics_impl.py                                                     793    681    14%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/ops/nccl_ops.py                                                          82     57    30%
@@ -1670,7 +1670,7 @@ Name                                                                            
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/util/deprecated_module_new.py                                             3      3     0%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/util/deprecation.py                                                     230     90    61%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/util/deprecation_wrapper.py                                               3      3     0%
-/usr/local/lib/python3.8/dist-packages/tensorflow/python/util/dispatch.py                                                        397    119    70%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/util/dispatch.py                                                        397    110    72%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/util/example_parser_configuration.py                                    101    101     0%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/util/function_utils.py                                                   56     42    25%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/util/future_api.py                                                       11     11     0%
@@ -1692,7 +1692,7 @@ Name                                                                            
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/util/tf_inspect.py                                                      147     66    55%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/util/tf_should_use.py                                                   109     73    33%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/util/tf_stack.py                                                         80     43    46%
-/usr/local/lib/python3.8/dist-packages/tensorflow/python/util/traceback_utils.py                                                  54     24    56%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/util/traceback_utils.py                                                  54     10    81%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/util/type_annotations.py                                                 20      4    80%
 /usr/local/lib/python3.8/dist-packages/tensorflow/python/util/variable_utils.py                                                   19     12    37%
 /usr/local/lib/python3.8/dist-packages/tensorflow/tools/__init__.py                                                                0      0   100%
@@ -1718,4 +1718,4 @@ Name                                                                            
 /usr/local/lib/python3.8/dist-packages/tensorflow/tools/pip_package/setup.py                                                      85     85     0%
 /usr/local/lib/python3.8/dist-packages/tensorflow/tools/pip_package/simple_console.py                                              8      8     0%
 --------------------------------------------------------------------------------------------------------------------------------------------------
-TOTAL                                                                                                                         269448 200157    26%
+TOTAL                                                                                                                         269448 200067    26%

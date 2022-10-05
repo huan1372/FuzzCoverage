@@ -6,7 +6,7 @@ Atheris_dir = "./Atheris/Results/"
 FreeFuzz_dir = "./FreeFuzz/Results/"
 Atheris_fuzzer_dir = "/home/usr/FreeFuzz/FuzzCoverage/Atheris/Tests/"
 
-Time = {"tf.abs":["300","1214"],"tf.math.sqrt":["","2640"]}
+Time = {"tf.abs":["300","289"],"tf.math.sqrt":["","2640"]}
 def init_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument("-fc","--func",help="generate coverage report for FreeFuzz with function name")
@@ -39,6 +39,8 @@ def get_info(cur_dir,filename):
             file_nums +=1
             if (stats == miss) and (line[-1]=="0%"):
                 file_nums -= 1
+                stats_covered -= stats
+                stats_miss -= miss
     return file_nums,stats_covered,stats_miss
 
 def add_results(results,cur_dir,tool):
