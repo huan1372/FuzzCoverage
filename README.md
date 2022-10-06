@@ -23,7 +23,13 @@ This is the repo for CS527 Project
     All the Fuzzers for Atheris 
   - [/Tests/python_fuzzing.py](https://github.com/huan1372/FuzzCoverage/blob/main/Atheris/Tests/python_fuzzing.py) \
     Files to generate type needed for Atheris fuzzing
-    
+ 
+ **AtherisTestGenerator**
+  - [/DataProcess](https://github.com/huan1372/FuzzCoverage/tree/main/AtherisTestGenerator/DataProcess) \
+    Code for filter type information from DataBase
+  - [/Generator](https://github.com/huan1372/FuzzCoverage/tree/main/AtherisTestGenerator/Generator) \
+    Code for generate Atheris Test code
+ 
 **Other files**
   - [Compare.py](https://github.com/huan1372/FuzzCoverage/blob/main/Compare.py) \
     Scripts to generate report based on .Coverage file in Atheris and FreeFuzz. Store report in [results.txt](https://github.com/huan1372/FuzzCoverage/blob/main/results.txt)
