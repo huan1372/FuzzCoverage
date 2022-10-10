@@ -18,6 +18,18 @@ class Argument:
     def __init__(self,type: ArgType):
         self.type = type
 
+    def __str__(self) -> str:
+        if self.type == ArgType.INT:
+            return "INT"
+        elif self.type == ArgType.FLOAT:
+            return "FLOAT"
+        elif self.type == ArgType.BOOL:
+            return "BOOL"
+        elif self.type == ArgType.STR:
+            return "STR"
+        elif self.type == ArgType.TF_TENSOR:
+            return "TF_TENSOR"
+
     def to_code(self, var_name: str) -> str:
         """ArgType.LIST and ArgType.TUPLE should be converted to code in the inherent class"""
         if self.type == ArgType.INT:
