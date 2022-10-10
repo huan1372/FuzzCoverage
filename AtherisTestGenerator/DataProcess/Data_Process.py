@@ -5,7 +5,7 @@ import numpy as np
 import sys
 sys.path.insert(1, '/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/')
 
-from DataProcess.Types import ArgType
+from Generator.Types import ArgType
 from Generator.ArgTF import TFArgument
 
 from os.path import join

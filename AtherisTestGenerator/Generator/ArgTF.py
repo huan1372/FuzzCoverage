@@ -1,4 +1,4 @@
-from DataProcess.Types import ArgType
+from Generator.Types import ArgType
 from Generator.ArgCode import Argument
 import tensorflow as tf
 class TFArgument(Argument):

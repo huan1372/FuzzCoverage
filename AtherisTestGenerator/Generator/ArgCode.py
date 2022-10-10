@@ -1,4 +1,4 @@
-from DataProcess.Types import ArgType
+from Generator.Types import ArgType
 class Argument:
     """
     _support_types: all the types that Argument supports.
@@ -13,7 +13,7 @@ class Argument:
     _str_values = [
         "mean", "sum", "max", 'zeros', 'reflect', 'circular', 'replicate'
     ]
-    _float_values = [0.0, 1.0, -1.0, 63.0, -63.0, 1024.0, -1024.0, 1e20, -1e20]
+    # _float_values = [0.0, 1.0, -1.0, 63.0, -63.0, 1024.0, -1024.0, 1e20, -1e20]
 
     def __init__(self,type: ArgType):
         self.type = type
