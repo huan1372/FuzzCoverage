@@ -10,13 +10,11 @@ class Argument:
         ArgType.LIST, ArgType.BOOL
     ]
     _int_values = [-1024, -16, -1, 0, 1, 16, 1024]
-    _str_values = [
-        "mean", "sum", "max", 'zeros', 'reflect', 'circular', 'replicate'
-    ]
     # _float_values = [0.0, 1.0, -1.0, 63.0, -63.0, 1024.0, -1024.0, 1e20, -1e20]
 
     def __init__(self,type: ArgType):
         self.type = type
+        self.str_value = []
 
     def __str__(self) -> str:
         if self.type == ArgType.INT:
@@ -29,6 +27,8 @@ class Argument:
             return "STR"
         elif self.type == ArgType.TF_TENSOR:
             return "TF_TENSOR"
+        elif self.type == ArgType.LIST:
+            return "LIST"
 
     def to_code(self, var_name: str) -> str:
         """ArgType.LIST and ArgType.TUPLE should be converted to code in the inherent class"""
@@ -40,7 +40,7 @@ class Argument:
             return f"{var_name} = \n"
         elif self.type == ArgType.STR:
             strListName = var_name + "_strlist"
-            strListContent = str(_str_values)
+            strListContent = str(self.str_value)
             return f"{strListName} = {strListContent} \n\t\t{var_name} = {strListName}[fh.get_int(min_int=0, max_int=len({strListName})]\n"
         elif self.type == ArgType.NULL:
             return f"{var_name} = None\n"
@@ -65,3 +65,14 @@ class Argument:
             return ArgType.LIST
         else:
             return None
+
+    def add_str_value(self,value:str):
+        if self.type != ArgType.STR:
+            raise Exception("This type {} is not supported for function add_str_value()")
+        else:
+            value = value.strip("\"")
+            value = value.strip("\'")
+            if value == "true":
+                self.str_value.append("false")
+            self.str_value.append(value)
+            self.str_value = list(set(self.str_value))

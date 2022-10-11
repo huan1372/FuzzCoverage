@@ -2,7 +2,6 @@ from Generator.Types import ArgType
 from Generator.ArgCode import Argument
 import tensorflow as tf
 class TFArgument(Argument):
-    _str_values = ["", "1", "sum", "same", "valid", "zeros"]
     _float_values = [0.0, 1.0, -1.0, 63.0, -63.0]
     _tensor_arg_dtypes = [ArgType.TF_TENSOR, ArgType.KERAS_TENSOR, ArgType.TF_VARIABLE]
     _dtypes = [
@@ -23,6 +22,7 @@ class TFArgument(Argument):
         super().__init__(type)
         self.dtype = dtype
         self.dtype_str = dtype_str
+
     def __str__(self) -> str:
         if self.dtype == None:
             return super().__str__()
@@ -52,3 +52,6 @@ class TFArgument(Argument):
             return dt,tf.float32
     def to_code(self, var_name: str) -> str:
         return super().to_code(var_name)
+
+    def add_str_value(self, value: str):
+        return super().add_str_value(value)

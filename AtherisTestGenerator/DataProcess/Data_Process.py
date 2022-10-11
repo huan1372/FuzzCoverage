@@ -26,6 +26,12 @@ def isint(x):
     else:
         return a == b
 
+def isdict(x):
+    import ast
+    if x.startswith("{"):
+        return ast.literal_eval(x)["class_name"]
+    else:
+        return x
 def find_api_list(DB):
     f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisTestgenerator/api_list.txt","w")
     for name in sorted(DB.list_collection_names()):
@@ -39,6 +45,7 @@ def process_type(argname,type_info,record):
     if argname not in record.keys():
         record[argname] = []
     current_type = [str(i) for i in record[argname]]
+    #print(argname,type_info)
     if type_info["Label"] == "raw":
         if isint(type_info["value"]):
             if str(TFArgument(ArgType.INT)) not in current_type:
@@ -46,9 +53,19 @@ def process_type(argname,type_info,record):
         elif isfloat(type_info["value"]):
             if str(TFArgument(ArgType.FLOAT)) not in current_type:
                 record[argname].append(TFArgument(ArgType.FLOAT))
+        elif isinstance(type_info["value"],list):
+            if str(TFArgument(ArgType.LIST)) not in current_type:
+                record[argname].append(TFArgument(ArgType.LIST))
         else:
-            if str(TFArgument(ArgType.STR)) not in current_type:
-                record[argname].append(TFArgument(ArgType.STR))
+            type_info["value"] = isdict(type_info["value"])
+            str_val = type_info["value"]
+            try:
+                index = current_type.index(str(TFArgument(ArgType.STR)))
+                record[argname][index].add_str_value(str_val)
+            except ValueError:
+                new_STR = TFArgument(ArgType.STR)
+                new_STR.add_str_value(str_val)
+                record[argname].append(new_STR)
     elif type_info["Label"] == "tensor":
         if str(TFArgument(type=ArgType.TF_TENSOR,dtype=type_info["dtype"])) not in current_type:
             record[argname].append(TFArgument(type=ArgType.TF_TENSOR,dtype=type_info["dtype"]))
@@ -62,12 +79,16 @@ def find_api_info(DB,api_name):
     records = DB[api_name].find({}, {"_id": 0})
     results = {}
     for doc in records:
+        #print("=============================")
         for key,value in doc.items():
+            value_r = value
             if key=="output_signature":
                 continue
-            #print("=============================")
-            #print(key,value)
-            results = process_type(key,value,results)
+            if key=="input_signature":
+                value_r = value[0]
+
+            #print(key,value_r)
+            results = process_type(key,value_r,results)
     return results
 
 if __name__ == "__main__":

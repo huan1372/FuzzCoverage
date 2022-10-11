@@ -77,21 +77,24 @@ class Fuzzer_Generator():
         """
         for key,value in self.argument.items():
             _DTYPES = []
-            _DTYPES_2 = ["tf.bfloat16", "tf.float32", "tf.float64", "tf.int32", "tf.int64", "tf.complex64", "tf.complex128"]
+            # _DTYPES_2 = ["tf.bfloat16", "tf.float32", "tf.float64", "tf.int32", "tf.int64", "tf.complex64", "tf.complex128"]
             Fuzzer_Generator.number_choices = 0
             parameter = key.replace(":","_")
             self.code += "\t\t" + parameter +"_choices"+ " = []\n"
             for argument in value:
-                if argument.get_type() == ArgType.TF_TENSOR:
+                argument_type = argument.get_type() 
+                if argument_type == ArgType.TF_TENSOR:
                     _DTYPES.append(argument.get_dtype())
-                elif argument.get_type() in [ArgType.INT,ArgType.FLOAT,ArgType.BOOL,ArgType.STR]:
+                elif argument_type  in [ArgType.INT,ArgType.FLOAT,ArgType.BOOL,ArgType.STR]:
                     var_name = parameter + "_" + str(argument)
                     self.code += "\t\t" + argument.to_code(var_name=var_name)
                     self.code += "\t\t" + parameter + "_choices" + ".append(" + var_name + ")\n"
                     Fuzzer_Generator.number_choices +=1
+                elif argument_type == ArgType.LIST:
+                    pass
                 else:
                     raise Exception("Code generation not implemented for {}".format(argument.get_type()))
-            self.generate_tensor_code(_DTYPES_2,parameter)
+            self.generate_tensor_code(_DTYPES,parameter)
             self.code += "\t\t" + parameter + " = " + parameter + "_choices[fh.get_int()%" + str(Fuzzer_Generator.number_choices) + "]\n"
         return
     def generate_api_call_code(self):
@@ -100,6 +103,8 @@ class Fuzzer_Generator():
         length = len(self.argument.keys()) - 1
         for key in self.argument.keys():
             parameter = key.replace(":","_")
+            if not parameter.startswith("parameter"):
+                self.code += parameter + "="
             self.code += parameter
             if i!=length:
                 self.code += ","
@@ -139,7 +144,7 @@ class Fuzzer_Generator():
             file_path = Fuzzer_Generator.output_folder + "Tests/"
             coverage_path = Fuzzer_Generator.output_folder + "CovReport/"
             run_Atheris(func_name=self.func_name,file_path=file_path,coverage_path=coverage_path)
-    
+
     def compare_difference(self):
         import os
         file_name = self.func_name+"_1000.coverage"
@@ -151,13 +156,15 @@ if __name__ == "__main__":
     # database configuration
     host = "127.0.0.1"
     port = 27017
-    api_name = "tf.abs"
+    #api_name = "tf.abs"
+    api_name = "tf.keras.layers.PReLU"
     DB = pymongo.MongoClient(host, port)["freefuzz-tf"]
     API_Info = {}
     # find_api_list(DB)
     argument = find_api_info(DB,api_name)
+    print(argument)
     fuzzer_generator = Fuzzer_Generator(argument=argument,func_name=api_name)
     code = fuzzer_generator.generate_code()
     fuzzer_generator.write_fuzzer()
-    fuzzer_generator.run_code()
+    # fuzzer_generator.run_code()
     #fuzzer_generator.compare_difference()
