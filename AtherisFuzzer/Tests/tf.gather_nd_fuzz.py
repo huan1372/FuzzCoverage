@@ -1,4 +1,4 @@
-#This is a Python API fuzzer for tf.abs
+#This is a Python API fuzzer for tf.gather_nd
 import atheris
 with atheris.instrument_imports():
 	import sys
@@ -6,13 +6,11 @@ with atheris.instrument_imports():
 	import tensorflow as tf
 def TestOneInput(data):
 	fh = FuzzingHelper(data)
-	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.abs_exception.txt","a")
+	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.gather_nd_exception.txt","a")
 	try:
 		parameter_0_choices = []
-		parameter_0_INT = fh.get_int()
-		parameter_0_choices.append(parameter_0_INT)
 		# Tensor generation for parameter_0
-		parameter_0_DTYPES = [tf.int32,tf.float32,tf.complex128]
+		parameter_0_DTYPES = [tf.float32]
 		int_list = fh.get_int_list(min_length=2,max_length=2)
 		min_Val = min(int_list) - 1
 		max_Val = max(int_list)
@@ -22,8 +20,21 @@ def TestOneInput(data):
 			parameter_0_tensor = fh.get_random_numeric_tensor(min_val = min_Val, max_val = max_Val, dtype=fh.get_tf_dtype(allowed_set=parameter_0_DTYPES))
 		parameter_0_tensor = tf.identity(parameter_0_tensor)
 		parameter_0_choices.append(parameter_0_tensor)
-		parameter_0 = parameter_0_choices[fh.get_int()%2]
-		_ = tf.abs(parameter_0)
+		parameter_0 = parameter_0_choices[fh.get_int()%1]
+		parameter_1_choices = []
+		# Tensor generation for parameter_1
+		parameter_1_DTYPES = [tf.int64]
+		int_list = fh.get_int_list(min_length=2,max_length=2)
+		min_Val = min(int_list) - 1
+		max_Val = max(int_list)
+		if min_Val % 2 == 0:
+			parameter_1_tensor = fh.get_random_numeric_tensor(dtype=fh.get_tf_dtype(allowed_set=parameter_1_DTYPES))
+		else:
+			parameter_1_tensor = fh.get_random_numeric_tensor(min_val = min_Val, max_val = max_Val, dtype=fh.get_tf_dtype(allowed_set=parameter_1_DTYPES))
+		parameter_1_tensor = tf.identity(parameter_1_tensor)
+		parameter_1_choices.append(parameter_1_tensor)
+		parameter_1 = parameter_1_choices[fh.get_int()%1]
+		_ = tf.gather_nd(parameter_0,parameter_1)
 	except Exception as e:
 		f.write(str(e) + "\n")
 	f.close()

@@ -1,4 +1,4 @@
-#This is a Python API fuzzer for tf.abs
+#This is a Python API fuzzer for tf.identity
 import atheris
 with atheris.instrument_imports():
 	import sys
@@ -6,13 +6,13 @@ with atheris.instrument_imports():
 	import tensorflow as tf
 def TestOneInput(data):
 	fh = FuzzingHelper(data)
-	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.abs_exception.txt","a")
+	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.identity_exception.txt","a")
 	try:
 		parameter_0_choices = []
 		parameter_0_INT = fh.get_int()
 		parameter_0_choices.append(parameter_0_INT)
 		# Tensor generation for parameter_0
-		parameter_0_DTYPES = [tf.int32,tf.float32,tf.complex128]
+		parameter_0_DTYPES = [tf.int32,tf.float32]
 		int_list = fh.get_int_list(min_length=2,max_length=2)
 		min_Val = min(int_list) - 1
 		max_Val = max(int_list)
@@ -23,7 +23,7 @@ def TestOneInput(data):
 		parameter_0_tensor = tf.identity(parameter_0_tensor)
 		parameter_0_choices.append(parameter_0_tensor)
 		parameter_0 = parameter_0_choices[fh.get_int()%2]
-		_ = tf.abs(parameter_0)
+		_ = tf.identity(parameter_0)
 	except Exception as e:
 		f.write(str(e) + "\n")
 	f.close()
