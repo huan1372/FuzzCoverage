@@ -41,7 +41,7 @@ class Argument:
         elif self.type == ArgType.STR:
             strListName = var_name + "_strlist"
             strListContent = str(_str_values)
-            return f"{strListName} = {strListContent} \n{var_name} = {strListName}[fh.get_int(min_int=0, max_int=len({strListName})]\n"
+            return f"{strListName} = {strListContent} \n\t\t{var_name} = {strListName}[fh.get_int(min_int=0, max_int=len({strListName})]\n"
         elif self.type == ArgType.NULL:
             return f"{var_name} = None\n"
         else:
