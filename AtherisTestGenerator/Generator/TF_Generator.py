@@ -1,3 +1,4 @@
+from distutils import file_util
 from operator import imod
 from re import A
 from symbol import parameters
@@ -54,18 +55,19 @@ class Fuzzer_Generator():
         if len(_DTYPES)!=0:
             self.code += "\t\t# Tensor generation for " + parameter +"\n"
             self.code += "\t\t" + parameter + "_DTYPES = ["
-            for i in _DTYPES:
-                self.code += i
-                self.code += ","
+            for i in range(len(_DTYPES)):
+                self.code += _DTYPES[i]
+                if i != len(_DTYPES) - 1:
+                    self.code += ","
             self.code +="]\n"
             self.code += "\t\tint_list = fh.get_int_list(min_length=2,max_length=2)\n"
-            self.code += "\t\tmin_Val = min(int_list)\n"
+            self.code += "\t\tmin_Val = min(int_list) - 1\n"
             self.code += "\t\tmax_Val = max(int_list)\n"
             self.code += "\t\tif min_Val % 2 == 0:\n"
             self.code += "\t\t\t" + parameter + "_tensor = fh.get_random_numeric_tensor(dtype=fh.get_tf_dtype(allowed_set="+ parameter +"_DTYPES))\n"
             self.code += "\t\telse:\n"
             self.code += "\t\t\t" + parameter + "_tensor = fh.get_random_numeric_tensor(min_val = min_Val, max_val = max_Val, dtype=fh.get_tf_dtype(allowed_set="+ parameter +"_DTYPES))\n"
-            self.code += "\t\t" + parameter + "_tensor = tf.saturate_cast(" + parameter + "_tensor,dtype=fh.get_tf_dtype(allowed_set="+ parameter +"_DTYPES))\n"
+            self.code += "\t\t" + parameter + "_tensor = tf.identity(" + parameter + "_tensor)\n"
             self.code += "\t\t" + parameter + "_choices" + ".append(" + parameter + "_tensor)\n"
             Fuzzer_Generator.number_choices +=1
         return
@@ -75,6 +77,7 @@ class Fuzzer_Generator():
         """
         for key,value in self.argument.items():
             _DTYPES = []
+            _DTYPES_2 = ["tf.bfloat16", "tf.float32", "tf.float64", "tf.int32", "tf.int64", "tf.complex64", "tf.complex128"]
             Fuzzer_Generator.number_choices = 0
             parameter = key.replace(":","_")
             self.code += "\t\t" + parameter +"_choices"+ " = []\n"
@@ -88,15 +91,19 @@ class Fuzzer_Generator():
                     Fuzzer_Generator.number_choices +=1
                 else:
                     raise Exception("Code generation not implemented for {}".format(argument.get_type()))
-            self.generate_tensor_code(_DTYPES,parameter)
+            self.generate_tensor_code(_DTYPES_2,parameter)
             self.code += "\t\t" + parameter + " = " + parameter + "_choices[fh.get_int()%" + str(Fuzzer_Generator.number_choices) + "]\n"
         return
     def generate_api_call_code(self):
         self.code += "\t\t_ = " + self.func_name + "("
+        i= 0
+        length = len(self.argument.keys()) - 1
         for key in self.argument.keys():
             parameter = key.replace(":","_")
             self.code += parameter
-            self.code += ","
+            if i!=length:
+                self.code += ","
+            i+=1
         self.code += ")\n"
         return
     def fuzz_target_code(self):
@@ -110,7 +117,7 @@ class Fuzzer_Generator():
         self.generate_api_call_code()
         # self.code += "\t\t\n"
         self.code += "\texcept Exception as e:\n"
-        self.code += "\t\tf.write(e)\n"
+        self.code += "\t\tf.write(str(e) + \"\\n\")\n"
         self.code += "\tf.close()\n"
 
         return
@@ -129,9 +136,16 @@ class Fuzzer_Generator():
         if code == "":
             raise Exception("Please generate fuzzer code first")
         else:
-            file_path = Fuzzer_Generator.output_folder + "/Tests/"
-            coverage_path = Fuzzer_Generator.output_folder + "/CovReport/"
+            file_path = Fuzzer_Generator.output_folder + "Tests/"
+            coverage_path = Fuzzer_Generator.output_folder + "CovReport/"
             run_Atheris(func_name=self.func_name,file_path=file_path,coverage_path=coverage_path)
+    
+    def compare_difference(self):
+        import os
+        file_name = self.func_name+"_1000.coverage"
+        Auto_folder =  Fuzzer_Generator.output_folder + "CovReport/"
+        Manual_folder = "/home/usr/FreeFuzz/FuzzCoverage/Atheris/Results/"
+        os.system("diff " + Auto_folder+file_name + " " + Manual_folder + file_name)
 
 if __name__ == "__main__":
     # database configuration
@@ -146,3 +160,4 @@ if __name__ == "__main__":
     code = fuzzer_generator.generate_code()
     fuzzer_generator.write_fuzzer()
     fuzzer_generator.run_code()
+    #fuzzer_generator.compare_difference()
