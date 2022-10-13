@@ -85,7 +85,7 @@ class Fuzzer_Generator():
                 argument_type = argument.get_type() 
                 if argument_type == ArgType.TF_TENSOR:
                     _DTYPES.append(argument.get_dtype())
-                elif argument_type  in [ArgType.INT,ArgType.FLOAT,ArgType.BOOL,ArgType.STR]:
+                elif argument_type  in [ArgType.INT,ArgType.FLOAT,ArgType.BOOL,ArgType.STR,ArgType.LIST,ArgType.NULL]:
                     var_name = parameter + "_" + str(argument)
                     self.code += "\t\t" + argument.to_code(var_name=var_name)
                     self.code += "\t\t" + parameter + "_choices" + ".append(" + var_name + ")\n"
@@ -98,19 +98,25 @@ class Fuzzer_Generator():
             self.code += "\t\t" + parameter + " = " + parameter + "_choices[fh.get_int()%" + str(Fuzzer_Generator.number_choices) + "]\n"
         return
     def generate_api_call_code(self):
-        self.code += "\t\t_ = " + self.func_name + "("
+        self.code += "\t\targ_class = " + self.func_name + "("
         i= 0
         length = len(self.argument.keys()) - 1
         for key in self.argument.keys():
             parameter = key.replace(":","_")
-            if not parameter.startswith("parameter"):
+            if not (parameter.startswith("parameter") and parameter=="input_signature"):
                 self.code += parameter + "="
             self.code += parameter
             if i!=length:
                 self.code += ","
             i+=1
         self.code += ")\n"
+        if "input_signature" in self.argument.keys():
+            self.generate_api_input_code()
         return
+    def generate_api_input_code(self):
+        self.code += "\t\targ_input = [input_signature,]\n"
+        self.code += "\t\t_ = arg_class(*arg_input)\n"
+
     def fuzz_target_code(self):
         """Function to generate TestOneInput
         """
@@ -152,6 +158,31 @@ class Fuzzer_Generator():
         Manual_folder = "/home/usr/FreeFuzz/FuzzCoverage/Atheris/Results/"
         os.system("diff " + Auto_folder+file_name + " " + Manual_folder + file_name)
 
+
+def run_all(DB):
+    with open('/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/api_list.txt') as f:
+        for i in f.readlines():
+            api_name = i.rstrip()
+            #print(api_name)
+            argument = find_api_info(DB,api_name)
+            fuzzer_generator = Fuzzer_Generator(argument=argument,func_name=api_name)
+            code = fuzzer_generator.generate_code()
+            fuzzer_generator.write_fuzzer()
+
+def print_dict(x):
+    for key,value in x.items():
+        print("====================================================")
+        print(key)
+        for i in value:
+            print(i,end="  ")
+        print()
+def run_single(api_name,DB):
+    argument = find_api_info(DB,api_name)
+    print_dict(argument)
+    fuzzer_generator = Fuzzer_Generator(argument=argument,func_name=api_name)
+    code = fuzzer_generator.generate_code()
+    fuzzer_generator.write_fuzzer()
+
 if __name__ == "__main__":
     # database configuration
     host = "127.0.0.1"
@@ -160,11 +191,7 @@ if __name__ == "__main__":
     api_name = "tf.keras.layers.PReLU"
     DB = pymongo.MongoClient(host, port)["freefuzz-tf"]
     API_Info = {}
-    # find_api_list(DB)
-    argument = find_api_info(DB,api_name)
-    print(argument)
-    fuzzer_generator = Fuzzer_Generator(argument=argument,func_name=api_name)
-    code = fuzzer_generator.generate_code()
-    fuzzer_generator.write_fuzzer()
+    run_single(api_name=api_name,DB=DB)
+    # find_api_list(DB)print(argument)
     # fuzzer_generator.run_code()
     #fuzzer_generator.compare_difference()

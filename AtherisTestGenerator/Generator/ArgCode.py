@@ -15,6 +15,7 @@ class Argument:
     def __init__(self,type: ArgType):
         self.type = type
         self.str_value = []
+        self.int_list = set()
 
     def __str__(self) -> str:
         if self.type == ArgType.INT:
@@ -42,6 +43,12 @@ class Argument:
             strListName = var_name + "_strlist"
             strListContent = str(self.str_value)
             return f"{strListName} = {strListContent} \n\t\t{var_name} = {strListName}[fh.get_int(min_int=0, max_int=len({strListName})]\n"
+        elif self.type == ArgType.LIST:
+            ListName = var_name + "_list"
+            min_l , max_l = self.list_range()
+            min_l = str(min_l)
+            max_l = str(max_l)
+            return f"{ListName} = fh.get_int_list(min_length={min_l}, max_length={max_l})\n"
         elif self.type == ArgType.NULL:
             return f"{var_name} = None\n"
         else:
@@ -76,3 +83,14 @@ class Argument:
                 self.str_value.append("false")
             self.str_value.append(value)
             self.str_value = list(set(self.str_value))
+        return
+
+    def add_list_value(self,value:int):
+        self.int_list.add(value)
+        return
+
+    def list_range(self):
+        if self.type != ArgType.LIST:
+            raise Exception("This type {} is not supported for function add_str_value()")
+        else:
+            return min(self.int_list), max(self.int_list)

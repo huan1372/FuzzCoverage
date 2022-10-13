@@ -54,8 +54,13 @@ def process_type(argname,type_info,record):
             if str(TFArgument(ArgType.FLOAT)) not in current_type:
                 record[argname].append(TFArgument(ArgType.FLOAT))
         elif isinstance(type_info["value"],list):
-            if str(TFArgument(ArgType.LIST)) not in current_type:
-                record[argname].append(TFArgument(ArgType.LIST))
+            try:
+                index = current_type.index(str(TFArgument(ArgType.LIST)))
+                record[argname][index].add_list_value(len(type_info["value"]))
+            except ValueError:
+                new_LIST = TFArgument(ArgType.LIST)
+                new_LIST.add_list_value(len(type_info["value"]))
+                record[argname].append(new_LIST)
         else:
             type_info["value"] = isdict(type_info["value"])
             str_val = type_info["value"]
