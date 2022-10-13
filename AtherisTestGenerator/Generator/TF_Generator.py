@@ -95,7 +95,10 @@ class Fuzzer_Generator():
                 else:
                     raise Exception("Code generation not implemented for {}".format(argument.get_type()))
             self.generate_tensor_code(_DTYPES,parameter)
-            self.code += "\t\t" + parameter + " = " + parameter + "_choices[fh.get_int()%" + str(Fuzzer_Generator.number_choices) + "]\n"
+            if  Fuzzer_Generator.number_choices == 1:
+                self.code += "\t\t" + parameter + " = " + parameter + "_choices[0]\n"
+            else:
+                self.code += "\t\t" + parameter + " = " + parameter + "_choices[fh.get_int()%" + str(Fuzzer_Generator.number_choices) + "]\n"
         return
     def generate_api_call_code(self):
         self.code += "\t\targ_class = " + self.func_name + "("
@@ -103,15 +106,19 @@ class Fuzzer_Generator():
         length = len(self.argument.keys()) - 1
         for key in self.argument.keys():
             parameter = key.replace(":","_")
-            if not (parameter.startswith("parameter") and parameter=="input_signature"):
+            if parameter=="input_signature":
+                continue
+            if not parameter.startswith("parameter"):
                 self.code += parameter + "="
             self.code += parameter
             if i!=length:
                 self.code += ","
             i+=1
         self.code += ")\n"
+        '''
         if "input_signature" in self.argument.keys():
             self.generate_api_input_code()
+        '''
         return
     def generate_api_input_code(self):
         self.code += "\t\targ_input = [input_signature,]\n"
@@ -128,7 +135,9 @@ class Fuzzer_Generator():
         self.generate_api_call_code()
         # self.code += "\t\t\n"
         self.code += "\texcept Exception as e:\n"
-        self.code += "\t\tf.write(str(e) + \"\\n\")\n"
+        self.code += "\t\texception_type, exception_object, exception_traceback = sys.exc_info()\n"
+        self.code += "\t\tline_number = str(exception_traceback.tb_lineno)\n"
+        self.code += "\t\tf.write(str(e) + line_number + \"\\n\")\n"
         self.code += "\tf.close()\n"
 
         return
@@ -144,7 +153,7 @@ class Fuzzer_Generator():
         Write_Code(content=self.code,file_name=file_name)
 
     def run_code(self):
-        if code == "":
+        if self.code == "":
             raise Exception("Please generate fuzzer code first")
         else:
             file_path = Fuzzer_Generator.output_folder + "Tests/"
@@ -182,6 +191,7 @@ def run_single(api_name,DB):
     fuzzer_generator = Fuzzer_Generator(argument=argument,func_name=api_name)
     code = fuzzer_generator.generate_code()
     fuzzer_generator.write_fuzzer()
+    fuzzer_generator.run_code()
 
 if __name__ == "__main__":
     # database configuration

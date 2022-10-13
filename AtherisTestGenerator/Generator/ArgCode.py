@@ -30,6 +30,8 @@ class Argument:
             return "TF_TENSOR"
         elif self.type == ArgType.LIST:
             return "LIST"
+        elif self.type == ArgType.NULL:
+            return "None"
 
     def to_code(self, var_name: str) -> str:
         """ArgType.LIST and ArgType.TUPLE should be converted to code in the inherent class"""
@@ -38,13 +40,13 @@ class Argument:
         if self.type == ArgType.FLOAT:
             return f"{var_name} = fh.get_float()\n"
         if self.type == ArgType.BOOL:
-            return f"{var_name} = \n"
+            return f"{var_name} = fh.get_bool()\n"
         elif self.type == ArgType.STR:
             strListName = var_name + "_strlist"
             strListContent = str(self.str_value)
-            return f"{strListName} = {strListContent} \n\t\t{var_name} = {strListName}[fh.get_int(min_int=0, max_int=len({strListName})]\n"
+            return f"{strListName} = {strListContent} \n\t\t{var_name} = {strListName}[fh.get_int(min_int=0, max_int=len({strListName})-1)]\n"
         elif self.type == ArgType.LIST:
-            ListName = var_name + "_list"
+            ListName = var_name
             min_l , max_l = self.list_range()
             min_l = str(min_l)
             max_l = str(max_l)
@@ -79,8 +81,6 @@ class Argument:
         else:
             value = value.strip("\"")
             value = value.strip("\'")
-            if value == "true":
-                self.str_value.append("false")
             self.str_value.append(value)
             self.str_value = list(set(self.str_value))
         return

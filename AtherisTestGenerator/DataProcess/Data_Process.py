@@ -45,7 +45,7 @@ def process_type(argname,type_info,record):
     if argname not in record.keys():
         record[argname] = []
     current_type = [str(i) for i in record[argname]]
-    #print(argname,type_info)
+    print(argname,type_info)
     if type_info["Label"] == "raw":
         if isint(type_info["value"]):
             if str(TFArgument(ArgType.INT)) not in current_type:
@@ -61,6 +61,9 @@ def process_type(argname,type_info,record):
                 new_LIST = TFArgument(ArgType.LIST)
                 new_LIST.add_list_value(len(type_info["value"]))
                 record[argname].append(new_LIST)
+        elif type_info["value"] == "true" or type_info["value"] == "false":
+            if str(TFArgument(ArgType.BOOL)) not in current_type:
+                record[argname].append(TFArgument(ArgType.BOOL))
         else:
             type_info["value"] = isdict(type_info["value"])
             str_val = type_info["value"]
@@ -75,7 +78,12 @@ def process_type(argname,type_info,record):
         if str(TFArgument(type=ArgType.TF_TENSOR,dtype=type_info["dtype"])) not in current_type:
             record[argname].append(TFArgument(type=ArgType.TF_TENSOR,dtype=type_info["dtype"]))
     elif type_info["Label"] == "tf_object":
+        #TODO: Add support for tf_object
         pass
+    elif type_info["Label"] == "other":
+        if type_info["type"] == "<class 'NoneType'>":
+            if str(TFArgument(type=ArgType.NULL)) not in current_type:
+                record[argname].append(TFArgument(type=ArgType.NULL))
     return record
 
 def find_api_info(DB,api_name):
