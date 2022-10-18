@@ -187,11 +187,11 @@ def print_dict(x):
         print()
 def run_single(api_name,DB):
     argument = find_api_info(DB,api_name)
-    print_dict(argument)
+    #print_dict(argument)
     fuzzer_generator = Fuzzer_Generator(argument=argument,func_name=api_name)
     code = fuzzer_generator.generate_code()
     fuzzer_generator.write_fuzzer()
-    fuzzer_generator.run_code()
+    #fuzzer_generator.run_code()
 
 if __name__ == "__main__":
     # database configuration

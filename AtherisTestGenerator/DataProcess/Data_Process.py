@@ -45,7 +45,7 @@ def process_type(argname,type_info,record):
     if argname not in record.keys():
         record[argname] = []
     current_type = [str(i) for i in record[argname]]
-    print(argname,type_info)
+    #print(argname,type_info)
     if type_info["Label"] == "raw":
         if isint(type_info["value"]):
             if str(TFArgument(ArgType.INT)) not in current_type:
@@ -79,7 +79,11 @@ def process_type(argname,type_info,record):
             record[argname].append(TFArgument(type=ArgType.TF_TENSOR,dtype=type_info["dtype"]))
     elif type_info["Label"] == "tf_object":
         #TODO: Add support for tf_object
-        pass
+        if type_info["class_name"] == "tensorflow.python.keras.engine.keras_tensor.KerasTensor":
+            if str(TFArgument(type=ArgType.TF_TENSOR,dtype=type_info["dtype"])) not in current_type:
+                record[argname].append(TFArgument(type=ArgType.TF_TENSOR,dtype=type_info["dtype"]))
+        else:
+            print(argname,type_info)
     elif type_info["Label"] == "other":
         if type_info["type"] == "<class 'NoneType'>":
             if str(TFArgument(type=ArgType.NULL)) not in current_type:
