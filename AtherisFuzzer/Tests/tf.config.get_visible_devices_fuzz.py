@@ -8,9 +8,11 @@ def TestOneInput(data):
 	fh = FuzzingHelper(data)
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.config.get_visible_devices_exception.txt","a")
 	try:
-		_ = tf.config.get_visible_devices()
+		arg_class = tf.config.get_visible_devices()
 	except Exception as e:
-		f.write(str(e) + "\n")
+		exception_type, exception_object, exception_traceback = sys.exc_info()
+		line_number = str(exception_traceback.tb_lineno)
+		f.write(str(e) + line_number + "\n")
 	f.close()
 def main():
 	atheris.Setup(sys.argv, TestOneInput, enable_python_coverage=True)

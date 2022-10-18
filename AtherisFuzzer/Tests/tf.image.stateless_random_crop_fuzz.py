@@ -9,14 +9,22 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.image.stateless_random_crop_exception.txt","a")
 	try:
 		value_choices = []
-		value = value_choices[fh.get_int()%0]
+		value_LIST = fh.get_int_list(min_length=2, max_length=2)
+		value_choices.append(value_LIST)
+		value = value_choices[0]
 		size_choices = []
-		size = size_choices[fh.get_int()%0]
+		size_LIST = fh.get_int_list(min_length=3, max_length=3)
+		size_choices.append(size_LIST)
+		size = size_choices[0]
 		seed_choices = []
-		seed = seed_choices[fh.get_int()%0]
-		_ = tf.image.stateless_random_crop(value=value,size=size,seed=seed)
+		seed_LIST = fh.get_int_list(min_length=2, max_length=2)
+		seed_choices.append(seed_LIST)
+		seed = seed_choices[0]
+		arg_class = tf.image.stateless_random_crop(value=value,size=size,seed=seed)
 	except Exception as e:
-		f.write(str(e) + "\n")
+		exception_type, exception_object, exception_traceback = sys.exc_info()
+		line_number = str(exception_traceback.tb_lineno)
+		f.write(str(e) + line_number + "\n")
 	f.close()
 def main():
 	atheris.Setup(sys.argv, TestOneInput, enable_python_coverage=True)

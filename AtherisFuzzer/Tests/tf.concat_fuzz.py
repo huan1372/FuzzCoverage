@@ -9,6 +9,8 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.concat_exception.txt","a")
 	try:
 		parameter_0_choices = []
+		parameter_0_LIST = fh.get_int_list(min_length=2, max_length=2)
+		parameter_0_choices.append(parameter_0_LIST)
 		# Tensor generation for parameter_0
 		parameter_0_DTYPES = [tf.float32]
 		int_list = fh.get_int_list(min_length=2,max_length=2)
@@ -20,23 +22,25 @@ def TestOneInput(data):
 			parameter_0_tensor = fh.get_random_numeric_tensor(min_val = min_Val, max_val = max_Val, dtype=fh.get_tf_dtype(allowed_set=parameter_0_DTYPES))
 		parameter_0_tensor = tf.identity(parameter_0_tensor)
 		parameter_0_choices.append(parameter_0_tensor)
-		parameter_0 = parameter_0_choices[fh.get_int()%1]
+		parameter_0 = parameter_0_choices[fh.get_int()%2]
 		parameter_1_choices = []
 		parameter_1_INT = fh.get_int()
 		parameter_1_choices.append(parameter_1_INT)
-		parameter_1 = parameter_1_choices[fh.get_int()%1]
+		parameter_1 = parameter_1_choices[0]
 		axis_choices = []
 		axis_INT = fh.get_int()
 		axis_choices.append(axis_INT)
-		axis = axis_choices[fh.get_int()%1]
+		axis = axis_choices[0]
 		name_choices = []
 		name_STR_strlist = ['two_class_logits'] 
-		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)]
+		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
-		name = name_choices[fh.get_int()%1]
-		_ = tf.concat(parameter_0,parameter_1,axis=axis,name=name)
+		name = name_choices[0]
+		arg_class = tf.concat(parameter_0,parameter_1,axis=axis,name=name)
 	except Exception as e:
-		f.write(str(e) + "\n")
+		exception_type, exception_object, exception_traceback = sys.exc_info()
+		line_number = str(exception_traceback.tb_lineno)
+		f.write(str(e) + line_number + "\n")
 	f.close()
 def main():
 	atheris.Setup(sys.argv, TestOneInput, enable_python_coverage=True)

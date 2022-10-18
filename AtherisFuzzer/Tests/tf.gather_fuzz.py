@@ -20,7 +20,7 @@ def TestOneInput(data):
 			parameter_0_tensor = fh.get_random_numeric_tensor(min_val = min_Val, max_val = max_Val, dtype=fh.get_tf_dtype(allowed_set=parameter_0_DTYPES))
 		parameter_0_tensor = tf.identity(parameter_0_tensor)
 		parameter_0_choices.append(parameter_0_tensor)
-		parameter_0 = parameter_0_choices[fh.get_int()%1]
+		parameter_0 = parameter_0_choices[0]
 		parameter_1_choices = []
 		# Tensor generation for parameter_1
 		parameter_1_DTYPES = [tf.int32]
@@ -33,15 +33,15 @@ def TestOneInput(data):
 			parameter_1_tensor = fh.get_random_numeric_tensor(min_val = min_Val, max_val = max_Val, dtype=fh.get_tf_dtype(allowed_set=parameter_1_DTYPES))
 		parameter_1_tensor = tf.identity(parameter_1_tensor)
 		parameter_1_choices.append(parameter_1_tensor)
-		parameter_1 = parameter_1_choices[fh.get_int()%1]
+		parameter_1 = parameter_1_choices[0]
 		axis_choices = []
 		axis_INT = fh.get_int()
 		axis_choices.append(axis_INT)
-		axis = axis_choices[fh.get_int()%1]
+		axis = axis_choices[0]
 		batch_dims_choices = []
 		batch_dims_INT = fh.get_int()
 		batch_dims_choices.append(batch_dims_INT)
-		batch_dims = batch_dims_choices[fh.get_int()%1]
+		batch_dims = batch_dims_choices[0]
 		params_choices = []
 		# Tensor generation for params
 		params_DTYPES = [tf.float32]
@@ -54,7 +54,7 @@ def TestOneInput(data):
 			params_tensor = fh.get_random_numeric_tensor(min_val = min_Val, max_val = max_Val, dtype=fh.get_tf_dtype(allowed_set=params_DTYPES))
 		params_tensor = tf.identity(params_tensor)
 		params_choices.append(params_tensor)
-		params = params_choices[fh.get_int()%1]
+		params = params_choices[0]
 		indices_choices = []
 		# Tensor generation for indices
 		indices_DTYPES = [tf.int32]
@@ -67,10 +67,12 @@ def TestOneInput(data):
 			indices_tensor = fh.get_random_numeric_tensor(min_val = min_Val, max_val = max_Val, dtype=fh.get_tf_dtype(allowed_set=indices_DTYPES))
 		indices_tensor = tf.identity(indices_tensor)
 		indices_choices.append(indices_tensor)
-		indices = indices_choices[fh.get_int()%1]
-		_ = tf.gather(parameter_0,parameter_1,axis=axis,batch_dims=batch_dims,params=params,indices=indices)
+		indices = indices_choices[0]
+		arg_class = tf.gather(parameter_0,parameter_1,axis=axis,batch_dims=batch_dims,params=params,indices=indices)
 	except Exception as e:
-		f.write(str(e) + "\n")
+		exception_type, exception_object, exception_traceback = sys.exc_info()
+		line_number = str(exception_traceback.tb_lineno)
+		f.write(str(e) + line_number + "\n")
 	f.close()
 def main():
 	atheris.Setup(sys.argv, TestOneInput, enable_python_coverage=True)

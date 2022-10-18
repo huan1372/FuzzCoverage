@@ -9,13 +9,15 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.compat.as_bytes_exception.txt","a")
 	try:
 		parameter_0_choices = []
-		parameter_0_STR_strlist = ['tfhub_module.pb', '/tmp/tfhub_modules/f591ba671b05004f8d321dc431aa264a1ed374cc'] 
-		parameter_0_STR = parameter_0_STR_strlist[fh.get_int(min_int=0, max_int=len(parameter_0_STR_strlist)]
+		parameter_0_STR_strlist = ['/tmp/tfhub_modules/f591ba671b05004f8d321dc431aa264a1ed374cc', 'tfhub_module.pb'] 
+		parameter_0_STR = parameter_0_STR_strlist[fh.get_int(min_int=0, max_int=len(parameter_0_STR_strlist)-1)]
 		parameter_0_choices.append(parameter_0_STR)
-		parameter_0 = parameter_0_choices[fh.get_int()%1]
-		_ = tf.compat.as_bytes(parameter_0)
+		parameter_0 = parameter_0_choices[0]
+		arg_class = tf.compat.as_bytes(parameter_0)
 	except Exception as e:
-		f.write(str(e) + "\n")
+		exception_type, exception_object, exception_traceback = sys.exc_info()
+		line_number = str(exception_traceback.tb_lineno)
+		f.write(str(e) + line_number + "\n")
 	f.close()
 def main():
 	atheris.Setup(sys.argv, TestOneInput, enable_python_coverage=True)

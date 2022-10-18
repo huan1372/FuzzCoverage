@@ -20,24 +20,24 @@ def TestOneInput(data):
 			parameter_0_tensor = fh.get_random_numeric_tensor(min_val = min_Val, max_val = max_Val, dtype=fh.get_tf_dtype(allowed_set=parameter_0_DTYPES))
 		parameter_0_tensor = tf.identity(parameter_0_tensor)
 		parameter_0_choices.append(parameter_0_tensor)
-		parameter_0 = parameter_0_choices[fh.get_int()%1]
+		parameter_0 = parameter_0_choices[0]
 		exclusive_choices = []
-		exclusive_STR_strlist = ['true', 'false'] 
-		exclusive_STR = exclusive_STR_strlist[fh.get_int(min_int=0, max_int=len(exclusive_STR_strlist)]
-		exclusive_choices.append(exclusive_STR)
-		exclusive = exclusive_choices[fh.get_int()%1]
+		exclusive_BOOL = fh.get_bool()
+		exclusive_choices.append(exclusive_BOOL)
+		exclusive = exclusive_choices[0]
 		reverse_choices = []
-		reverse_STR_strlist = ['true', 'false'] 
-		reverse_STR = reverse_STR_strlist[fh.get_int(min_int=0, max_int=len(reverse_STR_strlist)]
-		reverse_choices.append(reverse_STR)
-		reverse = reverse_choices[fh.get_int()%1]
+		reverse_BOOL = fh.get_bool()
+		reverse_choices.append(reverse_BOOL)
+		reverse = reverse_choices[0]
 		axis_choices = []
 		axis_INT = fh.get_int()
 		axis_choices.append(axis_INT)
-		axis = axis_choices[fh.get_int()%1]
-		_ = tf.cumsum(parameter_0,exclusive=exclusive,reverse=reverse,axis=axis)
+		axis = axis_choices[0]
+		arg_class = tf.cumsum(parameter_0,exclusive=exclusive,reverse=reverse,axis=axis)
 	except Exception as e:
-		f.write(str(e) + "\n")
+		exception_type, exception_object, exception_traceback = sys.exc_info()
+		line_number = str(exception_traceback.tb_lineno)
+		f.write(str(e) + line_number + "\n")
 	f.close()
 def main():
 	atheris.Setup(sys.argv, TestOneInput, enable_python_coverage=True)

@@ -20,7 +20,7 @@ def TestOneInput(data):
 			parameter_0_tensor = fh.get_random_numeric_tensor(min_val = min_Val, max_val = max_Val, dtype=fh.get_tf_dtype(allowed_set=parameter_0_DTYPES))
 		parameter_0_tensor = tf.identity(parameter_0_tensor)
 		parameter_0_choices.append(parameter_0_tensor)
-		parameter_0 = parameter_0_choices[fh.get_int()%1]
+		parameter_0 = parameter_0_choices[0]
 		bounding_boxes_choices = []
 		# Tensor generation for bounding_boxes
 		bounding_boxes_DTYPES = [tf.float32]
@@ -33,12 +33,16 @@ def TestOneInput(data):
 			bounding_boxes_tensor = fh.get_random_numeric_tensor(min_val = min_Val, max_val = max_Val, dtype=fh.get_tf_dtype(allowed_set=bounding_boxes_DTYPES))
 		bounding_boxes_tensor = tf.identity(bounding_boxes_tensor)
 		bounding_boxes_choices.append(bounding_boxes_tensor)
-		bounding_boxes = bounding_boxes_choices[fh.get_int()%1]
+		bounding_boxes = bounding_boxes_choices[0]
 		seed_choices = []
-		seed = seed_choices[fh.get_int()%0]
-		_ = tf.image.stateless_sample_distorted_bounding_box(parameter_0,bounding_boxes=bounding_boxes,seed=seed)
+		seed_LIST = fh.get_int_list(min_length=2, max_length=2)
+		seed_choices.append(seed_LIST)
+		seed = seed_choices[0]
+		arg_class = tf.image.stateless_sample_distorted_bounding_box(parameter_0,bounding_boxes=bounding_boxes,seed=seed)
 	except Exception as e:
-		f.write(str(e) + "\n")
+		exception_type, exception_object, exception_traceback = sys.exc_info()
+		line_number = str(exception_traceback.tb_lineno)
+		f.write(str(e) + line_number + "\n")
 	f.close()
 def main():
 	atheris.Setup(sys.argv, TestOneInput, enable_python_coverage=True)

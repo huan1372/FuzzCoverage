@@ -10,9 +10,11 @@ def TestOneInput(data):
 	try:
 		parameter_0_choices = []
 		parameter_0 = parameter_0_choices[fh.get_int()%0]
-		_ = tf.function(parameter_0)
+		arg_class = tf.function(parameter_0)
 	except Exception as e:
-		f.write(str(e) + "\n")
+		exception_type, exception_object, exception_traceback = sys.exc_info()
+		line_number = str(exception_traceback.tb_lineno)
+		f.write(str(e) + line_number + "\n")
 	f.close()
 def main():
 	atheris.Setup(sys.argv, TestOneInput, enable_python_coverage=True)

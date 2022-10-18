@@ -9,6 +9,8 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.image.convert_image_dtype_exception.txt","a")
 	try:
 		parameter_0_choices = []
+		parameter_0_LIST = fh.get_int_list(min_length=2, max_length=2)
+		parameter_0_choices.append(parameter_0_LIST)
 		# Tensor generation for parameter_0
 		parameter_0_DTYPES = [tf.uint8]
 		int_list = fh.get_int_list(min_length=2,max_length=2)
@@ -20,19 +22,26 @@ def TestOneInput(data):
 			parameter_0_tensor = fh.get_random_numeric_tensor(min_val = min_Val, max_val = max_Val, dtype=fh.get_tf_dtype(allowed_set=parameter_0_DTYPES))
 		parameter_0_tensor = tf.identity(parameter_0_tensor)
 		parameter_0_choices.append(parameter_0_tensor)
-		parameter_0 = parameter_0_choices[fh.get_int()%1]
+		parameter_0 = parameter_0_choices[fh.get_int()%2]
 		dtype_choices = []
-		dtype = dtype_choices[fh.get_int()%0]
+		dtype_DTYPE_dtypelist = ['tf.float16'] 
+		dtype_DTYPE = eval(dtype_DTYPE_dtypelist[fh.get_int(min_int=0, max_int=len(dtype_DTYPE_dtypelist)-1)])
+		dtype_choices.append(dtype_DTYPE)
+		dtype = dtype_choices[0]
 		saturate_choices = []
-		saturate_STR_strlist = ['false'] 
-		saturate_STR = saturate_STR_strlist[fh.get_int(min_int=0, max_int=len(saturate_STR_strlist)]
-		saturate_choices.append(saturate_STR)
-		saturate = saturate_choices[fh.get_int()%1]
+		saturate_BOOL = fh.get_bool()
+		saturate_choices.append(saturate_BOOL)
+		saturate = saturate_choices[0]
 		parameter_1_choices = []
-		parameter_1 = parameter_1_choices[fh.get_int()%0]
-		_ = tf.image.convert_image_dtype(parameter_0,dtype=dtype,saturate=saturate,parameter_1)
+		parameter_1_DTYPE_dtypelist = ['tf.float32'] 
+		parameter_1_DTYPE = eval(parameter_1_DTYPE_dtypelist[fh.get_int(min_int=0, max_int=len(parameter_1_DTYPE_dtypelist)-1)])
+		parameter_1_choices.append(parameter_1_DTYPE)
+		parameter_1 = parameter_1_choices[0]
+		arg_class = tf.image.convert_image_dtype(parameter_0,dtype=dtype,saturate=saturate,parameter_1)
 	except Exception as e:
-		f.write(str(e) + "\n")
+		exception_type, exception_object, exception_traceback = sys.exc_info()
+		line_number = str(exception_traceback.tb_lineno)
+		f.write(str(e) + line_number + "\n")
 	f.close()
 def main():
 	atheris.Setup(sys.argv, TestOneInput, enable_python_coverage=True)
