@@ -85,13 +85,11 @@ class Fuzzer_Generator():
                 argument_type = argument.get_type() 
                 if argument_type == ArgType.TF_TENSOR:
                     _DTYPES.append(argument.get_dtype())
-                elif argument_type  in [ArgType.INT,ArgType.FLOAT,ArgType.BOOL,ArgType.STR,ArgType.LIST,ArgType.NULL]:
+                elif argument_type  in [ArgType.INT,ArgType.FLOAT,ArgType.BOOL,ArgType.STR,ArgType.LIST,ArgType.NULL,ArgType.TF_DTYPE]:
                     var_name = parameter + "_" + str(argument)
                     self.code += "\t\t" + argument.to_code(var_name=var_name)
                     self.code += "\t\t" + parameter + "_choices" + ".append(" + var_name + ")\n"
                     Fuzzer_Generator.number_choices +=1
-                elif argument_type == ArgType.LIST:
-                    pass
                 else:
                     raise Exception("Code generation not implemented for {}".format(argument.get_type()))
             self.generate_tensor_code(_DTYPES,parameter)
@@ -172,7 +170,7 @@ def run_all(DB):
     with open('/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/api_list.txt') as f:
         for i in f.readlines():
             api_name = i.rstrip()
-            #print(api_name)
+            print(api_name)
             argument = find_api_info(DB,api_name)
             fuzzer_generator = Fuzzer_Generator(argument=argument,func_name=api_name)
             code = fuzzer_generator.generate_code()
@@ -198,9 +196,12 @@ if __name__ == "__main__":
     host = "127.0.0.1"
     port = 27017
     #api_name = "tf.abs"
-    api_name = "tf.keras.layers.PReLU"
+    #api_name = "tf.keras.layers.PReLU"
+    #api_name = "tf.dtypes.cast"
+    api_name = "tf.initializers.GlorotNormal"
     DB = pymongo.MongoClient(host, port)["freefuzz-tf"]
     API_Info = {}
+    #run_all(DB)
     run_single(api_name=api_name,DB=DB)
     # find_api_list(DB)print(argument)
     # fuzzer_generator.run_code()

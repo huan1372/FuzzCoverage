@@ -3,6 +3,7 @@ import numpy as np
 #mport configparser
 
 import sys
+import re
 sys.path.insert(1, '/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/')
 
 from Generator.Types import ArgType
@@ -82,6 +83,27 @@ def process_type(argname,type_info,record):
         if type_info["class_name"] == "tensorflow.python.keras.engine.keras_tensor.KerasTensor":
             if str(TFArgument(type=ArgType.TF_TENSOR,dtype=type_info["dtype"])) not in current_type:
                 record[argname].append(TFArgument(type=ArgType.TF_TENSOR,dtype=type_info["dtype"]))
+        elif type_info["class_name"] == "tensorflow.python.training.tracking.data_structures.ListWrapper":
+            length = type_info["to_str"].count(",") + 1
+            try:
+                index = current_type.index(str(TFArgument(ArgType.LIST)))
+                record[argname][index].add_list_value(length)
+            except ValueError:
+                new_LIST = TFArgument(ArgType.LIST)
+                new_LIST.add_list_value(length)
+                record[argname].append(new_LIST)
+        elif type_info["class_name"] == "tensorflow.python.framework.dtypes.DType":
+            str_dtypes = type_info["to_str"]
+            #print(str_dtypes)
+            str_val = re.search("<dtype: '(\w+)'>",str_dtypes).group(1)
+            str_val = "tf." + str_val
+            try:
+                index = current_type.index(str(TFArgument(ArgType.TF_DTYPE)))
+                record[argname][index].add_str_value(str_val)
+            except ValueError:
+                new_STR = TFArgument(ArgType.TF_DTYPE)
+                new_STR.add_str_value(str_val)
+                record[argname].append(new_STR)
         else:
             print(argname,type_info)
     elif type_info["Label"] == "other":

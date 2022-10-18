@@ -32,6 +32,8 @@ class Argument:
             return "LIST"
         elif self.type == ArgType.NULL:
             return "None"
+        elif self.type == ArgType.TF_DTYPE:
+            return "DTYPE"
 
     def to_code(self, var_name: str) -> str:
         """ArgType.LIST and ArgType.TUPLE should be converted to code in the inherent class"""
@@ -53,6 +55,10 @@ class Argument:
             return f"{ListName} = fh.get_int_list(min_length={min_l}, max_length={max_l})\n"
         elif self.type == ArgType.NULL:
             return f"{var_name} = None\n"
+        elif self.type == ArgType.TF_DTYPE:
+            strListName = var_name + "_dtypelist"
+            strListContent = str(self.str_value)
+            return f"{strListName} = {strListContent} \n\t\t{var_name} = eval({strListName}[fh.get_int(min_int=0, max_int=len({strListName})-1)])\n"
         else:
             assert (0)
 
@@ -76,13 +82,13 @@ class Argument:
             return None
 
     def add_str_value(self,value:str):
-        if self.type != ArgType.STR:
-            raise Exception("This type {} is not supported for function add_str_value()")
-        else:
+        if self.type == ArgType.STR or self.type== ArgType.TF_DTYPE:
             value = value.strip("\"")
             value = value.strip("\'")
             self.str_value.append(value)
             self.str_value = list(set(self.str_value))
+        else:
+            raise Exception("This type {} is not supported for function add_str_value()")
         return
 
     def add_list_value(self,value:int):
