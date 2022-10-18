@@ -5,10 +5,10 @@ class TFArgument(Argument):
     _float_values = [0.0, 1.0, -1.0, 63.0, -63.0]
     _tensor_arg_dtypes = [ArgType.TF_TENSOR, ArgType.KERAS_TENSOR, ArgType.TF_VARIABLE]
     _dtypes = [
-        tf.bfloat16, tf.bool, tf.complex128, tf.complex64, tf.double,
-        tf.float16, tf.float32, tf.float64, tf.half,
-        tf.int16, tf.int32, tf.int64, tf.int8,
-        tf.uint8, tf.uint16, tf.uint32, tf.uint64,
+        "tf.bfloat16", "tf.bool", "tf.complex128", "tf.complex64", "tf.double",
+        "tf.float16", "tf.float32", "tf.float64", "tf.half",
+        "tf.int16", "tf.int32", "tf.int64", "tf.int8",
+        "tf.uint8", "tf.uint16", "tf.uint32", "tf.uint64",
     ]
     _support_types = [
         ArgType.TF_TENSOR, ArgType.TF_VARIABLE, ArgType.KERAS_TENSOR,

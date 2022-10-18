@@ -1,4 +1,5 @@
 from Generator.Types import ArgType
+import tensorflow as tf
 class Argument:
     """
     _support_types: all the types that Argument supports.
@@ -8,6 +9,12 @@ class Argument:
     _support_types = [
         ArgType.INT, ArgType.STR, ArgType.FLOAT, ArgType.NULL, ArgType.TUPLE,
         ArgType.LIST, ArgType.BOOL
+    ]
+    _dtypes = [
+        "tf.bfloat16", "tf.bool", "tf.complex128", "tf.complex64", "tf.double",
+        "tf.float16", "tf.float32", "tf.float64", "tf.half",
+        "tf.int16", "tf.int32", "tf.int64", "tf.int8",
+        "tf.uint8", "tf.uint16", "tf.uint32", "tf.uint64",
     ]
     _int_values = [-1024, -16, -1, 0, 1, 16, 1024]
     # _float_values = [0.0, 1.0, -1.0, 63.0, -63.0, 1024.0, -1024.0, 1e20, -1e20]
@@ -57,7 +64,10 @@ class Argument:
             return f"{var_name} = None\n"
         elif self.type == ArgType.TF_DTYPE:
             strListName = var_name + "_dtypelist"
-            strListContent = str(self.str_value)
+            if "tf.string" not in self.str_value:
+                strListContent = str(self.str_value)
+            else:
+                strListContent = str(Argument._dtypes)
             return f"{strListName} = {strListContent} \n\t\t{var_name} = eval({strListName}[fh.get_int(min_int=0, max_int=len({strListName})-1)])\n"
         else:
             assert (0)

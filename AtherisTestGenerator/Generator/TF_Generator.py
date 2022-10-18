@@ -198,11 +198,11 @@ if __name__ == "__main__":
     #api_name = "tf.abs"
     #api_name = "tf.keras.layers.PReLU"
     #api_name = "tf.dtypes.cast"
-    api_name = "tf.initializers.GlorotNormal"
+    api_name = "tf.keras.Input"
     DB = pymongo.MongoClient(host, port)["freefuzz-tf"]
     API_Info = {}
-    #run_all(DB)
-    run_single(api_name=api_name,DB=DB)
+    run_all(DB)
+    #run_single(api_name=api_name,DB=DB)
     # find_api_list(DB)print(argument)
     # fuzzer_generator.run_code()
     #fuzzer_generator.compare_difference()

@@ -47,6 +47,15 @@ def process_type(argname,type_info,record):
         record[argname] = []
     current_type = [str(i) for i in record[argname]]
     #print(argname,type_info)
+    if isinstance(type_info,list):
+        try:
+            index = current_type.index(str(TFArgument(ArgType.LIST)))
+            record[argname][index].add_list_value(len(type_info))
+        except ValueError:
+            new_LIST = TFArgument(ArgType.LIST)
+            new_LIST.add_list_value(len(type_info))
+            record[argname].append(new_LIST)
+        return record
     if type_info["Label"] == "raw":
         if isint(type_info["value"]):
             if str(TFArgument(ArgType.INT)) not in current_type:
@@ -124,7 +133,9 @@ def find_api_info(DB,api_name):
             if key=="output_signature":
                 continue
             if key=="input_signature":
-                value_r = value[0]
+                continue
+                # print(value)
+                #value_r = value[0]
 
             #print(key,value_r)
             results = process_type(key,value_r,results)
