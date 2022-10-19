@@ -25,7 +25,7 @@ def TestOneInput(data):
 		dtype_STR_strlist = ['float32'] 
 		dtype_STR = dtype_STR_strlist[fh.get_int(min_int=0, max_int=len(dtype_STR_strlist)-1)]
 		dtype_choices.append(dtype_STR)
-		dtype_DTYPE_dtypelist = ['tf.float64', 'tf.float32'] 
+		dtype_DTYPE_dtypelist = ['tf.float32', 'tf.float64'] 
 		dtype_DTYPE = eval(dtype_DTYPE_dtypelist[fh.get_int(min_int=0, max_int=len(dtype_DTYPE_dtypelist)-1)])
 		dtype_choices.append(dtype_DTYPE)
 		dtype = dtype_choices[fh.get_int()%2]

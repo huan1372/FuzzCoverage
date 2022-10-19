@@ -9,7 +9,7 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.keras.layers.AveragePooling1D_exception.txt","a")
 	try:
 		name_choices = []
-		name_STR_strlist = ['average_pooling1d', 'average_pooling1d_2', 'average_pooling1d_3', 'average_pooling1d_1', 'average_pooling1d_4'] 
+		name_STR_strlist = ['average_pooling1d_4', 'average_pooling1d_1', 'average_pooling1d_3', 'average_pooling1d', 'average_pooling1d_2'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]

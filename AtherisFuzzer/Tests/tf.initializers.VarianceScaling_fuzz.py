@@ -20,7 +20,7 @@ def TestOneInput(data):
 		mode_choices.append(mode_STR)
 		mode = mode_choices[0]
 		distribution_choices = []
-		distribution_STR_strlist = ['uniform', 'truncated_normal'] 
+		distribution_STR_strlist = ['truncated_normal', 'uniform'] 
 		distribution_STR = distribution_STR_strlist[fh.get_int(min_int=0, max_int=len(distribution_STR_strlist)-1)]
 		distribution_choices.append(distribution_STR)
 		distribution = distribution_choices[0]

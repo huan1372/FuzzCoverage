@@ -47,20 +47,7 @@ def TestOneInput(data):
 		shared_axes_INT = fh.get_int()
 		shared_axes_choices.append(shared_axes_INT)
 		shared_axes = shared_axes_choices[fh.get_int()%3]
-		input_signature_choices = []
-		# Tensor generation for input_signature
-		input_signature_DTYPES = [tf.float32]
-		int_list = fh.get_int_list(min_length=2,max_length=2)
-		min_Val = min(int_list) - 1
-		max_Val = max(int_list)
-		if min_Val % 2 == 0:
-			input_signature_tensor = fh.get_random_numeric_tensor(dtype=fh.get_tf_dtype(allowed_set=input_signature_DTYPES))
-		else:
-			input_signature_tensor = fh.get_random_numeric_tensor(min_val = min_Val, max_val = max_Val, dtype=fh.get_tf_dtype(allowed_set=input_signature_DTYPES))
-		input_signature_tensor = tf.identity(input_signature_tensor)
-		input_signature_choices.append(input_signature_tensor)
-		input_signature = input_signature_choices[0]
-		arg_class = tf.keras.layers.PReLU(name=name,trainable=trainable,batch_input_shape=batch_input_shape,dtype=dtype,alpha_initializer=alpha_initializer,alpha_regularizer=alpha_regularizer,alpha_constraint=alpha_constraint,shared_axes=shared_axes,)
+		arg_class = tf.keras.layers.PReLU(name=name,trainable=trainable,batch_input_shape=batch_input_shape,dtype=dtype,alpha_initializer=alpha_initializer,alpha_regularizer=alpha_regularizer,alpha_constraint=alpha_constraint,shared_axes=shared_axes)
 	except Exception as e:
 		exception_type, exception_object, exception_traceback = sys.exc_info()
 		line_number = str(exception_traceback.tb_lineno)
