@@ -19,10 +19,11 @@ class Argument:
     _int_values = [-1024, -16, -1, 0, 1, 16, 1024]
     # _float_values = [0.0, 1.0, -1.0, 63.0, -63.0, 1024.0, -1024.0, 1e20, -1e20]
 
-    def __init__(self,type: ArgType):
+    def __init__(self,type: ArgType,tf_class=""):
         self.type = type
         self.str_value = []
         self.int_list = set()
+        self.tf_class = tf_class
 
     def __str__(self) -> str:
         if self.type == ArgType.INT:
@@ -41,6 +42,8 @@ class Argument:
             return "None"
         elif self.type == ArgType.TF_DTYPE:
             return "DTYPE"
+        elif self.type == ArgType.TF_OBJECT:
+            return "TF_OBJECT"
 
     def to_code(self, var_name: str) -> str:
         """ArgType.LIST and ArgType.TUPLE should be converted to code in the inherent class"""
@@ -69,6 +72,10 @@ class Argument:
             else:
                 strListContent = str(Argument._dtypes)
             return f"{strListName} = {strListContent} \n\t\t{var_name} = eval({strListName}[fh.get_int(min_int=0, max_int=len({strListName})-1)])\n"
+        elif self.type == ArgType.TF_OBJECT:
+            strListName = var_name + "_tfobjlist"
+            strListContent = str(self.str_value)
+            return f"{strListName} = {strListContent} \n\t\t{var_name} = eval(\"" + self.tf_class + "\" + {strListName}[fh.get_int(min_int=0, max_int=len({strListName})-1)])\n"
         else:
             assert (0)
 
@@ -92,7 +99,7 @@ class Argument:
             return None
 
     def add_str_value(self,value:str):
-        if self.type == ArgType.STR or self.type== ArgType.TF_DTYPE:
+        if self.type == ArgType.STR or self.type== ArgType.TF_DTYPE or self.type==ArgType.TF_OBJECT:
             value = value.strip("\"")
             value = value.strip("\'")
             self.str_value.append(value)

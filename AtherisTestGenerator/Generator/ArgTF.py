@@ -15,11 +15,11 @@ class TFArgument(Argument):
         ArgType.TF_DTYPE, ArgType.TF_OBJECT
     ]
 
-    def __init__(self,type: ArgType, dtype=None,dtype_str=None) -> None:
+    def __init__(self,type: ArgType, dtype=None,dtype_str=None,tf_class="") -> None:
         if isinstance(dtype, str):
             dtype_str, dtype = self.str_to_dtype(dtype)
 
-        super().__init__(type)
+        super().__init__(type,tf_class)
         self.dtype = dtype
         self.dtype_str = dtype_str
 

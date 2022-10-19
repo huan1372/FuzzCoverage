@@ -28,9 +28,9 @@ def isint(x):
         return a == b
 
 def isdict(x):
-    import ast
     if x.startswith("{"):
-        return ast.literal_eval(x)["class_name"]
+        #print(x)
+        return re.search("^{\"class_name\": \"(\w+)\"",x).group(1)
     else:
         return x
 def find_api_list(DB):
@@ -55,6 +55,10 @@ def process_type(argname,type_info,record):
             new_LIST = TFArgument(ArgType.LIST)
             new_LIST.add_list_value(len(type_info))
             record[argname].append(new_LIST)
+        return record
+    if isint(type_info):
+        if str(TFArgument(ArgType.INT)) not in current_type:
+                record[argname].append(TFArgument(ArgType.INT))
         return record
     if type_info["Label"] == "raw":
         if isint(type_info["value"]):
@@ -111,6 +115,20 @@ def process_type(argname,type_info,record):
                 record[argname][index].add_str_value(str_val)
             except ValueError:
                 new_STR = TFArgument(ArgType.TF_DTYPE)
+                new_STR.add_str_value(str_val)
+                record[argname].append(new_STR)
+        elif type_info["class_name"].startswith("tensorflow.python.keras.initializers.initializer"):
+            class_val = "tf.keras.initializers."
+            #print(type_info["class_name"])
+            str_val = re.search("tensorflow.python.keras.initializers.initializers_v\w.(\w+)",type_info["class_name"]).group(1)
+            #print(str_val)
+            try:
+                index = current_type.index(str(TFArgument(ArgType.TF_OBJECT)))
+                if class_val !=  record[argname][index].tf_class:
+                    raise Exception("Not same class")
+                record[argname][index].add_str_value(str_val)
+            except ValueError:
+                new_STR = TFArgument(ArgType.TF_OBJECT,tf_class=class_val)
                 new_STR.add_str_value(str_val)
                 record[argname].append(new_STR)
         else:
