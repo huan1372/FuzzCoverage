@@ -33,6 +33,13 @@ def isdict(x):
         return re.search("^{\"class_name\": \"(\w+)\"",x).group(1)
     else:
         return x
+def isdictionary(x):
+    import ast
+    if x.startswith("{") and "class_name" not in x:
+        #print(x)
+        return ast.literal_eval(x)
+    else:
+        return False
 def find_api_list(DB):
     f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisTestgenerator/api_list.txt","w")
     for name in sorted(DB.list_collection_names()):
@@ -78,6 +85,10 @@ def process_type(argname,type_info,record):
         elif type_info["value"] == "true" or type_info["value"] == "false":
             if str(TFArgument(ArgType.BOOL)) not in current_type:
                 record[argname].append(TFArgument(ArgType.BOOL))
+        elif isdictionary(type_info["value"]):
+            #print(type_info["value"])
+            if str(TFArgument(ArgType.DICT)) not in current_type:
+                record[argname].append(TFArgument(ArgType.DICT,tf_class=type_info["value"]))
         else:
             type_info["value"] = isdict(type_info["value"])
             str_val = type_info["value"]

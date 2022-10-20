@@ -85,7 +85,7 @@ class Fuzzer_Generator():
                 argument_type = argument.get_type() 
                 if argument_type == ArgType.TF_TENSOR:
                     _DTYPES.append(argument.get_dtype())
-                elif argument_type  in [ArgType.INT,ArgType.FLOAT,ArgType.BOOL,ArgType.STR,ArgType.LIST,ArgType.NULL,ArgType.TF_DTYPE,ArgType.TF_OBJECT]:
+                elif argument_type  in [ArgType.INT,ArgType.FLOAT,ArgType.BOOL,ArgType.STR,ArgType.LIST,ArgType.NULL,ArgType.TF_DTYPE,ArgType.TF_OBJECT,ArgType.DICT]:
                     var_name = parameter + "_" + str(argument)
                     self.code += "\t\t" + argument.to_code(var_name=var_name)
                     self.code += "\t\t" + parameter + "_choices" + ".append(" + var_name + ")\n"
@@ -198,12 +198,12 @@ if __name__ == "__main__":
     #api_name = "tf.abs"
     #api_name = "tf.keras.layers.PReLU"
     #api_name = "tf.dtypes.cast"
-    #api_name = "tf.keras.layers.Conv1D"
-    api_name = "tf.nest.flatten"
+    api_name = "tf.keras.layers.Conv1D"
+    #api_name = "tf.nest.flatten"
     DB = pymongo.MongoClient(host, port)["freefuzz-tf"]
     API_Info = {}
-    #run_all(DB)
-    run_single(api_name=api_name,DB=DB)
+    run_all(DB)
+    #run_single(api_name=api_name,DB=DB)
     # find_api_list(DB)print(argument)
     # fuzzer_generator.run_code()
     #fuzzer_generator.compare_difference()

@@ -38,6 +38,8 @@ class Argument:
             return "TF_TENSOR"
         elif self.type == ArgType.LIST:
             return "LIST"
+        elif self.type == ArgType.DICT:
+            return "DICT"
         elif self.type == ArgType.NULL:
             return "None"
         elif self.type == ArgType.TF_DTYPE:
@@ -65,6 +67,8 @@ class Argument:
             return f"{ListName} = fh.get_int_list(min_length={min_l}, max_length={max_l})\n"
         elif self.type == ArgType.NULL:
             return f"{var_name} = None\n"
+        elif self.type == ArgType.DICT:
+            return f"{var_name} = {self.tf_class}\n"
         elif self.type == ArgType.TF_DTYPE:
             strListName = var_name + "_dtypelist"
             if "tf.string" not in self.str_value:

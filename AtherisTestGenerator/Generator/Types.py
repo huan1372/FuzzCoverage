@@ -9,6 +9,7 @@ class ArgType(IntEnum):
     TUPLE = 5
     LIST = 6
     NULL = 7
+    DICT = 16
     TORCH_OBJECT = 8
     TORCH_TENSOR = 9
     TORCH_DTYPE = 10
