@@ -9,7 +9,7 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.keras.layers.AvgPool1D_exception.txt","a")
 	try:
 		name_choices = []
-		name_STR_strlist = ['average_pooling1d_4', 'average_pooling1d_1', 'average_pooling1d_3', 'average_pooling1d', 'average_pooling1d_2'] 
+		name_STR_strlist = ['average_pooling1d_4', 'average_pooling1d_3', 'average_pooling1d', 'average_pooling1d_1', 'average_pooling1d_2'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]
@@ -33,7 +33,7 @@ def TestOneInput(data):
 		pool_size_choices.append(pool_size_LIST)
 		pool_size = pool_size_choices[0]
 		padding_choices = []
-		padding_STR_strlist = ['valid', 'same'] 
+		padding_STR_strlist = ['same', 'valid'] 
 		padding_STR = padding_STR_strlist[fh.get_int(min_int=0, max_int=len(padding_STR_strlist)-1)]
 		padding_choices.append(padding_STR)
 		padding = padding_choices[0]

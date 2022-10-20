@@ -198,8 +198,9 @@ if __name__ == "__main__":
     #api_name = "tf.abs"
     #api_name = "tf.keras.layers.PReLU"
     #api_name = "tf.dtypes.cast"
-    api_name = "tf.keras.layers.Conv1D"
+    #api_name = "tf.keras.layers.Conv1D"
     #api_name = "tf.nest.flatten"
+    api_name = "tf.keras.layers.Dense"
     DB = pymongo.MongoClient(host, port)["freefuzz-tf"]
     API_Info = {}
     run_all(DB)

@@ -21,12 +21,12 @@ def TestOneInput(data):
 		strides_choices.append(strides_LIST)
 		strides = strides_choices[fh.get_int()%2]
 		padding_choices = []
-		padding_STR_strlist = ['valid', 'same'] 
+		padding_STR_strlist = ['same', 'valid'] 
 		padding_STR = padding_STR_strlist[fh.get_int(min_int=0, max_int=len(padding_STR_strlist)-1)]
 		padding_choices.append(padding_STR)
 		padding = padding_choices[0]
 		name_choices = []
-		name_STR_strlist = ['max_pooling1d_1', 'max_pooling1d_3', 'max_pooling1d_2', 'max_pooling1d_4', 'max_pooling1d'] 
+		name_STR_strlist = ['max_pooling1d_2', 'max_pooling1d', 'max_pooling1d_3', 'max_pooling1d_4', 'max_pooling1d_1'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]

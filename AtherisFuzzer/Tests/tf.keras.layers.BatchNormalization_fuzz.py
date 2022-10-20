@@ -9,7 +9,7 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.keras.layers.BatchNormalization_exception.txt","a")
 	try:
 		name_choices = []
-		name_STR_strlist = ['batch_normalization_1', 'batch_normalization_2', 'batch_normalization', 'batch_normalization_3'] 
+		name_STR_strlist = ['batch_normalization', 'batch_normalization_2', 'batch_normalization_1', 'batch_normalization_3'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]
@@ -64,7 +64,7 @@ def TestOneInput(data):
 		moving_mean_initializer_choices.append(moving_mean_initializer_STR)
 		moving_mean_initializer = moving_mean_initializer_choices[0]
 		moving_variance_initializer_choices = []
-		moving_variance_initializer_STR_strlist = ['Ones', 'zeros'] 
+		moving_variance_initializer_STR_strlist = ['zeros', 'Ones'] 
 		moving_variance_initializer_STR = moving_variance_initializer_STR_strlist[fh.get_int(min_int=0, max_int=len(moving_variance_initializer_STR_strlist)-1)]
 		moving_variance_initializer_choices.append(moving_variance_initializer_STR)
 		moving_variance_initializer = moving_variance_initializer_choices[0]

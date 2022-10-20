@@ -15,7 +15,7 @@ def TestOneInput(data):
 		strides_choices.append(strides_INT)
 		strides = strides_choices[fh.get_int()%2]
 		padding_choices = []
-		padding_STR_strlist = ['valid', 'same'] 
+		padding_STR_strlist = ['same', 'valid'] 
 		padding_STR = padding_STR_strlist[fh.get_int(min_int=0, max_int=len(padding_STR_strlist)-1)]
 		padding_choices.append(padding_STR)
 		padding = padding_choices[0]
@@ -24,7 +24,7 @@ def TestOneInput(data):
 		pool_size_choices.append(pool_size_LIST)
 		pool_size = pool_size_choices[0]
 		name_choices = []
-		name_STR_strlist = ['average_pooling2d', 'average_pooling2d_1'] 
+		name_STR_strlist = ['average_pooling2d_1', 'average_pooling2d'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]

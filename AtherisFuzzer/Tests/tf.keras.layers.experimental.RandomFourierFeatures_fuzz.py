@@ -26,7 +26,7 @@ def TestOneInput(data):
 		scale_choices.append(scale_None)
 		scale = scale_choices[fh.get_int()%3]
 		name_choices = []
-		name_STR_strlist = ['rff', 'rff2', 'random_fourier_features'] 
+		name_STR_strlist = ['rff2', 'rff', 'random_fourier_features'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]

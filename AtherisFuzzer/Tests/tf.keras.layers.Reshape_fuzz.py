@@ -17,7 +17,7 @@ def TestOneInput(data):
 		input_shape_choices.append(input_shape_LIST)
 		input_shape = input_shape_choices[0]
 		name_choices = []
-		name_STR_strlist = ['reshape_1', 'reshape', 'reshape_3', 'reshape_2'] 
+		name_STR_strlist = ['reshape_2', 'reshape', 'reshape_1', 'reshape_3'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]

@@ -24,7 +24,7 @@ def TestOneInput(data):
 		pool_size_choices.append(pool_size_LIST)
 		pool_size = pool_size_choices[0]
 		name_choices = []
-		name_STR_strlist = ['average_pooling3d_1', 'average_pooling3d'] 
+		name_STR_strlist = ['average_pooling3d', 'average_pooling3d_1'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]

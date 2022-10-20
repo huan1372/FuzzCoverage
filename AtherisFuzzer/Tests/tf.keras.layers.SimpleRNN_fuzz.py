@@ -9,7 +9,7 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.keras.layers.SimpleRNN_exception.txt","a")
 	try:
 		name_choices = []
-		name_STR_strlist = ['simple_rnn_2', 'simple_rnn_1', 'simple_rnn'] 
+		name_STR_strlist = ['simple_rnn_2', 'simple_rnn', 'simple_rnn_1'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]

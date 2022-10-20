@@ -33,7 +33,7 @@ def TestOneInput(data):
 		input_dim_choices.append(input_dim_INT)
 		input_dim = input_dim_choices[0]
 		name_choices = []
-		name_STR_strlist = ['embedding_3', 'embedding_2', 'embedding_1', 'embedding'] 
+		name_STR_strlist = ['embedding_3', 'embedding_1', 'embedding_2', 'embedding'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]

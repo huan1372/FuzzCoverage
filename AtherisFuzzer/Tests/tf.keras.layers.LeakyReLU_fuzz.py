@@ -15,7 +15,7 @@ def TestOneInput(data):
 		alpha_choices.append(alpha_INT)
 		alpha = alpha_choices[fh.get_int()%2]
 		name_choices = []
-		name_STR_strlist = ['leaky_re_lu_1', 'leaky_re_lu', 'leaky_re_lu_2'] 
+		name_STR_strlist = ['leaky_re_lu_2', 'leaky_re_lu', 'leaky_re_lu_1'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]

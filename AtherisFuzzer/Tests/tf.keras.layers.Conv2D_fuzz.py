@@ -29,7 +29,7 @@ def TestOneInput(data):
 		parameter_1_choices.append(parameter_1_LIST)
 		parameter_1 = parameter_1_choices[fh.get_int()%2]
 		activation_choices = []
-		activation_STR_strlist = ['relu', 'swish', 'elu', 'sigmoid', 'tanh', 'linear'] 
+		activation_STR_strlist = ['sigmoid', 'relu', 'swish', 'linear', 'elu', 'tanh'] 
 		activation_STR = activation_STR_strlist[fh.get_int(min_int=0, max_int=len(activation_STR_strlist)-1)]
 		activation_choices.append(activation_STR)
 		activation_None = None
@@ -46,7 +46,7 @@ def TestOneInput(data):
 		dilation_rate_choices.append(dilation_rate_LIST)
 		dilation_rate = dilation_rate_choices[fh.get_int()%2]
 		padding_choices = []
-		padding_STR_strlist = ['valid', 'same', 'SAME'] 
+		padding_STR_strlist = ['SAME', 'same', 'valid'] 
 		padding_STR = padding_STR_strlist[fh.get_int(min_int=0, max_int=len(padding_STR_strlist)-1)]
 		padding_choices.append(padding_STR)
 		padding = padding_choices[0]
@@ -108,7 +108,7 @@ def TestOneInput(data):
 		bias_constraint_choices.append(bias_constraint_None)
 		bias_constraint = bias_constraint_choices[0]
 		name_choices = []
-		name_STR_strlist = ['conv2d_transpose', 'conv2d', 'conv2d_1', 'conv2d_transpose_1'] 
+		name_STR_strlist = ['conv2d_transpose', 'conv2d', 'conv2d_transpose_1', 'conv2d_1'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]

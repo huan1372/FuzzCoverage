@@ -9,7 +9,7 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.keras.metrics.Mean_exception.txt","a")
 	try:
 		name_choices = []
-		name_STR_strlist = ['my_mean', 'mean_squared_logarithmic_error', 'min', 'top_k_categorical_accuracy', 'mean_squared_error', 'squared_hinge', 'mean_absolute_percentage_error', 'my_mean_tensor', 'mean_absolute_error', 'poisson', 'max'] 
+		name_STR_strlist = ['mean_absolute_error', 'mean_absolute_percentage_error', 'squared_hinge', 'mean_squared_error', 'my_mean', 'my_mean_tensor', 'poisson', 'max', 'top_k_categorical_accuracy', 'min', 'mean_squared_logarithmic_error'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name_None = None

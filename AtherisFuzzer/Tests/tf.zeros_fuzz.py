@@ -20,7 +20,7 @@ def TestOneInput(data):
 		parameter_1_choices.append(parameter_1_DTYPE)
 		parameter_1 = parameter_1_choices[0]
 		dtype_choices = []
-		dtype_DTYPE_dtypelist = ['tf.int32', 'tf.float32'] 
+		dtype_DTYPE_dtypelist = ['tf.float32', 'tf.int32'] 
 		dtype_DTYPE = eval(dtype_DTYPE_dtypelist[fh.get_int(min_int=0, max_int=len(dtype_DTYPE_dtypelist)-1)])
 		dtype_choices.append(dtype_DTYPE)
 		dtype = dtype_choices[0]

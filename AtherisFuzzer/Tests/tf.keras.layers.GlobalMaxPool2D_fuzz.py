@@ -9,7 +9,7 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.keras.layers.GlobalMaxPool2D_exception.txt","a")
 	try:
 		name_choices = []
-		name_STR_strlist = ['global_max_pooling2d_1', 'global_max_pooling2d'] 
+		name_STR_strlist = ['global_max_pooling2d', 'global_max_pooling2d_1'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]

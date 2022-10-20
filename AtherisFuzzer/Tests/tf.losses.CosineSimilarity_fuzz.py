@@ -13,7 +13,7 @@ def TestOneInput(data):
 		axis_choices.append(axis_INT)
 		axis = axis_choices[0]
 		reduction_choices = []
-		reduction_STR_strlist = ['none', 'sum'] 
+		reduction_STR_strlist = ['sum', 'none'] 
 		reduction_STR = reduction_STR_strlist[fh.get_int(min_int=0, max_int=len(reduction_STR_strlist)-1)]
 		reduction_choices.append(reduction_STR)
 		reduction = reduction_choices[0]

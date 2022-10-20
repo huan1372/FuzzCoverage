@@ -43,7 +43,7 @@ def TestOneInput(data):
 		dtype_choices.append(dtype_STR)
 		dtype = dtype_choices[0]
 		padding_choices = []
-		padding_STR_strlist = ['valid', 'same'] 
+		padding_STR_strlist = ['same', 'valid'] 
 		padding_STR = padding_STR_strlist[fh.get_int(min_int=0, max_int=len(padding_STR_strlist)-1)]
 		padding_choices.append(padding_STR)
 		padding = padding_choices[0]

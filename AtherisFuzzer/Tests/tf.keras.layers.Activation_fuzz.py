@@ -9,7 +9,7 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.keras.layers.Activation_exception.txt","a")
 	try:
 		parameter_0_choices = []
-		parameter_0_STR_strlist = ['relu', 'swish', 'softmax', 'linear'] 
+		parameter_0_STR_strlist = ['linear', 'relu', 'softmax', 'swish'] 
 		parameter_0_STR = parameter_0_STR_strlist[fh.get_int(min_int=0, max_int=len(parameter_0_STR_strlist)-1)]
 		parameter_0_choices.append(parameter_0_STR)
 		parameter_0 = parameter_0_choices[0]

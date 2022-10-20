@@ -9,7 +9,7 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.einsum_exception.txt","a")
 	try:
 		parameter_0_choices = []
-		parameter_0_STR_strlist = ['lbnd,mlb->mbnd', 'ij,jk->ik', 'i,d->id', 'ijbn,jbnd->ibnd', 'ibnd,hnd->ibh', 'ii', 'ii->i', 'ij,jk', 'blhd,bshd->blhs', 'mbnd,mlb->lbnd', 'i,i->', 'bnqd,bnkd->bnqk', 'i,j->ij', 'vki,ki->vk', '...ij,...jk->...ik', 'bcxd,bcyd->bcxy', 'blhs,bshd->blhd', 'ibh,hnd->ibnd', 'bij,bjk->bik', 'ibnd,jbnd->ijbn', 'ij->ji', 'bcwd,bcdh->bcwh'] 
+		parameter_0_STR_strlist = ['ii->i', 'blhs,bshd->blhd', 'bcxd,bcyd->bcxy', 'bnqd,bnkd->bnqk', 'bij,bjk->bik', 'ibh,hnd->ibnd', 'ij->ji', 'lbnd,mlb->mbnd', 'bcwd,bcdh->bcwh', 'vki,ki->vk', 'ibnd,jbnd->ijbn', '...ij,...jk->...ik', 'ij,jk->ik', 'blhd,bshd->blhs', 'mbnd,mlb->lbnd', 'i,d->id', 'ijbn,jbnd->ibnd', 'i,i->', 'ij,jk', 'ii', 'i,j->ij', 'ibnd,hnd->ibh'] 
 		parameter_0_STR = parameter_0_STR_strlist[fh.get_int(min_int=0, max_int=len(parameter_0_STR_strlist)-1)]
 		parameter_0_choices.append(parameter_0_STR)
 		parameter_0 = parameter_0_choices[0]

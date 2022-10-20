@@ -37,7 +37,7 @@ def TestOneInput(data):
 		strides_choices.append(strides_LIST)
 		strides = strides_choices[0]
 		padding_choices = []
-		padding_STR_strlist = ['valid', 'same'] 
+		padding_STR_strlist = ['same', 'valid'] 
 		padding_STR = padding_STR_strlist[fh.get_int(min_int=0, max_int=len(padding_STR_strlist)-1)]
 		padding_choices.append(padding_STR)
 		padding = padding_choices[0]
@@ -66,14 +66,14 @@ def TestOneInput(data):
 		bias_initializer_choices.append(bias_initializer_STR)
 		bias_initializer = bias_initializer_choices[0]
 		kernel_regularizer_choices = []
-		kernel_regularizer_STR_strlist = ['l2', 'L2'] 
+		kernel_regularizer_STR_strlist = ['L2', 'l2'] 
 		kernel_regularizer_STR = kernel_regularizer_STR_strlist[fh.get_int(min_int=0, max_int=len(kernel_regularizer_STR_strlist)-1)]
 		kernel_regularizer_choices.append(kernel_regularizer_STR)
 		kernel_regularizer_None = None
 		kernel_regularizer_choices.append(kernel_regularizer_None)
 		kernel_regularizer = kernel_regularizer_choices[fh.get_int()%2]
 		bias_regularizer_choices = []
-		bias_regularizer_STR_strlist = ['l2', 'L2'] 
+		bias_regularizer_STR_strlist = ['L2', 'l2'] 
 		bias_regularizer_STR = bias_regularizer_STR_strlist[fh.get_int(min_int=0, max_int=len(bias_regularizer_STR_strlist)-1)]
 		bias_regularizer_choices.append(bias_regularizer_STR)
 		bias_regularizer_None = None

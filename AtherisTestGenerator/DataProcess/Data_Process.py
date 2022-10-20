@@ -1,3 +1,5 @@
+from logging import raiseExceptions
+from unittest import case
 import pymongo
 import numpy as np
 #mport configparser
@@ -47,6 +49,26 @@ def find_api_list(DB):
             continue
         f.write(name + "\n")
     f.close()
+def check_tf(name):
+    check_list = ["tensorflow.python.ops.init_ops","tensorflow.python.keras.mixed_precision.policy.","tensorflow.python.ops.ragged.ragged_tensor"]
+    f = open("tf_object_miss_API.txt","a")
+    for check in check_list:
+        if name.startswith(check):
+            f.write(name + "\n")
+            f.close()
+            return True
+    f.close()
+    return False
+
+def add_STR(record,current_type,argname,str_val):
+    try:
+        index = current_type.index(str(TFArgument(ArgType.STR)))
+        record[argname][index].add_str_value(str_val)
+    except ValueError:
+        new_STR = TFArgument(ArgType.STR)
+        new_STR.add_str_value(str_val)
+        record[argname].append(new_STR)
+    return record
 
 def process_type(argname,type_info,record):
     # Raw type
@@ -92,13 +114,7 @@ def process_type(argname,type_info,record):
         else:
             type_info["value"] = isdict(type_info["value"])
             str_val = type_info["value"]
-            try:
-                index = current_type.index(str(TFArgument(ArgType.STR)))
-                record[argname][index].add_str_value(str_val)
-            except ValueError:
-                new_STR = TFArgument(ArgType.STR)
-                new_STR.add_str_value(str_val)
-                record[argname].append(new_STR)
+            add_STR(record,current_type,argname,str_val)
     elif type_info["Label"] == "tensor":
         if str(TFArgument(type=ArgType.TF_TENSOR,dtype=type_info["dtype"])) not in current_type:
             record[argname].append(TFArgument(type=ArgType.TF_TENSOR,dtype=type_info["dtype"]))
@@ -142,8 +158,22 @@ def process_type(argname,type_info,record):
                 new_STR = TFArgument(ArgType.TF_OBJECT,tf_class=class_val)
                 new_STR.add_str_value(str_val)
                 record[argname].append(new_STR)
+        elif type_info["class_name"].startswith("tensorflow.python.keras.regularizers"):
+            str_val = re.search("tensorflow.python.keras.regularizers.(\w+)",type_info["class_name"]).group(1)
+            if str_val == "L1":
+                str_val = "l1"
+            elif str_val == "L2":
+                str_val = "l2"
+            else:
+                raise Exception("Not implement option for tensorflow.python.keras.regularizers")
+            add_STR(record,current_type,argname,str_val)
+        elif check_tf(type_info["class_name"]):
+            #str_val = re.search("tensorflow.python.ops.init_ops_v2.(\w+)",type_info["class_name"]).group(1)
+            print(type_info["class_name"])
+            # [Constant]
         else:
             print(argname,type_info)
+            raise Exception("Not implemented!")
     elif type_info["Label"] == "other":
         if type_info["type"] == "<class 'NoneType'>":
             if str(TFArgument(type=ArgType.NULL)) not in current_type:

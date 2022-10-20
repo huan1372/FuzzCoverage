@@ -9,7 +9,7 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.no_gradient_exception.txt","a")
 	try:
 		parameter_0_choices = []
-		parameter_0_STR_strlist = ['Addons>EuclideanDistanceTransform', 'Addons>ParseTime', 'Addons>SkipGramGenerateCandidates', 'Addons>ResamplerGrad'] 
+		parameter_0_STR_strlist = ['Addons>SkipGramGenerateCandidates', 'Addons>ParseTime', 'Addons>ResamplerGrad', 'Addons>EuclideanDistanceTransform'] 
 		parameter_0_STR = parameter_0_STR_strlist[fh.get_int(min_int=0, max_int=len(parameter_0_STR_strlist)-1)]
 		parameter_0_choices.append(parameter_0_STR)
 		parameter_0 = parameter_0_choices[0]

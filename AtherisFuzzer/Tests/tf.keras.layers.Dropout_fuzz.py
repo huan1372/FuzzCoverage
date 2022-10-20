@@ -23,7 +23,7 @@ def TestOneInput(data):
 		input_shape_choices.append(input_shape_LIST)
 		input_shape = input_shape_choices[0]
 		name_choices = []
-		name_STR_strlist = ['dropout_1', 'spatial_dropout2d', 'spatial_dropout3d_1', 'dropout', 'spatial_dropout1d', 'spatial_dropout3d', 'spatial_dropout2d_1'] 
+		name_STR_strlist = ['dropout', 'spatial_dropout1d', 'spatial_dropout2d', 'spatial_dropout2d_1', 'spatial_dropout3d_1', 'spatial_dropout3d', 'dropout_1'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]

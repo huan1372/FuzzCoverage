@@ -42,7 +42,7 @@ def TestOneInput(data):
 		input_shape_choices.append(input_shape_LIST)
 		input_shape = input_shape_choices[0]
 		name_choices = []
-		name_STR_strlist = ['layer_normalization', 'layer_normalization_2', 'layer_normalization_1', 'layer_normalization_3'] 
+		name_STR_strlist = ['layer_normalization_1', 'layer_normalization', 'layer_normalization_3', 'layer_normalization_2'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]
@@ -61,14 +61,14 @@ def TestOneInput(data):
 		beta_regularizer_choices = []
 		beta_regularizer_None = None
 		beta_regularizer_choices.append(beta_regularizer_None)
-		beta_regularizer_STR_strlist = ['L2'] 
+		beta_regularizer_STR_strlist = ['L2', 'l2'] 
 		beta_regularizer_STR = beta_regularizer_STR_strlist[fh.get_int(min_int=0, max_int=len(beta_regularizer_STR_strlist)-1)]
 		beta_regularizer_choices.append(beta_regularizer_STR)
 		beta_regularizer = beta_regularizer_choices[fh.get_int()%2]
 		gamma_regularizer_choices = []
 		gamma_regularizer_None = None
 		gamma_regularizer_choices.append(gamma_regularizer_None)
-		gamma_regularizer_STR_strlist = ['L2'] 
+		gamma_regularizer_STR_strlist = ['L2', 'l2'] 
 		gamma_regularizer_STR = gamma_regularizer_STR_strlist[fh.get_int(min_int=0, max_int=len(gamma_regularizer_STR_strlist)-1)]
 		gamma_regularizer_choices.append(gamma_regularizer_STR)
 		gamma_regularizer = gamma_regularizer_choices[fh.get_int()%2]

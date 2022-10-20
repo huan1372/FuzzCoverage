@@ -9,7 +9,7 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.losses.get_exception.txt","a")
 	try:
 		parameter_0_choices = []
-		parameter_0_STR_strlist = ['CategoricalCrossentropy', 'categorical_crossentropy'] 
+		parameter_0_STR_strlist = ['categorical_crossentropy', 'CategoricalCrossentropy'] 
 		parameter_0_STR = parameter_0_STR_strlist[fh.get_int(min_int=0, max_int=len(parameter_0_STR_strlist)-1)]
 		parameter_0_choices.append(parameter_0_STR)
 		parameter_0 = parameter_0_choices[0]

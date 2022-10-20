@@ -17,7 +17,7 @@ def TestOneInput(data):
 		parameter_1_choices.append(parameter_1_INT)
 		parameter_1 = parameter_1_choices[0]
 		activation_choices = []
-		activation_STR_strlist = ['relu', 'linear'] 
+		activation_STR_strlist = ['linear', 'relu'] 
 		activation_STR = activation_STR_strlist[fh.get_int(min_int=0, max_int=len(activation_STR_strlist)-1)]
 		activation_choices.append(activation_STR)
 		activation = activation_choices[0]
@@ -56,7 +56,7 @@ def TestOneInput(data):
 		strides_choices.append(strides_INT)
 		strides = strides_choices[fh.get_int()%2]
 		padding_choices = []
-		padding_STR_strlist = ['valid', 'same', 'causal'] 
+		padding_STR_strlist = ['causal', 'same', 'valid'] 
 		padding_STR = padding_STR_strlist[fh.get_int(min_int=0, max_int=len(padding_STR_strlist)-1)]
 		padding_choices.append(padding_STR)
 		padding = padding_choices[0]

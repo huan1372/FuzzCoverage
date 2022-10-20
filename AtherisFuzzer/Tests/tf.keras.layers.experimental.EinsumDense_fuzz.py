@@ -9,7 +9,7 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.keras.layers.experimental.EinsumDense_exception.txt","a")
 	try:
 		parameter_0_choices = []
-		parameter_0_STR_strlist = ['abcdef,efg->abcdg', '...x,xy->...y', 'abc,cd->abd', 'abcde,def->abcf', 'abcd,cde->abe', 'ab,bc->ac'] 
+		parameter_0_STR_strlist = ['abcdef,efg->abcdg', 'abcde,def->abcf', 'abcd,cde->abe', 'ab,bc->ac', 'abc,cd->abd', '...x,xy->...y'] 
 		parameter_0_STR = parameter_0_STR_strlist[fh.get_int(min_int=0, max_int=len(parameter_0_STR_strlist)-1)]
 		parameter_0_choices.append(parameter_0_STR)
 		parameter_0 = parameter_0_choices[0]
@@ -20,7 +20,7 @@ def TestOneInput(data):
 		output_shape_choices.append(output_shape_INT)
 		output_shape = output_shape_choices[fh.get_int()%2]
 		bias_axes_choices = []
-		bias_axes_STR_strlist = ['y', 'd', 'f', 'c', 'e', 'be', 'g', 'de'] 
+		bias_axes_STR_strlist = ['f', 'be', 'c', 'e', 'g', 'd', 'y', 'de'] 
 		bias_axes_STR = bias_axes_STR_strlist[fh.get_int(min_int=0, max_int=len(bias_axes_STR_strlist)-1)]
 		bias_axes_choices.append(bias_axes_STR)
 		bias_axes_None = None
@@ -62,7 +62,7 @@ def TestOneInput(data):
 		bias_constraint_choices.append(bias_constraint_None)
 		bias_constraint = bias_constraint_choices[0]
 		equation_choices = []
-		equation_STR_strlist = ['...b,bc->...c', '...c,cde->...de', 'ab,b->a', 'ibd,nd->ibn', 'i,d->id', 'abc,cde->abde', 'abc,cd->abd', 'BFNH,NHD->BFD', 'ab,bc->ac', 'bc...,cde->bde...', 'bc...,cd->bd...'] 
+		equation_STR_strlist = ['bc...,cd->bd...', 'abc,cde->abde', '...b,bc->...c', 'i,d->id', 'ab,bc->ac', 'BFNH,NHD->BFD', '...c,cde->...de', 'ab,b->a', 'abc,cd->abd', 'ibd,nd->ibn', 'bc...,cde->bde...'] 
 		equation_STR = equation_STR_strlist[fh.get_int(min_int=0, max_int=len(equation_STR_strlist)-1)]
 		equation_choices.append(equation_STR)
 		equation = equation_choices[0]

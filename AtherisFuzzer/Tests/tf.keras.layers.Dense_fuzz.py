@@ -27,26 +27,32 @@ def TestOneInput(data):
 		kernel_initializer_choices.append(kernel_initializer_TF_OBJECT)
 		kernel_initializer = kernel_initializer_choices[fh.get_int()%3]
 		kernel_regularizer_choices = []
+		kernel_regularizer_STR_strlist = ['l1'] 
+		kernel_regularizer_STR = kernel_regularizer_STR_strlist[fh.get_int(min_int=0, max_int=len(kernel_regularizer_STR_strlist)-1)]
+		kernel_regularizer_choices.append(kernel_regularizer_STR)
 		kernel_regularizer_None = None
 		kernel_regularizer_choices.append(kernel_regularizer_None)
-		kernel_regularizer = kernel_regularizer_choices[0]
+		kernel_regularizer = kernel_regularizer_choices[fh.get_int()%2]
 		activation_choices = []
-		activation_STR_strlist = ['relu', 'softmax', 'softplus', 'sigmoid', 'tanh', 'linear'] 
+		activation_STR_strlist = ['sigmoid', 'softplus', 'relu', 'linear', 'tanh', 'softmax'] 
 		activation_STR = activation_STR_strlist[fh.get_int(min_int=0, max_int=len(activation_STR_strlist)-1)]
 		activation_choices.append(activation_STR)
 		activation_None = None
 		activation_choices.append(activation_None)
 		activation = activation_choices[fh.get_int()%2]
 		activity_regularizer_choices = []
+		activity_regularizer_STR_strlist = ['l2'] 
+		activity_regularizer_STR = activity_regularizer_STR_strlist[fh.get_int(min_int=0, max_int=len(activity_regularizer_STR_strlist)-1)]
+		activity_regularizer_choices.append(activity_regularizer_STR)
 		activity_regularizer_None = None
 		activity_regularizer_choices.append(activity_regularizer_None)
-		activity_regularizer = activity_regularizer_choices[0]
+		activity_regularizer = activity_regularizer_choices[fh.get_int()%2]
 		input_shape_choices = []
 		input_shape_LIST = fh.get_int_list(min_length=1, max_length=1)
 		input_shape_choices.append(input_shape_LIST)
 		input_shape = input_shape_choices[0]
 		name_choices = []
-		name_STR_strlist = ['dense_3', 'out', 'dense_1', 'predictions', 'dense', 'dense_2'] 
+		name_STR_strlist = ['predictions', 'dense', 'dense_1', 'dense_2', 'dense_3', 'out'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name_None = None
