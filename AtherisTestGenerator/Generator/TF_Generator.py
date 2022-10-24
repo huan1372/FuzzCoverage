@@ -175,6 +175,7 @@ def run_all(DB):
             fuzzer_generator = Fuzzer_Generator(argument=argument,func_name=api_name)
             code = fuzzer_generator.generate_code()
             fuzzer_generator.write_fuzzer()
+            fuzzer_generator.run_code()
 
 def print_dict(x):
     for key,value in x.items():
@@ -189,22 +190,22 @@ def run_single(api_name,DB):
     fuzzer_generator = Fuzzer_Generator(argument=argument,func_name=api_name)
     code = fuzzer_generator.generate_code()
     fuzzer_generator.write_fuzzer()
-    #fuzzer_generator.run_code()
+    fuzzer_generator.run_code()
 
 if __name__ == "__main__":
     # database configuration
     host = "127.0.0.1"
     port = 27017
-    #api_name = "tf.abs"
+    api_name = "tf.abs"
     #api_name = "tf.keras.layers.PReLU"
     #api_name = "tf.dtypes.cast"
     #api_name = "tf.keras.layers.Conv1D"
     #api_name = "tf.nest.flatten"
-    api_name = "tf.keras.layers.Dense"
+    #api_name = "tf.keras.layers.Dense"
     DB = pymongo.MongoClient(host, port)["freefuzz-tf"]
     API_Info = {}
-    run_all(DB)
-    #run_single(api_name=api_name,DB=DB)
+    #run_all(DB)
+    run_single(api_name=api_name,DB=DB)
     # find_api_list(DB)print(argument)
     # fuzzer_generator.run_code()
     #fuzzer_generator.compare_difference()

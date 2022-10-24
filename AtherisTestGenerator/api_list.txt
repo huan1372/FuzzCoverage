@@ -124,7 +124,7 @@ tf.keras.activations.swish
 tf.keras.activations.tanh
 tf.keras.applications.DenseNet121
 tf.keras.applications.DenseNet169
-tf.keras.applications.DenseNet201
+tf.keras.applications.DenseNet201 <-
 tf.keras.applications.EfficientNetB0
 tf.keras.applications.EfficientNetB1
 tf.keras.applications.EfficientNetB2

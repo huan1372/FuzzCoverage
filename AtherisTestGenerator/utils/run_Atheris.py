@@ -6,7 +6,7 @@ def run_Atheris(func_name,file_path,coverage_path,coverage=True):
     print(str_a)
     os.system(str_a)
     if coverage == True:
-        os.system("python3 -m coverage report --include=/usr/local/lib/python3.8/dist-packages/tensorflow/*.py > " + coverage_path + func_name + "_1000.Coverage")
+        os.system("python3 -m coverage report -m --include=/usr/local/lib/python3.8/dist-packages/tensorflow/*.py > " + coverage_path + func_name + "_1000.Coverage")
     t2 = time.time()
     print(t2-t1)
     return
