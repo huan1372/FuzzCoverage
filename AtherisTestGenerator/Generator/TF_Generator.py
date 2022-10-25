@@ -102,12 +102,14 @@ class Fuzzer_Generator():
         self.code += "\t\targ_class = " + self.func_name + "("
         i= 0
         length = len(self.argument.keys()) - 1
+        if "parameter:0" in self.argument.keys():
+            self.code += "parameter_0,"
         for key in self.argument.keys():
             parameter = key.replace(":","_")
-            if parameter=="input_signature":
+            if parameter=="input_signature" or parameter.startswith("parameter"):
+                i+=1
                 continue
-            if not parameter.startswith("parameter"):
-                self.code += parameter + "="
+            self.code += parameter + "="
             self.code += parameter
             if i!=length:
                 self.code += ","
@@ -167,7 +169,7 @@ class Fuzzer_Generator():
 
 
 def run_all(DB):
-    with open('/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/random_api_list_50.txt') as f:
+    with open('/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/random_api_list_50_remain.txt') as f:
         for i in f.readlines():
             api_name = i.rstrip()
             print(api_name)
@@ -196,7 +198,7 @@ if __name__ == "__main__":
     # database configuration
     host = "127.0.0.1"
     port = 27017
-    api_name = "tf.abs"
+    api_name = "tf.keras.layers.SimpleRNN"
     #api_name = "tf.keras.layers.PReLU"
     #api_name = "tf.dtypes.cast"
     #api_name = "tf.keras.layers.Conv1D"

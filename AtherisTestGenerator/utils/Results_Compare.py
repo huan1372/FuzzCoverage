@@ -44,11 +44,14 @@ def process_line(AtherisContent,FreeFuzzContent):
     if filename != lineF[0] or lineA[1]!=lineF[1]:
         raise Exception("Filename not matched")
     filename = filename[39:]
-    LineCompare = int(lineF[2]) - int(lineA[2])
+    LineCompare = str(int(lineF[2]) - int(lineA[2]))
+    lineACov = str(int(lineA[1]) - int(lineA[2]))
+    lineFCov = str(int(lineF[1]) - int(lineF[2]))
+    #LineCompare += "(" + lineACov + "/" + lineFCov + ")"
     setA = set(Find_all_line([j.strip(",") for j in lineA[4:]]))
     setF = set(Find_all_line([j.strip(",") for j in lineF[4:]]))
     #print(setA-setF)
-    return filename,str(LineCompare),convertbackline(setA - setF),convertbackline(setF - setA),convertbackline(setA.intersection(setF))
+    return filename,LineCompare,convertbackline(setA - setF),convertbackline(setF - setA),convertbackline(setA.intersection(setF))
 
 def merge_line(f1Content,f2Content):
     line1 = f1Content.split()
@@ -62,6 +65,7 @@ def merge_line(f1Content,f2Content):
     Cov = str(int((Total_Stats-Miss)/Total_Stats*100)) + "%"
     return filename.ljust(100) + str(Total_Stats).rjust(6) + str(Miss).rjust(5) + Cov.rjust(6) + convertbackline(setA.intersection(setF)) + "\n"
 def Compare_Result(api_name,Atheris_dir,FreeFuzz_dir,output_dir="/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Comparison/"):
+    print(api_name)
     output_f = open(output_dir+api_name+".Compare","w")
     Atheris_f = open(Atheris_dir+api_name+"_1000.Coverage")
     FreeFuzz_f = open(FreeFuzz_dir+api_name+".Coverage")
@@ -69,16 +73,24 @@ def Compare_Result(api_name,Atheris_dir,FreeFuzz_dir,output_dir="/home/usr/FreeF
     FreeFuzz_content = FreeFuzz_f.readlines()
     diff = 0
     lineNum = 0
+    Total_Cov_F = "0"
+    Total_Cov_A = "0"
     output_f.write("FileName                                                      | CoverDiff | " + "AtherisMiss                                                                                          | " + "FreeFuzzMiss                                                                                         | " + "MutualMiss                                   |"+"\n")
     for i in range(len(Atheris_content)):
         if Atheris_content[i].startswith("TOTAL"):
+            Total_Cov_line_A = Atheris_content[i].strip().split()
+            Total_Cov_A = str(int(Total_Cov_line_A[1])-int(Total_Cov_line_A[2]))
+            Total_Cov_line_F = FreeFuzz_content[i].strip().split()
+            Total_Cov_F = str(int(Total_Cov_line_F[1])-int(Total_Cov_line_F[2]))
             break
         if Atheris_content[i] != FreeFuzz_content[i]:
             diff+=1
             filename,lineComp,AtherisMiss,FreeFuzzMiss,MutualMiss = process_line(AtherisContent=Atheris_content[i],FreeFuzzContent=FreeFuzz_content[i])
             lineNum += int(lineComp)
             output_f.write(filename.ljust(64) + lineComp.ljust(9+3) + AtherisMiss.ljust(100+3) + FreeFuzzMiss.ljust(100+3) + MutualMiss.ljust(100+2) + "\n")
-    output_f.write("TOTAL DIFFERENCE in LINES: " + str(lineNum) +"\n")
+    output_f.write("\nTOTAL DIFFERENCE in LINES: " + str(lineNum) +"\n")
+    output_f.write("TOTAL Coverage for Atheris for API(" + api_name + ") in LINES: " + Total_Cov_A +"\n")
+    output_f.write("TOTAL Coverage for FreeFuzz for API(" + api_name + ") in LINES: " + Total_Cov_F +"\n")
     print(diff)
     output_f.close()
     Atheris_f.close()

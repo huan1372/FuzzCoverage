@@ -32,12 +32,7 @@ def TestOneInput(data):
 		saturate_BOOL = fh.get_bool()
 		saturate_choices.append(saturate_BOOL)
 		saturate = saturate_choices[0]
-		parameter_1_choices = []
-		parameter_1_DTYPE_dtypelist = ['tf.float32'] 
-		parameter_1_DTYPE = eval(parameter_1_DTYPE_dtypelist[fh.get_int(min_int=0, max_int=len(parameter_1_DTYPE_dtypelist)-1)])
-		parameter_1_choices.append(parameter_1_DTYPE)
-		parameter_1 = parameter_1_choices[0]
-		arg_class = tf.image.convert_image_dtype(parameter_0,dtype=dtype,saturate=saturate,parameter_1)
+		arg_class = tf.image.convert_image_dtype(parameter_0,dtype=dtype,saturate=saturate)
 	except Exception as e:
 		exception_type, exception_object, exception_traceback = sys.exc_info()
 		line_number = str(exception_traceback.tb_lineno)

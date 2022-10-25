@@ -21,20 +21,7 @@ def TestOneInput(data):
 		parameter_0_tensor = tf.identity(parameter_0_tensor)
 		parameter_0_choices.append(parameter_0_tensor)
 		parameter_0 = parameter_0_choices[0]
-		parameter_1_choices = []
-		# Tensor generation for parameter_1
-		parameter_1_DTYPES = [tf.int32]
-		int_list = fh.get_int_list(min_length=2,max_length=2)
-		min_Val = min(int_list) - 1
-		max_Val = max(int_list)
-		if min_Val % 2 == 0:
-			parameter_1_tensor = fh.get_random_numeric_tensor(dtype=fh.get_tf_dtype(allowed_set=parameter_1_DTYPES))
-		else:
-			parameter_1_tensor = fh.get_random_numeric_tensor(min_val = min_Val, max_val = max_Val, dtype=fh.get_tf_dtype(allowed_set=parameter_1_DTYPES))
-		parameter_1_tensor = tf.identity(parameter_1_tensor)
-		parameter_1_choices.append(parameter_1_tensor)
-		parameter_1 = parameter_1_choices[0]
-		arg_class = tf.less_equal(parameter_0,parameter_1)
+		arg_class = tf.less_equal(parameter_0)
 	except Exception as e:
 		exception_type, exception_object, exception_traceback = sys.exc_info()
 		line_number = str(exception_traceback.tb_lineno)

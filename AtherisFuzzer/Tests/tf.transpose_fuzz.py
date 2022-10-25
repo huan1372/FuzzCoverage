@@ -31,11 +31,7 @@ def TestOneInput(data):
 		conjugate_BOOL = fh.get_bool()
 		conjugate_choices.append(conjugate_BOOL)
 		conjugate = conjugate_choices[0]
-		parameter_1_choices = []
-		parameter_1_LIST = fh.get_int_list(min_length=3, max_length=4)
-		parameter_1_choices.append(parameter_1_LIST)
-		parameter_1 = parameter_1_choices[0]
-		arg_class = tf.transpose(parameter_0,perm=perm,conjugate=conjugate,parameter_1)
+		arg_class = tf.transpose(parameter_0,perm=perm,conjugate=conjugate)
 	except Exception as e:
 		exception_type, exception_object, exception_traceback = sys.exc_info()
 		line_number = str(exception_traceback.tb_lineno)

@@ -1,3 +1,4 @@
+from ast import arg
 from logging import raiseExceptions
 from unittest import case
 import pymongo
@@ -72,6 +73,8 @@ def add_STR(record,current_type,argname,str_val):
 
 def process_type(argname,type_info,record):
     # Raw type
+    if argname.startswith("parameter") and argname != "parameter:0":
+        return record
     if argname not in record.keys():
         record[argname] = []
     current_type = [str(i) for i in record[argname]]

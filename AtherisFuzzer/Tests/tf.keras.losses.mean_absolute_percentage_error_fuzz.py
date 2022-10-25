@@ -10,9 +10,7 @@ def TestOneInput(data):
 	try:
 		parameter_0_choices = []
 		parameter_0 = parameter_0_choices[fh.get_int()%0]
-		parameter_1_choices = []
-		parameter_1 = parameter_1_choices[fh.get_int()%0]
-		arg_class = tf.keras.losses.mean_absolute_percentage_error(parameter_0,parameter_1)
+		arg_class = tf.keras.losses.mean_absolute_percentage_error(parameter_0)
 	except Exception as e:
 		exception_type, exception_object, exception_traceback = sys.exc_info()
 		line_number = str(exception_traceback.tb_lineno)

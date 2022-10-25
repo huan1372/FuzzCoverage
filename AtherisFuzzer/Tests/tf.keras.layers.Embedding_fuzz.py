@@ -12,10 +12,6 @@ def TestOneInput(data):
 		parameter_0_INT = fh.get_int()
 		parameter_0_choices.append(parameter_0_INT)
 		parameter_0 = parameter_0_choices[0]
-		parameter_1_choices = []
-		parameter_1_INT = fh.get_int()
-		parameter_1_choices.append(parameter_1_INT)
-		parameter_1 = parameter_1_choices[0]
 		input_length_choices = []
 		input_length_INT = fh.get_int()
 		input_length_choices.append(input_length_INT)
@@ -33,7 +29,7 @@ def TestOneInput(data):
 		input_dim_choices.append(input_dim_INT)
 		input_dim = input_dim_choices[0]
 		name_choices = []
-		name_STR_strlist = ['embedding_1', 'embedding', 'embedding_3', 'embedding_2'] 
+		name_STR_strlist = ['embedding', 'embedding_2', 'embedding_1', 'embedding_3'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]
@@ -71,7 +67,7 @@ def TestOneInput(data):
 		mask_zero_BOOL = fh.get_bool()
 		mask_zero_choices.append(mask_zero_BOOL)
 		mask_zero = mask_zero_choices[0]
-		arg_class = tf.keras.layers.Embedding(parameter_0,parameter_1,input_length=input_length,output_dim=output_dim,input_dim=input_dim,name=name,trainable=trainable,batch_input_shape=batch_input_shape,dtype=dtype,embeddings_initializer=embeddings_initializer,embeddings_regularizer=embeddings_regularizer,activity_regularizer=activity_regularizer,embeddings_constraint=embeddings_constraint,mask_zero=mask_zero)
+		arg_class = tf.keras.layers.Embedding(parameter_0,input_length=input_length,output_dim=output_dim,input_dim=input_dim,name=name,trainable=trainable,batch_input_shape=batch_input_shape,dtype=dtype,embeddings_initializer=embeddings_initializer,embeddings_regularizer=embeddings_regularizer,activity_regularizer=activity_regularizer,embeddings_constraint=embeddings_constraint,mask_zero=mask_zero)
 	except Exception as e:
 		exception_type, exception_object, exception_traceback = sys.exc_info()
 		line_number = str(exception_traceback.tb_lineno)

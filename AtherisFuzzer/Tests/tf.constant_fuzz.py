@@ -22,12 +22,7 @@ def TestOneInput(data):
 		dtype_DTYPE = eval(dtype_DTYPE_dtypelist[fh.get_int(min_int=0, max_int=len(dtype_DTYPE_dtypelist)-1)])
 		dtype_choices.append(dtype_DTYPE)
 		dtype = dtype_choices[0]
-		parameter_1_choices = []
-		parameter_1_DTYPE_dtypelist = ['tf.int32'] 
-		parameter_1_DTYPE = eval(parameter_1_DTYPE_dtypelist[fh.get_int(min_int=0, max_int=len(parameter_1_DTYPE_dtypelist)-1)])
-		parameter_1_choices.append(parameter_1_DTYPE)
-		parameter_1 = parameter_1_choices[0]
-		arg_class = tf.constant(parameter_0,dtype=dtype,parameter_1)
+		arg_class = tf.constant(parameter_0,dtype=dtype)
 	except Exception as e:
 		exception_type, exception_object, exception_traceback = sys.exc_info()
 		line_number = str(exception_traceback.tb_lineno)

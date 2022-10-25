@@ -21,13 +21,7 @@ def TestOneInput(data):
 		parameter_0_tensor = tf.identity(parameter_0_tensor)
 		parameter_0_choices.append(parameter_0_tensor)
 		parameter_0 = parameter_0_choices[0]
-		parameter_1_choices = []
-		parameter_1_FLOAT = fh.get_float()
-		parameter_1_choices.append(parameter_1_FLOAT)
-		parameter_1_INT = fh.get_int()
-		parameter_1_choices.append(parameter_1_INT)
-		parameter_1 = parameter_1_choices[fh.get_int()%2]
-		arg_class = tf.pow(parameter_0,parameter_1)
+		arg_class = tf.pow(parameter_0)
 	except Exception as e:
 		exception_type, exception_object, exception_traceback = sys.exc_info()
 		line_number = str(exception_traceback.tb_lineno)

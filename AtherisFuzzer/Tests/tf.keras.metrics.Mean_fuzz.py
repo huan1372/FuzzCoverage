@@ -9,14 +9,14 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.keras.metrics.Mean_exception.txt","a")
 	try:
 		name_choices = []
-		name_STR_strlist = ['my_mean_tensor', 'squared_hinge', 'mean_absolute_error', 'mean_absolute_percentage_error', 'my_mean', 'poisson', 'top_k_categorical_accuracy', 'max', 'min', 'mean_squared_logarithmic_error', 'mean_squared_error'] 
+		name_STR_strlist = ['mean_absolute_percentage_error', 'min', 'mean_absolute_error', 'max', 'mean_squared_error', 'poisson', 'mean_squared_logarithmic_error', 'top_k_categorical_accuracy', 'squared_hinge', 'my_mean_tensor', 'my_mean'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name_None = None
 		name_choices.append(name_None)
 		name = name_choices[fh.get_int()%2]
 		dtype_choices = []
-		dtype_DTYPE_dtypelist = ['tf.float32', 'tf.float64'] 
+		dtype_DTYPE_dtypelist = ['tf.float64', 'tf.float32'] 
 		dtype_DTYPE = eval(dtype_DTYPE_dtypelist[fh.get_int(min_int=0, max_int=len(dtype_DTYPE_dtypelist)-1)])
 		dtype_choices.append(dtype_DTYPE)
 		dtype_None = None
