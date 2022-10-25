@@ -40,4 +40,7 @@ tensorflow/python/ops/variables.py                              -16         157 
 tensorflow/python/profiler/trace.py                             -2          180 ,183                                                                                                                                                                                                      77-81 ,85 ,118-119 ,122-123 ,169-174 ,181-182                                                         
 tensorflow/python/util/lock_util.py                             -4          65 ,67-71                                                                                                                                                                                                     66 ,82-83 ,87-93 ,97-103 ,106 ,110-111 ,122-123 ,126 ,129-130                                         
 tensorflow/python/util/object_identity.py                       -1          182                                                                                                                                                                                                           33 ,37 ,40-41 ,44-45 ,48-49 ,52-55 ,58 ,64 ,67 ,75 ,79 ,115 ,129 ,132 ,135 ,138 ,141 ,144 ,147-148 ,151 ,160 ,164 ,167-173 ,186-188 ,191 ,194 ,197 ,200 ,203 ,206 ,209 ,212 ,216 ,219-221 ,230 ,234 ,237-243
+
 TOTAL DIFFERENCE in LINES: -723
+TOTAL Coverage for Atheris for API(tf.custom_gradient) in LINES: 68832
+TOTAL Coverage for FreeFuzz for API(tf.custom_gradient) in LINES: 69555
