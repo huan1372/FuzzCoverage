@@ -167,7 +167,7 @@ class Fuzzer_Generator():
 
 
 def run_all(DB):
-    with open('/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/api_list.txt') as f:
+    with open('/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/random_api_list_50.txt') as f:
         for i in f.readlines():
             api_name = i.rstrip()
             print(api_name)
@@ -204,8 +204,8 @@ if __name__ == "__main__":
     #api_name = "tf.keras.layers.Dense"
     DB = pymongo.MongoClient(host, port)["freefuzz-tf"]
     API_Info = {}
-    #run_all(DB)
-    run_single(api_name=api_name,DB=DB)
+    run_all(DB)
+    #run_single(api_name=api_name,DB=DB)
     # find_api_list(DB)print(argument)
     # fuzzer_generator.run_code()
     #fuzzer_generator.compare_difference()

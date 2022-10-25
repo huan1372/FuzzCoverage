@@ -14,7 +14,7 @@ TIME_LOW_KEY = "time_low"
 TIME_HIGH_KEY = "time_high"
 
 # ! Directory of FreeFuzz Tests
-current_dir = "../src/tf-output-ex/"
+current_dir = "/home/usr/FreeFuzz/src/tf-output-random50/crash-oracle/success"
 
 import argparse
 import os
@@ -89,7 +89,7 @@ results[ERR_LOW_KEY] = None"""
     f.close()
     print("Number of tests: ",end="")
     print(number_test)
-    os.system("python3 -m coverage report --include=/usr/local/lib/python3.8/dist-packages/tensorflow/*.py > " + "./FreeFuzz/Results/" + name +".coverage")
+    os.system("python3 -m coverage report -m --include=/usr/local/lib/python3.8/dist-packages/tensorflow/*.py > " + "/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/FreeFuzzCovReport/" + name +".coverage")
     t2 = time.time()
     print("Total time is: ",end="")
     print(t2-t1)

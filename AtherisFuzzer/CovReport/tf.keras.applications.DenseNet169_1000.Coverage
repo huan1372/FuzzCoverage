@@ -1,0 +1,12 @@
+Name                                                                              Stmts   Miss  Cover
+-----------------------------------------------------------------------------------------------------
+/usr/local/lib/python3.8/dist-packages/tensorflow/__init__.py                       403    394     2%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/__init__.py                 90     83     8%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/eager/__init__.py            0      0   100%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/eager/context.py          1231   1221     1%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/platform/__init__.py         0      0   100%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/platform/build_info.py       3      0   100%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/platform/self_check.py      21     11    48%
+/usr/local/lib/python3.8/dist-packages/tensorflow/python/pywrap_tensorflow.py        33      9    73%
+-----------------------------------------------------------------------------------------------------
+TOTAL                                                                              1781   1718     4%

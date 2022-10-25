@@ -9,7 +9,7 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.keras.layers.SimpleRNN_exception.txt","a")
 	try:
 		name_choices = []
-		name_STR_strlist = ['simple_rnn_2', 'simple_rnn', 'simple_rnn_1'] 
+		name_STR_strlist = ['simple_rnn_1', 'simple_rnn', 'simple_rnn_2'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]
@@ -22,7 +22,7 @@ def TestOneInput(data):
 		batch_input_shape_choices.append(batch_input_shape_LIST)
 		batch_input_shape = batch_input_shape_choices[0]
 		dtype_choices = []
-		dtype_STR_strlist = ['float64', 'float32'] 
+		dtype_STR_strlist = ['float32', 'float64'] 
 		dtype_STR = dtype_STR_strlist[fh.get_int(min_int=0, max_int=len(dtype_STR_strlist)-1)]
 		dtype_choices.append(dtype_STR)
 		dtype = dtype_choices[0]
@@ -64,12 +64,12 @@ def TestOneInput(data):
 		use_bias_choices.append(use_bias_BOOL)
 		use_bias = use_bias_choices[0]
 		kernel_initializer_choices = []
-		kernel_initializer_STR_strlist = ['ones', 'GlorotUniform'] 
+		kernel_initializer_STR_strlist = ['GlorotUniform', 'ones'] 
 		kernel_initializer_STR = kernel_initializer_STR_strlist[fh.get_int(min_int=0, max_int=len(kernel_initializer_STR_strlist)-1)]
 		kernel_initializer_choices.append(kernel_initializer_STR)
 		kernel_initializer = kernel_initializer_choices[0]
 		recurrent_initializer_choices = []
-		recurrent_initializer_STR_strlist = ['zeros', 'Orthogonal'] 
+		recurrent_initializer_STR_strlist = ['Orthogonal', 'zeros'] 
 		recurrent_initializer_STR = recurrent_initializer_STR_strlist[fh.get_int(min_int=0, max_int=len(recurrent_initializer_STR_strlist)-1)]
 		recurrent_initializer_choices.append(recurrent_initializer_STR)
 		recurrent_initializer = recurrent_initializer_choices[0]

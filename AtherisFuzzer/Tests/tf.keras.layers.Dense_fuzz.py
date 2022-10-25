@@ -17,7 +17,7 @@ def TestOneInput(data):
 		input_dim_choices.append(input_dim_INT)
 		input_dim = input_dim_choices[0]
 		kernel_initializer_choices = []
-		kernel_initializer_STR_strlist = ['ones', 'VarianceScaling', 'glorot_normal', 'GlorotUniform'] 
+		kernel_initializer_STR_strlist = ['ones', 'VarianceScaling', 'GlorotUniform', 'glorot_normal'] 
 		kernel_initializer_STR = kernel_initializer_STR_strlist[fh.get_int(min_int=0, max_int=len(kernel_initializer_STR_strlist)-1)]
 		kernel_initializer_choices.append(kernel_initializer_STR)
 		kernel_initializer_None = None
@@ -34,7 +34,7 @@ def TestOneInput(data):
 		kernel_regularizer_choices.append(kernel_regularizer_None)
 		kernel_regularizer = kernel_regularizer_choices[fh.get_int()%2]
 		activation_choices = []
-		activation_STR_strlist = ['sigmoid', 'softplus', 'relu', 'linear', 'tanh', 'softmax'] 
+		activation_STR_strlist = ['sigmoid', 'tanh', 'linear', 'relu', 'softplus', 'softmax'] 
 		activation_STR = activation_STR_strlist[fh.get_int(min_int=0, max_int=len(activation_STR_strlist)-1)]
 		activation_choices.append(activation_STR)
 		activation_None = None
@@ -52,7 +52,7 @@ def TestOneInput(data):
 		input_shape_choices.append(input_shape_LIST)
 		input_shape = input_shape_choices[0]
 		name_choices = []
-		name_STR_strlist = ['predictions', 'dense', 'dense_1', 'dense_2', 'dense_3', 'out'] 
+		name_STR_strlist = ['dense_2', 'dense_3', 'dense', 'predictions', 'out', 'dense_1'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name_None = None

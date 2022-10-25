@@ -92,13 +92,13 @@ def run_Atheris(func):
         print(file)
         if file.startswith(func) and file.endswith("_fuzz.py"):
             os.system("python3 -m coverage run -L --source=/usr/local/lib/python3.8/dist-packages/tensorflow " + Atheris_fuzzer_dir + file + " -atheris_runs=10000")
-            os.system("python3 -m coverage report --include=/usr/local/lib/python3.8/dist-packages/tensorflow/*.py > " + "./Atheris/Results/" + func + "_1000.Coverage")
+            os.system("python3 -m coverage report -m --include=/usr/local/lib/python3.8/dist-packages/tensorflow/*.py > " + "./Atheris/Results/" + func + "_1000.Coverage")
             break
 def run_all_Atheris():
     for file in os.listdir(Atheris_fuzzer_dir):
         if file.startswith(func) and file.endswith("_fuzz.py"):
             os.system("python3 -m coverage run -L --source=/usr/local/lib/python3.8/dist-packages/tensorflow " + Atheris_fuzzer_dir + file + " -atheris_runs=20000")
-            os.system("python3 -m coverage report --include=/usr/local/lib/python3.8/dist-packages/tensorflow/*.py > " + "./Atheris/Results/" + func + "_1000.Coverage")
+            os.system("python3 -m coverage report -m --include=/usr/local/lib/python3.8/dist-packages/tensorflow/*.py > " + "./Atheris/Results/" + func + "_1000.Coverage")
             break
 def main():
     parser = init_parser()
@@ -113,5 +113,5 @@ def main():
     if args.genreport:
         generate_report()
 
-if __name__ == "__main__": 
+if __name__ == "__main__":
     main()
