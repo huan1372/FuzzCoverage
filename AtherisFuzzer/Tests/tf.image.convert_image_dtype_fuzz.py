@@ -12,7 +12,7 @@ def TestOneInput(data):
 		parameter_0_LIST = fh.get_int_list(min_length=2, max_length=2)
 		parameter_0_choices.append(parameter_0_LIST)
 		# Tensor generation for parameter_0
-		parameter_0_DTYPES = [tf.uint8]
+		parameter_0_DTYPES = [tf.bfloat16, tf.bool, tf.complex128, tf.complex64, tf.float64, tf.float16, tf.float32, tf.float64, tf.float16, tf.int16, tf.int32, tf.int64, tf.int8, tf.uint8, tf.uint16, tf.uint32, tf.uint64]
 		int_list = fh.get_int_list(min_length=2,max_length=2)
 		min_Val = min(int_list) - 1
 		max_Val = max(int_list)
@@ -24,7 +24,7 @@ def TestOneInput(data):
 		parameter_0_choices.append(parameter_0_tensor)
 		parameter_0 = parameter_0_choices[fh.get_int()%2]
 		dtype_choices = []
-		dtype_DTYPE_dtypelist = ['tf.float16'] 
+		dtype_DTYPE_dtypelist = ['', 'valid', 'tf.float16', 'sum', 'same', '1', 'zeros'] 
 		dtype_DTYPE = eval(dtype_DTYPE_dtypelist[fh.get_int(min_int=0, max_int=len(dtype_DTYPE_dtypelist)-1)])
 		dtype_choices.append(dtype_DTYPE)
 		dtype = dtype_choices[0]

@@ -9,25 +9,25 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.keras.metrics.Mean_exception.txt","a")
 	try:
 		name_choices = []
-		name_STR_strlist = ['mean_absolute_percentage_error', 'min', 'mean_absolute_error', 'max', 'mean_squared_error', 'poisson', 'mean_squared_logarithmic_error', 'top_k_categorical_accuracy', 'squared_hinge', 'my_mean_tensor', 'my_mean'] 
+		name_STR_strlist = ['', 'top_k_categorical_accuracy', 'same', 'mean_absolute_error', '1', 'max', 'mean_squared_error', 'poisson', 'sum', 'zeros', 'min', 'squared_hinge', 'my_mean_tensor', 'my_mean', 'mean_absolute_percentage_error', 'valid', 'mean_squared_logarithmic_error'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name_None = None
 		name_choices.append(name_None)
 		name = name_choices[fh.get_int()%2]
 		dtype_choices = []
-		dtype_DTYPE_dtypelist = ['tf.float64', 'tf.float32'] 
+		dtype_DTYPE_dtypelist = ['', '1', 'sum', 'tf.float32', 'zeros', 'tf.float64', 'same', 'valid'] 
 		dtype_DTYPE = eval(dtype_DTYPE_dtypelist[fh.get_int(min_int=0, max_int=len(dtype_DTYPE_dtypelist)-1)])
 		dtype_choices.append(dtype_DTYPE)
 		dtype_None = None
 		dtype_choices.append(dtype_None)
 		dtype = dtype_choices[fh.get_int()%2]
 		parameter_0_choices = []
-		parameter_0_STR_strlist = ['root_mean_squared_error'] 
+		parameter_0_STR_strlist = ['', 'root_mean_squared_error', '1', 'sum', 'zeros', 'same', 'valid'] 
 		parameter_0_STR = parameter_0_STR_strlist[fh.get_int(min_int=0, max_int=len(parameter_0_STR_strlist)-1)]
 		parameter_0_choices.append(parameter_0_STR)
 		parameter_0 = parameter_0_choices[0]
-		arg_class = tf.keras.metrics.Mean(name=name,dtype=dtype,parameter_0)
+		arg_class = tf.keras.metrics.Mean(parameter_0,name=name,dtype=dtype,)
 	except Exception as e:
 		exception_type, exception_object, exception_traceback = sys.exc_info()
 		line_number = str(exception_traceback.tb_lineno)

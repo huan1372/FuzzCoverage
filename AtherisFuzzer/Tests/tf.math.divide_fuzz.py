@@ -12,7 +12,7 @@ def TestOneInput(data):
 		parameter_0_INT = fh.get_int()
 		parameter_0_choices.append(parameter_0_INT)
 		parameter_0 = parameter_0_choices[0]
-		arg_class = tf.math.divide(parameter_0)
+		arg_class = tf.math.divide(parameter_0,)
 	except Exception as e:
 		exception_type, exception_object, exception_traceback = sys.exc_info()
 		line_number = str(exception_traceback.tb_lineno)

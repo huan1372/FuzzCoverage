@@ -1,9 +1,6 @@
-from distutils import file_util
-from operator import imod
-from re import A
-from symbol import parameters
 import sys
 import pymongo
+import tensorflow as tf
 
 sys.path.insert(1, '/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/')
 from DataProcess.Data_Process import find_api_info
@@ -11,6 +8,7 @@ from utils.writer import Write_Code
 from utils.run_Atheris import run_Atheris
 from Generator.ArgTF import Argument
 from Generator.ArgCode import ArgType
+from utils.Results_Compare import compare_api,Filter_Exception
 
 class Fuzzer_Generator():
     output_folder = "/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/"
@@ -54,12 +52,7 @@ class Fuzzer_Generator():
         """
         if len(_DTYPES)!=0:
             self.code += "\t\t# Tensor generation for " + parameter +"\n"
-            self.code += "\t\t" + parameter + "_DTYPES = ["
-            for i in range(len(_DTYPES)):
-                self.code += _DTYPES[i]
-                if i != len(_DTYPES) - 1:
-                    self.code += ","
-            self.code +="]\n"
+            self.code += "\t\t" + parameter + "_DTYPES = " + str(_DTYPES) + "\n"
             self.code += "\t\tint_list = fh.get_int_list(min_length=2,max_length=2)\n"
             self.code += "\t\tmin_Val = min(int_list) - 1\n"
             self.code += "\t\tmax_Val = max(int_list)\n"
@@ -92,7 +85,11 @@ class Fuzzer_Generator():
                     Fuzzer_Generator.number_choices +=1
                 else:
                     raise Exception("Code generation not implemented for {}".format(argument.get_type()))
-            self.generate_tensor_code(_DTYPES,parameter)
+            #! FUZZING WITHOUT RESTRICT
+            _TF_ACCEPT_DTYPES = [tf.bfloat16, tf.bool, tf.complex128, tf.complex64, tf.double, tf.float16, tf.float32, tf.float64, tf.half,tf.int16, tf.int32, tf.int64, tf.int8,tf.uint8, tf.uint16, tf.uint32, tf.uint64]
+            if len(_DTYPES) != 0:
+                self.generate_tensor_code(_TF_ACCEPT_DTYPES,parameter)
+            #self.generate_tensor_code(_DTYPES,parameter)
             if  Fuzzer_Generator.number_choices == 1:
                 self.code += "\t\t" + parameter + " = " + parameter + "_choices[0]\n"
             else:
@@ -169,7 +166,7 @@ class Fuzzer_Generator():
 
 
 def run_all(DB):
-    with open('/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/random_api_list_50_remain.txt') as f:
+    with open('/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/random_api_list_50.txt') as f:
         for i in f.readlines():
             api_name = i.rstrip()
             print(api_name)
@@ -178,6 +175,8 @@ def run_all(DB):
             code = fuzzer_generator.generate_code()
             fuzzer_generator.write_fuzzer()
             fuzzer_generator.run_code()
+            compare_api(api_name)
+            Filter_Exception(api_name)
 
 def print_dict(x):
     for key,value in x.items():
@@ -193,12 +192,14 @@ def run_single(api_name,DB):
     code = fuzzer_generator.generate_code()
     fuzzer_generator.write_fuzzer()
     fuzzer_generator.run_code()
+    compare_api(api_name)
+    Filter_Exception(api_name)
 
 if __name__ == "__main__":
     # database configuration
     host = "127.0.0.1"
     port = 27017
-    api_name = "tf.keras.layers.SimpleRNN"
+    api_name = "tf.compat.as_bytes"
     #api_name = "tf.keras.layers.PReLU"
     #api_name = "tf.dtypes.cast"
     #api_name = "tf.keras.layers.Conv1D"

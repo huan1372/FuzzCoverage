@@ -1,6 +1,6 @@
 Atheris_dir = "/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/CovReport/"
 FreeFuzz_dir = "/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/FreeFuzzCovReport/"
-
+Atheris_E_dir = "/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/"
 def Find_all_line(ListR:list):
     Line_number = []
     for i in ListR:
@@ -97,6 +97,15 @@ def Compare_Result(api_name,Atheris_dir,FreeFuzz_dir,output_dir="/home/usr/FreeF
     FreeFuzz_f.close()
     return
 
+def Filter_Exception(api_name,Atheris_dir=Atheris_E_dir):
+    Atheris_f = open(Atheris_dir+api_name+"_exception.txt","r+")
+    content = set(Atheris_f.readlines())
+    Atheris_f.seek(0)                        # <- This is the missing piece
+    Atheris_f.truncate()
+    for i in sorted(content):
+        Atheris_f.write(i)
+    Atheris_f.close()
+
 def merge_result(file1,file2,out_f):
     results = []
     f1 = open(file1,"r")
@@ -117,11 +126,18 @@ def merge_result(file1,file2,out_f):
             else:
                 f3.write(f1_content[i])
     return results
-def main():
-    with open("/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/random_api_list_50.txt") as f:
+
+def Compare_all_file(filename):
+    with open(filename) as f:
         for line in f.readlines():
             api_name = line.strip("\n")
             Compare_Result(api_name,Atheris_dir=Atheris_dir,FreeFuzz_dir=FreeFuzz_dir)
+
+def compare_api(api_name):
+    Compare_Result(api_name,Atheris_dir=Atheris_dir,FreeFuzz_dir=FreeFuzz_dir)
+
+def main():
+    Compare_all_file("/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/random_api_list_50.txt")
 
 if __name__ == "__main__":
     main()

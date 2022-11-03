@@ -21,7 +21,7 @@ def TestOneInput(data):
 		parameter_0_tensor = tf.identity(parameter_0_tensor)
 		parameter_0_choices.append(parameter_0_tensor)
 		parameter_0 = parameter_0_choices[0]
-		arg_class = tf.math.logical_xor(parameter_0)
+		arg_class = tf.math.logical_xor(parameter_0,)
 	except Exception as e:
 		exception_type, exception_object, exception_traceback = sys.exc_info()
 		line_number = str(exception_traceback.tb_lineno)

@@ -181,6 +181,9 @@ def process_type(argname,type_info,record):
         if type_info["type"] == "<class 'NoneType'>":
             if str(TFArgument(type=ArgType.NULL)) not in current_type:
                 record[argname].append(TFArgument(type=ArgType.NULL))
+        else:
+            if str(TFArgument(type=ArgType.NULL)) not in current_type:
+                record[argname].append(TFArgument(type=ArgType.NULL))
     return record
 
 def find_api_info(DB,api_name):

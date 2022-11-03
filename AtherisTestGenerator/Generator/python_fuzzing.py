@@ -214,6 +214,8 @@ class FuzzingHelper(object):
     elif dtype in _TF_RANDOM_DTYPES:
       return tf.random.uniform(
         shape=shape, minval=min_val, maxval=max_val, dtype=dtype, seed=seed)
+    elif dtype == tf.bool:
+      return tf.cast(tf.random.uniform(shape=shape, minval=0, maxval=2, dtype=tf.int32), dtype=tf.bool)
     elif dtype in _TF_COMPLEX_DTYPES:
       if dtype == tf.complex64:
         return tf.complex(tf.random.uniform(shape=shape, minval=min_val, maxval=max_val, dtype=tf.float32, seed=seed),
@@ -222,7 +224,8 @@ class FuzzingHelper(object):
         return tf.complex(tf.random.uniform(shape=shape, minval=min_val, maxval=max_val, dtype=tf.float64, seed=seed),
                           tf.random.uniform(shape=shape, minval=min_val, maxval=max_val, dtype=tf.float64, seed=seed))
     else:
-      raise tf.errors.InvalidArgumentError(
-          None, None,
-          'Given dtype {} is not accepted in get_random_numeric_tensor currently'.format(
-              dtype))
+      return tf.saturate_cast(tf.random.uniform(shape=shape, minval=min_val, maxval=max_val, dtype=tf.int64), dtype=dtype)
+      # raise tf.errors.InvalidArgumentError(
+      #     None, None,
+      #     'Given dtype {} is not accepted in get_random_numeric_tensor currently'.format(
+      #         dtype))

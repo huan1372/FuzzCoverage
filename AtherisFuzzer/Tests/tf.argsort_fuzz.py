@@ -10,7 +10,7 @@ def TestOneInput(data):
 	try:
 		parameter_0_choices = []
 		# Tensor generation for parameter_0
-		parameter_0_DTYPES = [tf.float32]
+		parameter_0_DTYPES = [tf.bfloat16, tf.bool, tf.complex128, tf.complex64, tf.float64, tf.float16, tf.float32, tf.float64, tf.float16, tf.int16, tf.int32, tf.int64, tf.int8, tf.uint8, tf.uint16, tf.uint32, tf.uint64]
 		int_list = fh.get_int_list(min_length=2,max_length=2)
 		min_Val = min(int_list) - 1
 		max_Val = max(int_list)
@@ -22,7 +22,7 @@ def TestOneInput(data):
 		parameter_0_choices.append(parameter_0_tensor)
 		parameter_0 = parameter_0_choices[0]
 		direction_choices = []
-		direction_STR_strlist = ['DESCENDING'] 
+		direction_STR_strlist = ['', 'valid', 'sum', 'same', 'DESCENDING', '1', 'zeros'] 
 		direction_STR = direction_STR_strlist[fh.get_int(min_int=0, max_int=len(direction_STR_strlist)-1)]
 		direction_choices.append(direction_STR)
 		direction = direction_choices[0]

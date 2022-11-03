@@ -9,7 +9,7 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.keras.layers.SimpleRNN_exception.txt","a")
 	try:
 		name_choices = []
-		name_STR_strlist = ['simple_rnn', 'simple_rnn_2', 'simple_rnn_1'] 
+		name_STR_strlist = ['', 'simple_rnn_2', 'valid', 'simple_rnn_1', 'sum', 'same', 'simple_rnn', '1', 'zeros'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]
@@ -22,7 +22,7 @@ def TestOneInput(data):
 		batch_input_shape_choices.append(batch_input_shape_LIST)
 		batch_input_shape = batch_input_shape_choices[0]
 		dtype_choices = []
-		dtype_STR_strlist = ['float32', 'float64'] 
+		dtype_STR_strlist = ['', 'float32', 'valid', 'sum', 'same', 'float64', '1', 'zeros'] 
 		dtype_STR = dtype_STR_strlist[fh.get_int(min_int=0, max_int=len(dtype_STR_strlist)-1)]
 		dtype_choices.append(dtype_STR)
 		dtype = dtype_choices[0]
@@ -55,7 +55,7 @@ def TestOneInput(data):
 		units_choices.append(units_INT)
 		units = units_choices[0]
 		activation_choices = []
-		activation_STR_strlist = ['tanh'] 
+		activation_STR_strlist = ['', 'valid', 'sum', 'same', 'tanh', '1', 'zeros'] 
 		activation_STR = activation_STR_strlist[fh.get_int(min_int=0, max_int=len(activation_STR_strlist)-1)]
 		activation_choices.append(activation_STR)
 		activation = activation_choices[0]
@@ -64,17 +64,17 @@ def TestOneInput(data):
 		use_bias_choices.append(use_bias_BOOL)
 		use_bias = use_bias_choices[0]
 		kernel_initializer_choices = []
-		kernel_initializer_STR_strlist = ['ones', 'GlorotUniform'] 
+		kernel_initializer_STR_strlist = ['', 'valid', 'sum', 'same', 'ones', 'GlorotUniform', '1', 'zeros'] 
 		kernel_initializer_STR = kernel_initializer_STR_strlist[fh.get_int(min_int=0, max_int=len(kernel_initializer_STR_strlist)-1)]
 		kernel_initializer_choices.append(kernel_initializer_STR)
 		kernel_initializer = kernel_initializer_choices[0]
 		recurrent_initializer_choices = []
-		recurrent_initializer_STR_strlist = ['zeros', 'Orthogonal'] 
+		recurrent_initializer_STR_strlist = ['', 'valid', 'sum', 'same', 'Orthogonal', '1', 'zeros'] 
 		recurrent_initializer_STR = recurrent_initializer_STR_strlist[fh.get_int(min_int=0, max_int=len(recurrent_initializer_STR_strlist)-1)]
 		recurrent_initializer_choices.append(recurrent_initializer_STR)
 		recurrent_initializer = recurrent_initializer_choices[0]
 		bias_initializer_choices = []
-		bias_initializer_STR_strlist = ['Zeros'] 
+		bias_initializer_STR_strlist = ['', 'valid', 'sum', 'same', 'Zeros', '1', 'zeros'] 
 		bias_initializer_STR = bias_initializer_STR_strlist[fh.get_int(min_int=0, max_int=len(bias_initializer_STR_strlist)-1)]
 		bias_initializer_choices.append(bias_initializer_STR)
 		bias_initializer = bias_initializer_choices[0]

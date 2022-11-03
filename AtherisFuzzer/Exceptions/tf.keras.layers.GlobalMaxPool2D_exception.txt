@@ -1,0 +1,11 @@
+Cannot convert the argument `type_value`: '1' to a TensorFlow DType.34
+Cannot convert the argument `type_value`: 'same' to a TensorFlow DType.34
+Cannot convert the argument `type_value`: 'sum' to a TensorFlow DType.34
+Cannot convert the argument `type_value`: 'valid' to a TensorFlow DType.34
+Cannot convert the argument `type_value`: 'zeros' to a TensorFlow DType.34
+The `data_format` argument must be one of "channels_first", "channels_last". Received: 134
+The `data_format` argument must be one of "channels_first", "channels_last". Received: 34
+The `data_format` argument must be one of "channels_first", "channels_last". Received: same34
+The `data_format` argument must be one of "channels_first", "channels_last". Received: sum34
+The `data_format` argument must be one of "channels_first", "channels_last". Received: valid34
+The `data_format` argument must be one of "channels_first", "channels_last". Received: zeros34

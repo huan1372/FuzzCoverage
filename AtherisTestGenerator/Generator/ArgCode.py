@@ -21,7 +21,7 @@ class Argument:
 
     def __init__(self,type: ArgType,tf_class=""):
         self.type = type
-        self.str_value = []
+        self.str_value = ["", "1", "sum", "same", "valid", "zeros"]
         self.int_list = set()
         self.tf_class = tf_class
 
@@ -57,6 +57,7 @@ class Argument:
             return f"{var_name} = fh.get_bool()\n"
         elif self.type == ArgType.STR:
             strListName = var_name + "_strlist"
+            #strListRadom = var_name + "_strlist_random" + " = fh.get_string(100)\n"
             strListContent = str(self.str_value)
             return f"{strListName} = {strListContent} \n\t\t{var_name} = {strListName}[fh.get_int(min_int=0, max_int=len({strListName})-1)]\n"
         elif self.type == ArgType.LIST:

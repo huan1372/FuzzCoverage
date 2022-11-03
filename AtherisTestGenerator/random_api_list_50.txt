@@ -1,5 +1,4 @@
 tf.argsort
-tf.compat.as_bytes
 tf.constant
 tf.custom_gradient
 tf.image.convert_image_dtype

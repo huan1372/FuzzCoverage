@@ -13,12 +13,12 @@ def TestOneInput(data):
 		parameter_0_choices.append(parameter_0_INT)
 		parameter_0_LIST = fh.get_int_list(min_length=2, max_length=5)
 		parameter_0_choices.append(parameter_0_LIST)
-		parameter_0_STR_strlist = ['palmer 30'] 
+		parameter_0_STR_strlist = ['', 'valid', 'palmer 30', 'sum', 'same', '1', 'zeros'] 
 		parameter_0_STR = parameter_0_STR_strlist[fh.get_int(min_int=0, max_int=len(parameter_0_STR_strlist)-1)]
 		parameter_0_choices.append(parameter_0_STR)
 		parameter_0 = parameter_0_choices[fh.get_int()%3]
 		dtype_choices = []
-		dtype_DTYPE_dtypelist = ['tf.float32'] 
+		dtype_DTYPE_dtypelist = ['', 'valid', 'sum', 'tf.float32', 'same', '1', 'zeros'] 
 		dtype_DTYPE = eval(dtype_DTYPE_dtypelist[fh.get_int(min_int=0, max_int=len(dtype_DTYPE_dtypelist)-1)])
 		dtype_choices.append(dtype_DTYPE)
 		dtype = dtype_choices[0]

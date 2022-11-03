@@ -17,31 +17,31 @@ def TestOneInput(data):
 		input_dim_choices.append(input_dim_INT)
 		input_dim = input_dim_choices[0]
 		kernel_initializer_choices = []
-		kernel_initializer_STR_strlist = ['ones', 'VarianceScaling', 'GlorotUniform', 'glorot_normal'] 
+		kernel_initializer_STR_strlist = ['', 'valid', 'sum', 'same', 'VarianceScaling', 'ones', 'GlorotUniform', '1', 'glorot_normal', 'zeros'] 
 		kernel_initializer_STR = kernel_initializer_STR_strlist[fh.get_int(min_int=0, max_int=len(kernel_initializer_STR_strlist)-1)]
 		kernel_initializer_choices.append(kernel_initializer_STR)
 		kernel_initializer_None = None
 		kernel_initializer_choices.append(kernel_initializer_None)
-		kernel_initializer_TF_OBJECT_tfobjlist = ['TruncatedNormal'] 
+		kernel_initializer_TF_OBJECT_tfobjlist = ['', 'valid', 'sum', 'TruncatedNormal', 'same', '1', 'zeros'] 
 		kernel_initializer_TF_OBJECT = eval("tf.keras.initializers." + {strListName}[fh.get_int(min_int=0, max_int=len({strListName})-1)])
 		kernel_initializer_choices.append(kernel_initializer_TF_OBJECT)
 		kernel_initializer = kernel_initializer_choices[fh.get_int()%3]
 		kernel_regularizer_choices = []
-		kernel_regularizer_STR_strlist = ['l1'] 
+		kernel_regularizer_STR_strlist = ['', 'l1', 'valid', 'sum', 'same', '1', 'zeros'] 
 		kernel_regularizer_STR = kernel_regularizer_STR_strlist[fh.get_int(min_int=0, max_int=len(kernel_regularizer_STR_strlist)-1)]
 		kernel_regularizer_choices.append(kernel_regularizer_STR)
 		kernel_regularizer_None = None
 		kernel_regularizer_choices.append(kernel_regularizer_None)
 		kernel_regularizer = kernel_regularizer_choices[fh.get_int()%2]
 		activation_choices = []
-		activation_STR_strlist = ['relu', 'linear', 'sigmoid', 'softmax', 'softplus', 'tanh'] 
+		activation_STR_strlist = ['', 'valid', 'softplus', 'softmax', 'sum', 'same', 'tanh', 'relu', '1', 'linear', 'zeros', 'sigmoid'] 
 		activation_STR = activation_STR_strlist[fh.get_int(min_int=0, max_int=len(activation_STR_strlist)-1)]
 		activation_choices.append(activation_STR)
 		activation_None = None
 		activation_choices.append(activation_None)
 		activation = activation_choices[fh.get_int()%2]
 		activity_regularizer_choices = []
-		activity_regularizer_STR_strlist = ['l2'] 
+		activity_regularizer_STR_strlist = ['', 'valid', 'sum', 'same', 'l2', '1', 'zeros'] 
 		activity_regularizer_STR = activity_regularizer_STR_strlist[fh.get_int(min_int=0, max_int=len(activity_regularizer_STR_strlist)-1)]
 		activity_regularizer_choices.append(activity_regularizer_STR)
 		activity_regularizer_None = None
@@ -52,7 +52,7 @@ def TestOneInput(data):
 		input_shape_choices.append(input_shape_LIST)
 		input_shape = input_shape_choices[0]
 		name_choices = []
-		name_STR_strlist = ['dense_2', 'predictions', 'out', 'dense_3', 'dense', 'dense_1'] 
+		name_STR_strlist = ['', 'dense', 'valid', 'dense_2', 'predictions', 'sum', 'dense_1', 'same', 'dense_3', '1', 'zeros', 'out'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name_None = None
@@ -67,10 +67,10 @@ def TestOneInput(data):
 		batch_input_shape_choices.append(batch_input_shape_LIST)
 		batch_input_shape = batch_input_shape_choices[0]
 		dtype_choices = []
-		dtype_STR_strlist = ['float32'] 
+		dtype_STR_strlist = ['', 'float32', 'valid', 'sum', 'same', '1', 'zeros'] 
 		dtype_STR = dtype_STR_strlist[fh.get_int(min_int=0, max_int=len(dtype_STR_strlist)-1)]
 		dtype_choices.append(dtype_STR)
-		dtype_DTYPE_dtypelist = ['tf.float64', 'tf.float32'] 
+		dtype_DTYPE_dtypelist = ['', 'valid', 'sum', 'tf.float32', 'same', 'tf.float64', '1', 'zeros'] 
 		dtype_DTYPE = eval(dtype_DTYPE_dtypelist[fh.get_int(min_int=0, max_int=len(dtype_DTYPE_dtypelist)-1)])
 		dtype_choices.append(dtype_DTYPE)
 		dtype = dtype_choices[fh.get_int()%2]
@@ -83,7 +83,7 @@ def TestOneInput(data):
 		use_bias_choices.append(use_bias_BOOL)
 		use_bias = use_bias_choices[0]
 		bias_initializer_choices = []
-		bias_initializer_STR_strlist = ['Zeros'] 
+		bias_initializer_STR_strlist = ['', 'valid', 'sum', 'same', 'Zeros', '1', 'zeros'] 
 		bias_initializer_STR = bias_initializer_STR_strlist[fh.get_int(min_int=0, max_int=len(bias_initializer_STR_strlist)-1)]
 		bias_initializer_choices.append(bias_initializer_STR)
 		bias_initializer = bias_initializer_choices[0]
