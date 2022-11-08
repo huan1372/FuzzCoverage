@@ -1,3 +1,4 @@
+import os
 Atheris_dir = "/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/CovReport/"
 FreeFuzz_dir = "/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/FreeFuzzCovReport/"
 Atheris_E_dir = "/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/"
@@ -137,7 +138,12 @@ def compare_api(api_name):
     Compare_Result(api_name,Atheris_dir=Atheris_dir,FreeFuzz_dir=FreeFuzz_dir)
 
 def main():
-    Compare_all_file("/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/random_api_list_50.txt")
-
+    #Compare_all_file("/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/random_api_list_50.txt")
+    for file in os.listdir(Atheris_E_dir):
+        import re
+        print(file)
+        api_name = file[:-14]
+        print(api_name)
+        Filter_Exception(api_name,Atheris_dir=Atheris_E_dir)
 if __name__ == "__main__":
     main()
