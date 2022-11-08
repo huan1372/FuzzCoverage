@@ -68,6 +68,25 @@ class Fuzzer_Generator():
     def generate_argument_code(self):
         """This function generate argument code based on type information processed in Data_process
         """
+        #! FUZZING WITHOUT RESTRICT
+        _TF_ACCEPT_DTYPES = [tf.bfloat16, tf.bool, tf.complex128, tf.complex64, tf.double, tf.float16, tf.float32, tf.float64, tf.half,tf.int16, tf.int32, tf.int64, tf.int8,tf.uint8, tf.uint16, tf.uint32, tf.uint64]
+        if len(self.argument.keys()) == 1:
+            for key,value in self.argument.items():
+                parameter = key.replace(":","_")
+                if parameter == "parameter_0":
+                    if len(value) == 1:
+                        for argument in value:
+                            argument_type = argument.get_type()
+                            if argument_type == ArgType.NULL:
+                                self.code += "\t\t" + parameter +"_choices"+ " = []\n"
+                                Fuzzer_Generator.number_choices = 0
+                                var_name = parameter + "_" + str(argument)
+                                self.code += "\t\t" + argument.to_code(var_name=var_name)
+                                self.code += "\t\t" + parameter + "_choices" + ".append(" + var_name + ")\n"
+                                Fuzzer_Generator.number_choices +=1
+                                self.generate_tensor_code(_TF_ACCEPT_DTYPES,parameter)
+                                self.code += "\t\t" + parameter + " = " + parameter + "_choices[fh.get_int()%" + str(Fuzzer_Generator.number_choices) + "]\n"
+                                return
         for key,value in self.argument.items():
             _DTYPES = []
             # _DTYPES_2 = ["tf.bfloat16", "tf.float32", "tf.float64", "tf.int32", "tf.int64", "tf.complex64", "tf.complex128"]
@@ -85,8 +104,6 @@ class Fuzzer_Generator():
                     Fuzzer_Generator.number_choices +=1
                 else:
                     raise Exception("Code generation not implemented for {}".format(argument.get_type()))
-            #! FUZZING WITHOUT RESTRICT
-            _TF_ACCEPT_DTYPES = [tf.bfloat16, tf.bool, tf.complex128, tf.complex64, tf.double, tf.float16, tf.float32, tf.float64, tf.half,tf.int16, tf.int32, tf.int64, tf.int8,tf.uint8, tf.uint16, tf.uint32, tf.uint64]
             if len(_DTYPES) != 0:
                 self.generate_tensor_code(_TF_ACCEPT_DTYPES,parameter)
             #self.generate_tensor_code(_DTYPES,parameter)
@@ -199,7 +216,8 @@ if __name__ == "__main__":
     # database configuration
     host = "127.0.0.1"
     port = 27017
-    api_name = "tf.compat.as_bytes"
+    api_name = "tf.custom_gradient"
+    #api_name = "tf.custom_gradient"
     #api_name = "tf.keras.layers.PReLU"
     #api_name = "tf.dtypes.cast"
     #api_name = "tf.keras.layers.Conv1D"
@@ -207,8 +225,8 @@ if __name__ == "__main__":
     #api_name = "tf.keras.layers.Dense"
     DB = pymongo.MongoClient(host, port)["freefuzz-tf"]
     API_Info = {}
-    run_all(DB)
-    #run_single(api_name=api_name,DB=DB)
+    #run_all(DB)
+    run_single(api_name=api_name,DB=DB)
     # find_api_list(DB)print(argument)
     # fuzzer_generator.run_code()
     #fuzzer_generator.compare_difference()
