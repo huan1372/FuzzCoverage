@@ -1,1 +1,5 @@
 __init__() got multiple values for argument 'name'30
+name 'same' is not defined20
+name 'valid' is not defined20
+name 'zeros' is not defined20
+unexpected EOF while parsing (<string>, line 0)20

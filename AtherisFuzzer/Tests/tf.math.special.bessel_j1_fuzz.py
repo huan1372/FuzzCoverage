@@ -12,7 +12,7 @@ def TestOneInput(data):
 		parameter_0_LIST = fh.get_int_list(min_length=4, max_length=4)
 		parameter_0_choices.append(parameter_0_LIST)
 		parameter_0 = parameter_0_choices[0]
-		arg_class = tf.math.special.bessel_j1(parameter_0)
+		arg_class = tf.math.special.bessel_j1(parameter_0,)
 	except Exception as e:
 		exception_type, exception_object, exception_traceback = sys.exc_info()
 		line_number = str(exception_traceback.tb_lineno)

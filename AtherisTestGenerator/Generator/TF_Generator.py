@@ -225,8 +225,8 @@ if __name__ == "__main__":
     #api_name = "tf.keras.layers.Dense"
     DB = pymongo.MongoClient(host, port)["freefuzz-tf"]
     API_Info = {}
-    #run_all(DB)
-    run_single(api_name=api_name,DB=DB)
+    run_all(DB)
+    #run_single(api_name=api_name,DB=DB)
     # find_api_list(DB)print(argument)
     # fuzzer_generator.run_code()
     #fuzzer_generator.compare_difference()

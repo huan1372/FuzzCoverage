@@ -1,0 +1,63 @@
+{{function_node __wrapped__ConjugateTranspose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -4860 is out of range [0 .. 2) [Op:ConjugateTranspose]34
+{{function_node __wrapped__ConjugateTranspose_device_/job:localhost/replica:0/task:0/device:CPU:0}} 80 is out of range [0 .. 2) [Op:ConjugateTranspose]34
+{{function_node __wrapped__ConjugateTranspose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 0. But input(1) is a vector of size 2 [Op:ConjugateTranspose]34
+{{function_node __wrapped__ConjugateTranspose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 0. But input(1) is a vector of size 4 [Op:ConjugateTranspose]34
+{{function_node __wrapped__ConjugateTranspose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 1. But input(1) is a vector of size 2 [Op:ConjugateTranspose]34
+{{function_node __wrapped__ConjugateTranspose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 1. But input(1) is a vector of size 3 [Op:ConjugateTranspose]34
+{{function_node __wrapped__ConjugateTranspose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 2. But input(1) is a vector of size 3 [Op:ConjugateTranspose]34
+{{function_node __wrapped__ConjugateTranspose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 3. But input(1) is a vector of size 2 [Op:ConjugateTranspose]34
+{{function_node __wrapped__ConjugateTranspose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 8. But input(1) is a vector of size 4 [Op:ConjugateTranspose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -10000 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -10000 is out of range [0 .. 4) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -4080 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -4468 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -4732 is out of range [0 .. 3) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -4784 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -4815 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -4841 is out of range [0 .. 3) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -4860 is out of range [0 .. 3) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -4880 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -5170 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -5329 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -5329 is out of range [0 .. 3) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -5362 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -5367 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -5425 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -5631 is out of range [0 .. 4) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -703 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -7443 is out of range [0 .. 3) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -8201 is out of range [0 .. 3) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -8927 is out of range [0 .. 3) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -9063 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -9351 is out of range [0 .. 4) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -9744 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -9899 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -9904 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} -9999 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} 113 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} 1655 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} 4802 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} 6430 is out of range [0 .. 2) [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 0. But input(1) is a vector of size 2 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 0. But input(1) is a vector of size 3 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 0. But input(1) is a vector of size 4 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 1. But input(1) is a vector of size 2 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 1. But input(1) is a vector of size 3 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 1. But input(1) is a vector of size 4 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 2. But input(1) is a vector of size 3 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 2. But input(1) is a vector of size 4 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 3. But input(1) is a vector of size 2 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 3. But input(1) is a vector of size 4 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 4. But input(1) is a vector of size 2 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 4. But input(1) is a vector of size 3 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 5. But input(1) is a vector of size 2 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 5. But input(1) is a vector of size 3 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 5. But input(1) is a vector of size 4 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 6. But input(1) is a vector of size 2 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 6. But input(1) is a vector of size 3 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 6. But input(1) is a vector of size 4 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 7. But input(1) is a vector of size 2 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 7. But input(1) is a vector of size 3 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 7. But input(1) is a vector of size 4 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 8. But input(1) is a vector of size 2 [Op:Transpose]34
+{{function_node __wrapped__Transpose_device_/job:localhost/replica:0/task:0/device:CPU:0}} transpose expects a vector of size 8. But input(1) is a vector of size 4 [Op:Transpose]34

@@ -1,0 +1,5 @@
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"16
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"16
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"16
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"16
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"16

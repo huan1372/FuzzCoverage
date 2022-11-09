@@ -29,7 +29,7 @@ def TestOneInput(data):
 		input_dim_choices.append(input_dim_INT)
 		input_dim = input_dim_choices[0]
 		name_choices = []
-		name_STR_strlist = ['', 'valid', 'sum', 'embedding_3', 'same', 'embedding', 'embedding_2', 'embedding_1', 'zeros', '1'] 
+		name_STR_strlist = ['', 'embedding_2', 'zeros', 'same', '1', 'valid', 'sum', 'embedding', 'embedding_1', 'embedding_3'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]
@@ -42,12 +42,12 @@ def TestOneInput(data):
 		batch_input_shape_choices.append(batch_input_shape_LIST)
 		batch_input_shape = batch_input_shape_choices[0]
 		dtype_choices = []
-		dtype_STR_strlist = ['', 'float32', 'valid', 'sum', 'same', '1', 'zeros'] 
+		dtype_STR_strlist = ['', 'zeros', 'same', '1', 'valid', 'sum', 'float32'] 
 		dtype_STR = dtype_STR_strlist[fh.get_int(min_int=0, max_int=len(dtype_STR_strlist)-1)]
 		dtype_choices.append(dtype_STR)
 		dtype = dtype_choices[0]
 		embeddings_initializer_choices = []
-		embeddings_initializer_STR_strlist = ['', 'valid', 'RandomUniform', 'sum', 'same', '1', 'zeros'] 
+		embeddings_initializer_STR_strlist = ['', 'zeros', 'same', '1', 'valid', 'sum', 'RandomUniform'] 
 		embeddings_initializer_STR = embeddings_initializer_STR_strlist[fh.get_int(min_int=0, max_int=len(embeddings_initializer_STR_strlist)-1)]
 		embeddings_initializer_choices.append(embeddings_initializer_STR)
 		embeddings_initializer = embeddings_initializer_choices[0]

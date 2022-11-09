@@ -1,0 +1,10 @@
+Cannot convert the argument `type_value`: '1' to a TensorFlow DType.50
+Cannot convert the argument `type_value`: 'same' to a TensorFlow DType.50
+Cannot convert the argument `type_value`: 'sum' to a TensorFlow DType.50
+Cannot convert the argument `type_value`: 'valid' to a TensorFlow DType.50
+Cannot convert the argument `type_value`: 'zeros' to a TensorFlow DType.50
+Unknown initializer: . Please ensure this object is passed to the `custom_objects` argument. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.50
+Unknown initializer: 1. Please ensure this object is passed to the `custom_objects` argument. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.50
+Unknown initializer: same. Please ensure this object is passed to the `custom_objects` argument. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.50
+Unknown initializer: sum. Please ensure this object is passed to the `custom_objects` argument. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.50
+Unknown initializer: valid. Please ensure this object is passed to the `custom_objects` argument. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.50

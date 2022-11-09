@@ -9,7 +9,7 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.losses.Poisson_exception.txt","a")
 	try:
 		reduction_choices = []
-		reduction_STR_strlist = ['', '1', 'sum', 'zeros', 'none', 'same', 'valid'] 
+		reduction_STR_strlist = ['', 'zeros', 'same', '1', 'valid', 'sum', 'none'] 
 		reduction_STR = reduction_STR_strlist[fh.get_int(min_int=0, max_int=len(reduction_STR_strlist)-1)]
 		reduction_choices.append(reduction_STR)
 		reduction = reduction_choices[0]
