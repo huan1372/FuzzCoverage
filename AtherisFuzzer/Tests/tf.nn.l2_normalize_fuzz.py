@@ -11,7 +11,11 @@ def TestOneInput(data):
 		parameter_0_choices = []
 		parameter_0 = parameter_0_choices[fh.get_int()%0]
 		axis_choices = []
-		axis_LIST = fh.get_int_list(min_length=3, max_length=3)
+		axis_LIST_intLlist = [[0, 1, 2]] 
+		axis_LIST_intLlist_random = fh.get_int_list(min_length=3, max_length=3,min_int=-255,max_int=255)
+
+		axis_LIST_intLlist.append(axis_LIST_intLlist_random)
+		axis_LIST = axis_LIST_intLlist[fh.get_int(min_int=0, max_int=len(axis_LIST_intLlist)-1)]
 		axis_choices.append(axis_LIST)
 		axis = axis_choices[0]
 		arg_class = tf.nn.l2_normalize(parameter_0,axis=axis)

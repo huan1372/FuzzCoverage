@@ -9,7 +9,11 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.image.convert_image_dtype_exception.txt","a")
 	try:
 		parameter_0_choices = []
-		parameter_0_LIST = fh.get_int_list(min_length=2, max_length=2)
+		parameter_0_LIST_intLlist = [[[[1.0, 2.0, 3.0], [4.0, 5.0, 6.0]], [[7.0, 8.0, 9.0], [10.0, 11.0, 12.0]]]] 
+		parameter_0_LIST_intLlist_random = fh.get_int_list(min_length=2, max_length=2,min_int=-255,max_int=255)
+
+		parameter_0_LIST_intLlist.append(parameter_0_LIST_intLlist_random)
+		parameter_0_LIST = parameter_0_LIST_intLlist[fh.get_int(min_int=0, max_int=len(parameter_0_LIST_intLlist)-1)]
 		parameter_0_choices.append(parameter_0_LIST)
 		# Tensor generation for parameter_0
 		parameter_0_DTYPES = [tf.bfloat16, tf.bool, tf.complex128, tf.complex64, tf.float64, tf.float16, tf.float32, tf.float64, tf.float16, tf.int16, tf.int32, tf.int64, tf.int8, tf.uint8, tf.uint16, tf.uint32, tf.uint64]
@@ -24,7 +28,7 @@ def TestOneInput(data):
 		parameter_0_choices.append(parameter_0_tensor)
 		parameter_0 = parameter_0_choices[fh.get_int()%2]
 		dtype_choices = []
-		dtype_DTYPE_dtypelist = ['', 'zeros', 'same', '1', 'tf.float16', 'valid', 'sum'] 
+		dtype_DTYPE_dtypelist = ['', 'same', 'valid', 'sum', 'tf.float16', 'zeros', '1'] 
 		dtype_DTYPE = eval(dtype_DTYPE_dtypelist[fh.get_int(min_int=0, max_int=len(dtype_DTYPE_dtypelist)-1)])
 		dtype_choices.append(dtype_DTYPE)
 		dtype = dtype_choices[0]

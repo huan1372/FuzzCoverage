@@ -3,12 +3,13 @@ from logging import raiseExceptions
 from unittest import case
 import pymongo
 import numpy as np
+
 #mport configparser
 
 import sys
 import re
 sys.path.insert(1, '/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/')
-
+from DataProcess.DataBase import Database as DB
 from Generator.Types import ArgType
 from Generator.ArgTF import TFArgument
 
@@ -71,6 +72,37 @@ def add_STR(record,current_type,argname,str_val):
         record[argname].append(new_STR)
     return record
 
+def add_int_value_to_record(type_info:int,current_type,argname,record):
+    value = int(float(type_info))
+    if str(TFArgument(ArgType.INT)) not in current_type:
+        new_INT_TYPE = TFArgument(ArgType.INT)
+        new_INT_TYPE.add_list_value(value,possible_list=None)
+        record[argname].append(new_INT_TYPE)
+    else:
+        index = current_type.index(str(TFArgument(ArgType.INT)))
+        record[argname][index].add_list_value(value,possible_list=None)
+    return record
+
+def add_float_value_to_record(type_info:float,current_type,argname,record):
+    if str(TFArgument(ArgType.FLOAT)) not in current_type:
+        new_FLOAT_TYPE = TFArgument(ArgType.FLOAT)
+        new_FLOAT_TYPE.add_list_value(float(type_info),possible_list=None)
+        record[argname].append(new_FLOAT_TYPE)
+    else:
+        index = current_type.index(str(TFArgument(ArgType.FLOAT)))
+        record[argname][index].add_list_value(float(type_info),possible_list=None)
+    return record
+
+def add_int_list_to_record(type_info:list,current_type,argname,record):
+    try:
+        index = current_type.index(str(TFArgument(ArgType.LIST)))
+        record[argname][index].add_list_value(len(type_info),type_info)
+    except ValueError:
+        new_LIST = TFArgument(ArgType.LIST)
+        new_LIST.add_list_value(len(type_info),type_info)
+        record[argname].append(new_LIST)
+    return record
+
 def process_type(argname,type_info,record):
     # Raw type
     if argname.startswith("parameter") and argname != "parameter:0":
@@ -80,33 +112,18 @@ def process_type(argname,type_info,record):
     current_type = [str(i) for i in record[argname]]
     #print(argname,type_info)
     if isinstance(type_info,list):
-        try:
-            index = current_type.index(str(TFArgument(ArgType.LIST)))
-            record[argname][index].add_list_value(len(type_info))
-        except ValueError:
-            new_LIST = TFArgument(ArgType.LIST)
-            new_LIST.add_list_value(len(type_info))
-            record[argname].append(new_LIST)
+        record = add_int_list_to_record(type_info=type_info,current_type=current_type,argname=argname,record=record)
         return record
     if isint(type_info):
-        if str(TFArgument(ArgType.INT)) not in current_type:
-                record[argname].append(TFArgument(ArgType.INT))
+        record = add_int_value_to_record(type_info=type_info,current_type=current_type,argname=argname,record=record)
         return record
     if type_info["Label"] == "raw":
         if isint(type_info["value"]):
-            if str(TFArgument(ArgType.INT)) not in current_type:
-                record[argname].append(TFArgument(ArgType.INT))
+            record = add_int_value_to_record(type_info=type_info["value"],current_type=current_type,argname=argname,record=record)
         elif isfloat(type_info["value"]):
-            if str(TFArgument(ArgType.FLOAT)) not in current_type:
-                record[argname].append(TFArgument(ArgType.FLOAT))
+            record = add_float_value_to_record(type_info=type_info["value"],current_type=current_type,argname=argname,record=record)
         elif isinstance(type_info["value"],list):
-            try:
-                index = current_type.index(str(TFArgument(ArgType.LIST)))
-                record[argname][index].add_list_value(len(type_info["value"]))
-            except ValueError:
-                new_LIST = TFArgument(ArgType.LIST)
-                new_LIST.add_list_value(len(type_info["value"]))
-                record[argname].append(new_LIST)
+            record = add_int_list_to_record(type_info=type_info["value"],current_type=current_type,argname=argname,record=record)
         elif type_info["value"] == "true" or type_info["value"] == "false":
             if str(TFArgument(ArgType.BOOL)) not in current_type:
                 record[argname].append(TFArgument(ArgType.BOOL))
@@ -128,13 +145,12 @@ def process_type(argname,type_info,record):
                 record[argname].append(TFArgument(type=ArgType.TF_TENSOR,dtype=type_info["dtype"]))
         elif type_info["class_name"] == "tensorflow.python.training.tracking.data_structures.ListWrapper":
             length = type_info["to_str"].count(",") + 1
-            try:
-                index = current_type.index(str(TFArgument(ArgType.LIST)))
-                record[argname][index].add_list_value(length)
-            except ValueError:
-                new_LIST = TFArgument(ArgType.LIST)
-                new_LIST.add_list_value(length)
-                record[argname].append(new_LIST)
+            lista = re.search("ListWrapper\(\[([,a-zA-Z0-9_\s-]+)\]\)",type_info["to_str"]).group(1)
+            if length == 1:
+                lista = [int(float(lista))]
+            else:
+                lista = [int(float(i)) for i in lista.split(",")]
+            record = add_int_list_to_record(type_info=lista,current_type=current_type,argname=argname,record=record)
         elif type_info["class_name"] == "tensorflow.python.framework.dtypes.DType":
             str_dtypes = type_info["to_str"]
             #print(str_dtypes)
@@ -187,22 +203,23 @@ def process_type(argname,type_info,record):
     return record
 
 def find_api_info(DB,api_name):
-    if api_name not in DB.list_collection_names():
+    if api_name not in DB.DB.list_collection_names():
         raise Exception("{} is not found in database.".format(api_name))
-    records = DB[api_name].find({}, {"_id": 0})
+    records = DB.DB[api_name].find({}, {"_id": 0})
     results = {}
     for doc in records:
         #print("=============================")
         for key,value in doc.items():
             value_r = value
+            print(api_name,key,value_r)
             if key=="output_signature":
                 continue
             if key=="input_signature":
-                continue
-                # print(value)
-                #value_r = value[0]
-
-            #print(key,value_r)
+                DB.input = True
+                try:
+                    value_r = value[0]
+                except KeyError:
+                    continue
             results = process_type(key,value_r,results)
     return results
 
@@ -211,7 +228,10 @@ if __name__ == "__main__":
     host = "127.0.0.1"
     port = 27017
     api_name = "tf.abs"
-    DB = pymongo.MongoClient(host, port)["freefuzz-tf"]
+    database_name = "freefuzz-tf"
+    #DB = pymongo.MongoClient(host, port)["freefuzz-tf"]
+    DB = DB()
+    DB.database_config( host, port, database_name)
     API_Info = {}
     # find_api_list(DB)
     record = find_api_info(DB,api_name)

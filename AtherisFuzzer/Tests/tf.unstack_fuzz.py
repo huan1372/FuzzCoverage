@@ -22,7 +22,11 @@ def TestOneInput(data):
 		parameter_0_choices.append(parameter_0_tensor)
 		parameter_0 = parameter_0_choices[0]
 		axis_choices = []
-		axis_INT = fh.get_int()
+		axis_INT_intlist = [0] 
+		axis_INT_intlist_random = fh.get_int(min_int=-255,max_int=255)
+
+		axis_INT_intlist.append(axis_INT_intlist_random)
+		axis_INT = axis_INT_intlist[fh.get_int(min_int=0, max_int=len(axis_INT_intlist)-1)]
 		axis_choices.append(axis_INT)
 		axis = axis_choices[0]
 		arg_class = tf.unstack(parameter_0,axis=axis)

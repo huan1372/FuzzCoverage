@@ -4,6 +4,7 @@ import tensorflow as tf
 
 sys.path.insert(1, '/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/')
 from DataProcess.Data_Process import find_api_info
+from DataProcess.DataBase import Database as DB
 from utils.writer import Write_Code
 from utils.run_Atheris import run_Atheris
 from Generator.ArgTF import Argument
@@ -13,10 +14,11 @@ from utils.Results_Compare import compare_api,Filter_Exception
 class Fuzzer_Generator():
     output_folder = "/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/"
     number_choices = 0
-    def __init__(self,argument,func_name):
+    def __init__(self,argument,func_name,DB):
         self.argument = argument
         self.func_name = func_name
         self.code = ""
+        self.DB = DB
 
     def instrumentation_code(self):
         """This is the function to generate the instrumentation of the Fuzzer
@@ -137,7 +139,12 @@ class Fuzzer_Generator():
     def generate_api_input_code(self):
         self.code += "\t\targ_input = [input_signature,]\n"
         self.code += "\t\t_ = arg_class(*arg_input)\n"
-
+    
+    def generate_output_code(self):
+        if self.DB.input == True:
+            print(self.func_name)
+            self.code += "\t\targ_input = [input_signature,]\n"
+            self.code += "\t\tfinal_output = arg_class(*arg_input)\n"
     def fuzz_target_code(self):
         """Function to generate TestOneInput
         """
@@ -147,6 +154,7 @@ class Fuzzer_Generator():
         self.code += "\ttry:\n"
         self.generate_argument_code()
         self.generate_api_call_code()
+        self.generate_output_code()
         # self.code += "\t\t\n"
         self.code += "\texcept Exception as e:\n"
         self.code += "\t\texception_type, exception_object, exception_traceback = sys.exc_info()\n"
@@ -172,7 +180,11 @@ class Fuzzer_Generator():
         else:
             file_path = Fuzzer_Generator.output_folder + "Tests/"
             coverage_path = Fuzzer_Generator.output_folder + "CovReport/"
-            run_Atheris(func_name=self.func_name,file_path=file_path,coverage_path=coverage_path)
+            if len(self.argument.keys()) <= 3:
+                #print("yeah")
+                run_Atheris(func_name=self.func_name,file_path=file_path,coverage_path=coverage_path,atheris_run="2000")
+            else:
+                run_Atheris(func_name=self.func_name,file_path=file_path,coverage_path=coverage_path,atheris_run="10000")
 
     def compare_difference(self):
         import os
@@ -183,17 +195,10 @@ class Fuzzer_Generator():
 
 
 def run_all(DB):
-    with open('/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/random_api_list_50.txt') as f:
+    with open('/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/random_api_list_50_remain.txt') as f:
         for i in f.readlines():
             api_name = i.rstrip()
-            print(api_name)
-            argument = find_api_info(DB,api_name)
-            fuzzer_generator = Fuzzer_Generator(argument=argument,func_name=api_name)
-            code = fuzzer_generator.generate_code()
-            fuzzer_generator.write_fuzzer()
-            fuzzer_generator.run_code()
-            compare_api(api_name)
-            Filter_Exception(api_name)
+            run_single(api_name,DB)
 
 def print_dict(x):
     for key,value in x.items():
@@ -203,9 +208,10 @@ def print_dict(x):
             print(i,end="  ")
         print()
 def run_single(api_name,DB):
+    DB.input = False
     argument = find_api_info(DB,api_name)
     #print_dict(argument)
-    fuzzer_generator = Fuzzer_Generator(argument=argument,func_name=api_name)
+    fuzzer_generator = Fuzzer_Generator(argument=argument,func_name=api_name,DB=DB)
     code = fuzzer_generator.generate_code()
     fuzzer_generator.write_fuzzer()
     fuzzer_generator.run_code()
@@ -214,16 +220,19 @@ def run_single(api_name,DB):
 
 if __name__ == "__main__":
     # database configuration
-    host = "127.0.0.1"
-    port = 27017
-    api_name = "tf.custom_gradient"
     #api_name = "tf.custom_gradient"
     #api_name = "tf.keras.layers.PReLU"
     #api_name = "tf.dtypes.cast"
     #api_name = "tf.keras.layers.Conv1D"
     #api_name = "tf.nest.flatten"
     #api_name = "tf.keras.layers.Dense"
-    DB = pymongo.MongoClient(host, port)["freefuzz-tf"]
+    api_name = "tf.initializers.lecun_uniform"
+    host = "127.0.0.1"
+    port = 27017
+    database_name = "freefuzz-tf"
+    #DB = pymongo.MongoClient(host, port)["freefuzz-tf"]
+    DB = DB()
+    DB.database_config( host, port, database_name)
     API_Info = {}
     run_all(DB)
     #run_single(api_name=api_name,DB=DB)

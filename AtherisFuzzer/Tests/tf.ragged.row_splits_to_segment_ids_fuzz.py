@@ -9,7 +9,11 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.ragged.row_splits_to_segment_ids_exception.txt","a")
 	try:
 		parameter_0_choices = []
-		parameter_0_LIST = fh.get_int_list(min_length=6, max_length=6)
+		parameter_0_LIST_intLlist = [[0, 3, 3, 5, 6, 9]] 
+		parameter_0_LIST_intLlist_random = fh.get_int_list(min_length=6, max_length=6,min_int=-255,max_int=255)
+
+		parameter_0_LIST_intLlist.append(parameter_0_LIST_intLlist_random)
+		parameter_0_LIST = parameter_0_LIST_intLlist[fh.get_int(min_int=0, max_int=len(parameter_0_LIST_intLlist)-1)]
 		parameter_0_choices.append(parameter_0_LIST)
 		parameter_0 = parameter_0_choices[0]
 		arg_class = tf.ragged.row_splits_to_segment_ids(parameter_0,)

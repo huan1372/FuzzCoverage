@@ -56,8 +56,8 @@ class TFArgument(Argument):
     def add_str_value(self, value: str):
         return super().add_str_value(value)
 
-    def add_list_value(self, value: int):
-        return super().add_list_value(value)
+    def add_list_value(self, value: int,possible_list):
+        return super().add_list_value(value,possible_list)
 
     def list_range(self):
         return super().list_range()

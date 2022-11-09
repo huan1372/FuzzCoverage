@@ -23,6 +23,7 @@ class Argument:
         self.type = type
         self.str_value = ["", "1", "sum", "same", "valid", "zeros"]
         self.int_list = set()
+        self.possible_LIST = []
         self.tf_class = tf_class
 
     def __str__(self) -> str:
@@ -50,9 +51,15 @@ class Argument:
     def to_code(self, var_name: str) -> str:
         """ArgType.LIST and ArgType.TUPLE should be converted to code in the inherent class"""
         if self.type == ArgType.INT:
-            return f"{var_name} = fh.get_int()\n"
+            intListName = var_name + "_intlist"
+            intListContent = str(list(self.int_list))
+            intListRadom = var_name + "_intlist_random" + " = fh.get_int(min_int=-255,max_int=255)\n"
+            return f"{intListName} = {intListContent} \n\t\t{intListRadom}\n\t\t{intListName}.append({var_name}_intlist_random)\n\t\t{var_name} = {intListName}[fh.get_int(min_int=0, max_int=len({intListName})-1)]\n"
         if self.type == ArgType.FLOAT:
-            return f"{var_name} = fh.get_float()\n"
+            intListName = var_name + "_floatlist"
+            intListContent = str(list(self.int_list))
+            intListRadom = var_name + "_floatlist_random" + " = fh.get_float(min_float=-255,max_float=255)\n"
+            return f"{intListName} = {intListContent} \n\t\t{intListRadom}\n\t\t{intListName}.append({var_name}_floatlist_random)\n\t\t{var_name} = {intListName}[fh.get_int(min_int=0, max_int=len({intListName})-1)]\n"
         if self.type == ArgType.BOOL:
             return f"{var_name} = fh.get_bool()\n"
         elif self.type == ArgType.STR:
@@ -65,7 +72,10 @@ class Argument:
             min_l , max_l = self.list_range()
             min_l = str(min_l)
             max_l = str(max_l)
-            return f"{ListName} = fh.get_int_list(min_length={min_l}, max_length={max_l})\n"
+            intListName = var_name + "_intLlist"
+            intListContent = str(list(self.possible_LIST))
+            intListRadom = f"{var_name}_intLlist_random = fh.get_int_list(min_length={min_l}, max_length={max_l},min_int=-255,max_int=255)\n"
+            return f"{intListName} = {intListContent} \n\t\t{intListRadom}\n\t\t{intListName}.append({var_name}_intLlist_random)\n\t\t{var_name} = {intListName}[fh.get_int(min_int=0, max_int=len({intListName})-1)]\n"
         elif self.type == ArgType.NULL:
             return f"{var_name} = None\n"
         elif self.type == ArgType.DICT:
@@ -113,8 +123,12 @@ class Argument:
             raise Exception("This type {} is not supported for function add_str_value()")
         return
 
-    def add_list_value(self,value:int):
+    def add_list_value(self,value:int,possible_list:list):
         self.int_list.add(value)
+        if possible_list == None:
+            return
+        if possible_list not in self.possible_LIST:
+            self.possible_LIST.append(possible_list)
         return
 
     def list_range(self):

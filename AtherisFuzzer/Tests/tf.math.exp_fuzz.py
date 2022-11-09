@@ -9,7 +9,11 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.math.exp_exception.txt","a")
 	try:
 		parameter_0_choices = []
-		parameter_0_FLOAT = fh.get_float()
+		parameter_0_FLOAT_floatlist = [-0.1] 
+		parameter_0_FLOAT_floatlist_random = fh.get_float(min_float=-255,max_float=255)
+
+		parameter_0_FLOAT_floatlist.append(parameter_0_FLOAT_floatlist_random)
+		parameter_0_FLOAT = parameter_0_FLOAT_floatlist[fh.get_int(min_int=0, max_int=len(parameter_0_FLOAT_floatlist)-1)]
 		parameter_0_choices.append(parameter_0_FLOAT)
 		# Tensor generation for parameter_0
 		parameter_0_DTYPES = [tf.bfloat16, tf.bool, tf.complex128, tf.complex64, tf.float64, tf.float16, tf.float32, tf.float64, tf.float16, tf.int16, tf.int32, tf.int64, tf.int8, tf.uint8, tf.uint16, tf.uint32, tf.uint64]

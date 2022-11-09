@@ -9,7 +9,11 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.minimum_exception.txt","a")
 	try:
 		parameter_0_choices = []
-		parameter_0_INT = fh.get_int()
+		parameter_0_INT_intlist = [4] 
+		parameter_0_INT_intlist_random = fh.get_int(min_int=-255,max_int=255)
+
+		parameter_0_INT_intlist.append(parameter_0_INT_intlist_random)
+		parameter_0_INT = parameter_0_INT_intlist[fh.get_int(min_int=0, max_int=len(parameter_0_INT_intlist)-1)]
 		parameter_0_choices.append(parameter_0_INT)
 		# Tensor generation for parameter_0
 		parameter_0_DTYPES = [tf.bfloat16, tf.bool, tf.complex128, tf.complex64, tf.float64, tf.float16, tf.float32, tf.float64, tf.float16, tf.int16, tf.int32, tf.int64, tf.int8, tf.uint8, tf.uint16, tf.uint32, tf.uint64]

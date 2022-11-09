@@ -9,7 +9,11 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.math.divide_exception.txt","a")
 	try:
 		parameter_0_choices = []
-		parameter_0_INT = fh.get_int()
+		parameter_0_INT_intlist = [768, 2] 
+		parameter_0_INT_intlist_random = fh.get_int(min_int=-255,max_int=255)
+
+		parameter_0_INT_intlist.append(parameter_0_INT_intlist_random)
+		parameter_0_INT = parameter_0_INT_intlist[fh.get_int(min_int=0, max_int=len(parameter_0_INT_intlist)-1)]
 		parameter_0_choices.append(parameter_0_INT)
 		parameter_0 = parameter_0_choices[0]
 		arg_class = tf.math.divide(parameter_0,)
