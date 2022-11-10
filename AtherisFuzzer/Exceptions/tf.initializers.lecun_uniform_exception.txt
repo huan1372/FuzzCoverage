@@ -61,8 +61,11 @@
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -128 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -128 must be >= 0 [Op:StatelessRandomUniformV2]29
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -129 must be >= 0 [Op:StatelessRandomUniformV2]21
+{{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -129 must be >= 0 [Op:StatelessRandomUniformV2]29
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -130 must be >= 0 [Op:StatelessRandomUniformV2]21
+{{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -130 must be >= 0 [Op:StatelessRandomUniformV2]29
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -131 must be >= 0 [Op:StatelessRandomUniformV2]21
+{{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -131 must be >= 0 [Op:StatelessRandomUniformV2]29
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -1318 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -132 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -133 must be >= 0 [Op:StatelessRandomUniformV2]21
@@ -112,11 +115,13 @@
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -1586 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -159 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -16 must be >= 0 [Op:StatelessRandomUniformV2]21
+{{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -16 must be >= 0 [Op:StatelessRandomUniformV2]29
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -160 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -1608 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -161 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -161 must be >= 0 [Op:StatelessRandomUniformV2]29
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -162 must be >= 0 [Op:StatelessRandomUniformV2]21
+{{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -163 must be >= 0 [Op:StatelessRandomUniformV2]29
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -164 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -165 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -165 must be >= 0 [Op:StatelessRandomUniformV2]29
@@ -137,6 +142,7 @@
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -173 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -1731 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -174 must be >= 0 [Op:StatelessRandomUniformV2]21
+{{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -174 must be >= 0 [Op:StatelessRandomUniformV2]29
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -1747 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -175 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -176 must be >= 0 [Op:StatelessRandomUniformV2]21
@@ -164,6 +170,7 @@
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -1943 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -195 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -196 must be >= 0 [Op:StatelessRandomUniformV2]21
+{{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -196 must be >= 0 [Op:StatelessRandomUniformV2]29
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -197 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -198 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -1988 must be >= 0 [Op:StatelessRandomUniformV2]21
@@ -173,6 +180,7 @@
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -200 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -2001 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -202 must be >= 0 [Op:StatelessRandomUniformV2]21
+{{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -202 must be >= 0 [Op:StatelessRandomUniformV2]29
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -203 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -204 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -205 must be >= 0 [Op:StatelessRandomUniformV2]21
@@ -213,6 +221,7 @@
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -227 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -228 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -229 must be >= 0 [Op:StatelessRandomUniformV2]21
+{{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -229 must be >= 0 [Op:StatelessRandomUniformV2]29
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -2290 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -2294 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -23 must be >= 0 [Op:StatelessRandomUniformV2]21
@@ -236,6 +245,7 @@
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -244 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -244 must be >= 0 [Op:StatelessRandomUniformV2]29
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -245 must be >= 0 [Op:StatelessRandomUniformV2]21
+{{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -245 must be >= 0 [Op:StatelessRandomUniformV2]29
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -2450 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -2457 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -246 must be >= 0 [Op:StatelessRandomUniformV2]21
@@ -286,6 +296,7 @@
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -293 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -297 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -2971 must be >= 0 [Op:StatelessRandomUniformV2]21
+{{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -3 must be >= 0 [Op:StatelessRandomUniformV2]29
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -30 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -3016 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -302 must be >= 0 [Op:StatelessRandomUniformV2]21
@@ -1021,6 +1032,7 @@
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -8690 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -8693 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -87 must be >= 0 [Op:StatelessRandomUniformV2]21
+{{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -87 must be >= 0 [Op:StatelessRandomUniformV2]29
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -870 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -8701 must be >= 0 [Op:StatelessRandomUniformV2]21
 {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} Dimension -8715 must be >= 0 [Op:StatelessRandomUniformV2]21

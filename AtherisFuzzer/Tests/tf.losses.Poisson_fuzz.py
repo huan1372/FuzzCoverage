@@ -17,7 +17,7 @@ def TestOneInput(data):
 		input_signature_choices.append(input_signature_LIST)
 		input_signature = input_signature_choices[0]
 		reduction_choices = []
-		reduction_STR_strlist = ['', 'same', 'valid', 'sum', 'none', 'zeros', '1'] 
+		reduction_STR_strlist = ['', 'none', 'zeros', 'sum', 'valid', '1', 'same'] 
 		reduction_STR = reduction_STR_strlist[fh.get_int(min_int=0, max_int=len(reduction_STR_strlist)-1)]
 		reduction_choices.append(reduction_STR)
 		reduction = reduction_choices[0]

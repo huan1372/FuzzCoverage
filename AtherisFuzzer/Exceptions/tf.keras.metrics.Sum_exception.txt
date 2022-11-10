@@ -1,4 +1,5 @@
 Cannot convert the argument `type_value`: <built-in function sum> to a TensorFlow DType.21
+Cannot convert the argument `type_value`: <built-in function sum> to a TensorFlow DType.46
 name 'same' is not defined13
 name 'valid' is not defined13
 name 'zeros' is not defined13
