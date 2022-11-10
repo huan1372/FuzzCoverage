@@ -6,10 +6,11 @@ sys.path.insert(1, '/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/')
 from DataProcess.Data_Process import find_api_info
 from DataProcess.DataBase import Database as DB
 from utils.writer import Write_Code
-from utils.run_Atheris import run_Atheris
+from utils.run_Atheris import run_Atheris,run_all_Atheris
 from Generator.ArgTF import Argument
 from Generator.ArgCode import ArgType
 from utils.Results_Compare import compare_api,Filter_Exception
+import os
 
 class Fuzzer_Generator():
     output_folder = "/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/"
@@ -186,6 +187,18 @@ class Fuzzer_Generator():
             else:
                 run_Atheris(func_name=self.func_name,file_path=file_path,coverage_path=coverage_path,atheris_run="10000")
 
+    def run_all_code(self):
+        if self.code == "":
+            raise Exception("Please generate fuzzer code first")
+        else:
+            file_path = Fuzzer_Generator.output_folder + "Tests/"
+            coverage_path = Fuzzer_Generator.output_folder + "CovReport/"
+            if len(self.argument.keys()) <= 3:
+                #print("yeah")
+                run_all_Atheris(func_name=self.func_name,file_path=file_path,atheris_run="2000")
+            else:
+                run_all_Atheris(func_name=self.func_name,file_path=file_path,atheris_run="10000")
+
     def compare_difference(self):
         import os
         file_name = self.func_name+"_1000.coverage"
@@ -200,6 +213,20 @@ def run_all(DB):
             api_name = i.rstrip()
             run_single(api_name,DB)
 
+def run_all_code(DB):
+    with open('/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/random_api_list_50.txt') as f:
+        for i in f.readlines():
+            api_name = i.rstrip()
+            DB.input = False
+            argument = find_api_info(DB,api_name)
+            #print_dict(argument)
+            fuzzer_generator = Fuzzer_Generator(argument=argument,func_name=api_name,DB=DB)
+            code = fuzzer_generator.generate_code()
+            fuzzer_generator.write_fuzzer()
+            fuzzer_generator.run_all_code()
+    coverage_file = "/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/" + "CovReport/Atheris_Random50.Coverage"
+    os.system("python3 -m coverage report -m --include=/usr/local/lib/python3.8/dist-packages/tensorflow/*.py > " + coverage_file)
+    return
 def print_dict(x):
     for key,value in x.items():
         print("====================================================")
@@ -234,7 +261,8 @@ if __name__ == "__main__":
     DB = DB()
     DB.database_config( host, port, database_name)
     API_Info = {}
-    run_all(DB)
+    run_all_code(DB)
+    #run_all(DB)
     #run_single(api_name=api_name,DB=DB)
     # find_api_list(DB)print(argument)
     # fuzzer_generator.run_code()

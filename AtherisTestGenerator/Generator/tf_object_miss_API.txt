@@ -137,3 +137,15 @@ tensorflow.python.ops.init_ops_v2.Constant
 tensorflow.python.ops.init_ops_v2.Constant
 tensorflow.python.keras.mixed_precision.policy.Policy
 tensorflow.python.ops.init_ops.Zeros
+tensorflow.python.ops.init_ops_v2.Constant
+tensorflow.python.ops.init_ops_v2.Constant
+tensorflow.python.ops.init_ops_v2.Constant
+tensorflow.python.ops.init_ops_v2.Constant
+tensorflow.python.keras.mixed_precision.policy.Policy
+tensorflow.python.ops.init_ops.Zeros
+tensorflow.python.ops.init_ops_v2.Constant
+tensorflow.python.ops.init_ops_v2.Constant
+tensorflow.python.ops.init_ops_v2.Constant
+tensorflow.python.ops.init_ops_v2.Constant
+tensorflow.python.keras.mixed_precision.policy.Policy
+tensorflow.python.ops.init_ops.Zeros
