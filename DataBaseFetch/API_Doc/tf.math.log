@@ -1,0 +1,14 @@
+Help on function log in module tensorflow.python.ops.gen_math_ops:
+log(x, name=None)
+Computes natural logarithm of x element-wise.
+I.e., \\(y = \log_e x\\).
+Example:
+>>> x = tf.constant([0, 0.5, 1, 5])
+>>> tf.math.log(x)
+<tf.Tensor: shape=(4,), dtype=float32, numpy=array([      -inf, -0.6931472,  0.       ,  1.609438 ], dtype=float32)>
+See: https://en.wikipedia.org/wiki/Logarithm
+Args:
+x: A `Tensor`. Must be one of the following types: `bfloat16`, `half`, `float32`, `float64`, `complex64`, `complex128`.
+name: A name for the operation (optional).
+Returns:
+A `Tensor`. Has the same type as `x`.

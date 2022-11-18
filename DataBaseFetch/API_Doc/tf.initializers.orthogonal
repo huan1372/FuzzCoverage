@@ -1,0 +1,93 @@
+Help on class Orthogonal in module keras.initializers.initializers_v2:
+class Orthogonal(Initializer)
+|  Orthogonal(gain=1.0, seed=None)
+|
+|  Initializer that generates an orthogonal matrix.
+|
+|  Also available via the shortcut function `tf.keras.initializers.orthogonal`.
+|
+|  If the shape of the tensor to initialize is two-dimensional, it is
+|  initialized with an orthogonal matrix obtained from the QR decomposition of
+|  a matrix of random numbers drawn from a normal distribution. If the matrix
+|  has fewer rows than columns then the output will have orthogonal rows.
+|  Otherwise, the output will have orthogonal columns.
+|
+|  If the shape of the tensor to initialize is more than two-dimensional,
+|  a matrix of shape `(shape[0] * ... * shape[n - 2], shape[n - 1])`
+|  is initialized, where `n` is the length of the shape vector.
+|  The matrix is subsequently reshaped to give a tensor of the desired shape.
+|
+|  Examples:
+|
+|  >>> # Standalone usage:
+|  >>> initializer = tf.keras.initializers.Orthogonal()
+|  >>> values = initializer(shape=(2, 2))
+|
+|  >>> # Usage in a Keras layer:
+|  >>> initializer = tf.keras.initializers.Orthogonal()
+|  >>> layer = tf.keras.layers.Dense(3, kernel_initializer=initializer)
+|
+|  Args:
+|    gain: multiplicative factor to apply to the orthogonal matrix
+|    seed: A Python integer. Used to make the behavior of the initializer
+|      deterministic. Note that a seeded initializer will produce the same
+|      random values across multiple calls.
+|
+|  References:
+|    - [Saxe et al., 2014](https://openreview.net/forum?id=_wzZwKpTDF_9C)
+|
+|  Method resolution order:
+|      Orthogonal
+|      Initializer
+|      builtins.object
+|
+|  Methods defined here:
+|
+|  __call__(self, shape, dtype=None, **kwargs)
+|      Returns a tensor object initialized to an orthogonal matrix.
+|
+|      Args:
+|        shape: Shape of the tensor.
+|        dtype: Optional dtype of the tensor. Only floating point types are
+|          supported. If not specified, `tf.keras.backend.floatx()` is used,
+|         which default to `float32` unless you configured it otherwise
+|         (via `tf.keras.backend.set_floatx(float_dtype)`)
+|        **kwargs: Additional keyword arguments.
+|
+|  __init__(self, gain=1.0, seed=None)
+|      Initialize self.  See help(type(self)) for accurate signature.
+|
+|  get_config(self)
+|      Returns the configuration of the initializer as a JSON-serializable dict.
+|
+|      Returns:
+|        A JSON-serializable Python dict.
+|
+|  ----------------------------------------------------------------------
+|  Class methods inherited from Initializer:
+|
+|  from_config(config) from builtins.type
+|      Instantiates an initializer from a configuration dictionary.
+|
+|      Example:
+|
+|      ```python
+|      initializer = RandomUniform(-1, 1)
+|      config = initializer.get_config()
+|      initializer = RandomUniform.from_config(config)
+|      ```
+|
+|      Args:
+|        config: A Python dictionary, the output of `get_config`.
+|
+|      Returns:
+|        A `tf.keras.initializers.Initializer` instance.
+|
+|  ----------------------------------------------------------------------
+|  Data descriptors inherited from Initializer:
+|
+|  __dict__
+|      dictionary for instance variables (if defined)
+|
+|  __weakref__
+|      list of weak references to the object (if defined)

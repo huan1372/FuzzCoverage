@@ -1,0 +1,18 @@
+Help on function serialize in module keras.activations:
+serialize(activation)
+Returns the string identifier of an activation function.
+Args:
+activation : Function object.
+Returns:
+String denoting the name attribute of the input function
+For example:
+>>> tf.keras.activations.serialize(tf.keras.activations.tanh)
+'tanh'
+>>> tf.keras.activations.serialize(tf.keras.activations.sigmoid)
+'sigmoid'
+>>> tf.keras.activations.serialize('abcd')
+Traceback (most recent call last):
+...
+ValueError: ('Cannot serialize', 'abcd')
+Raises:
+ValueError: The input function is not a valid one.

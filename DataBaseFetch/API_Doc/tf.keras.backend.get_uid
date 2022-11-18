@@ -1,0 +1,12 @@
+Help on function get_uid in module keras.backend:
+get_uid(prefix='')
+Associates a string prefix with an integer counter in a TensorFlow graph.
+Args:
+prefix: String prefix to index.
+Returns:
+Unique integer ID.
+Example:
+>>> get_uid('dense')
+1
+>>> get_uid('dense')
+2

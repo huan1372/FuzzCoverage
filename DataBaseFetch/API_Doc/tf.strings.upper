@@ -1,0 +1,14 @@
+Help on function string_upper in module tensorflow.python.ops.gen_string_ops:
+string_upper(input, encoding='', name=None)
+Converts all lowercase characters into their respective uppercase replacements.
+Example:
+>>> tf.strings.upper("CamelCase string and ALL CAPS")
+<tf.Tensor: shape=(), dtype=string, numpy=b'CAMELCASE STRING AND ALL CAPS'>
+Args:
+input: A `Tensor` of type `string`. The input to be upper-cased.
+encoding: An optional `string`. Defaults to `""`.
+Character encoding of `input`. Allowed values are '' and 'utf-8'.
+Value '' is interpreted as ASCII.
+name: A name for the operation (optional).
+Returns:
+A `Tensor` of type `string`.

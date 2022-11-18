@@ -1,0 +1,25 @@
+Help on function add_n in module tensorflow.python.ops.math_ops:
+add_n(inputs, name=None)
+Adds all input tensors element-wise.
+`tf.math.add_n` performs the same operation as `tf.math.accumulate_n`.
+This op does not [broadcast](
+https://docs.scipy.org/doc/numpy-1.13.0/user/basics.broadcasting.html)
+its inputs. If you need broadcasting, use `tf.math.add` (or the `+` operator)
+instead.
+For example:
+>>> a = tf.constant([[3, 5], [4, 8]])
+>>> b = tf.constant([[1, 6], [2, 9]])
+>>> tf.math.add_n([a, b, a])
+<tf.Tensor: shape=(2, 2), dtype=int32, numpy=
+array([[ 7, 16],
+[10, 25]], dtype=int32)>
+Args:
+inputs: A list of `tf.Tensor` or `tf.IndexedSlices` objects, each with the
+same shape and type. `tf.IndexedSlices` objects will be converted into
+dense tensors prior to adding.
+name: A name for the operation (optional).
+Returns:
+A `tf.Tensor` of the same shape and type as the elements of `inputs`.
+Raises:
+ValueError: If `inputs` don't all have same shape and dtype or the shape
+cannot be inferred.
