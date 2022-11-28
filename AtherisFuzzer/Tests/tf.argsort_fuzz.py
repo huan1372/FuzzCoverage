@@ -22,7 +22,7 @@ def TestOneInput(data):
 		parameter_0_choices.append(parameter_0_tensor)
 		parameter_0 = parameter_0_choices[0]
 		direction_choices = []
-		direction_STR_strlist = ['', 'same', 'valid', 'sum', 'DESCENDING', 'zeros', '1'] 
+		direction_STR_strlist = ['', 'valid', 'sum', '1', 'zeros', 'DESCENDING', 'same'] 
 		direction_STR = direction_STR_strlist[fh.get_int(min_int=0, max_int=len(direction_STR_strlist)-1)]
 		direction_choices.append(direction_STR)
 		direction = direction_choices[0]

@@ -22,7 +22,7 @@ def TestOneInput(data):
 		input_signature_choices.append(input_signature_tensor)
 		input_signature = input_signature_choices[0]
 		name_choices = []
-		name_STR_strlist = ['', 'zeros', 'sum', 'global_max_pooling2d', 'valid', '1', 'global_max_pooling2d_1', 'same'] 
+		name_STR_strlist = ['', 'global_max_pooling2d_1', 'valid', 'sum', '1', 'zeros', 'same', 'global_max_pooling2d'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]
@@ -31,12 +31,12 @@ def TestOneInput(data):
 		trainable_choices.append(trainable_BOOL)
 		trainable = trainable_choices[0]
 		dtype_choices = []
-		dtype_STR_strlist = ['', 'zeros', 'sum', 'valid', '1', 'float32', 'same'] 
+		dtype_STR_strlist = ['', 'valid', 'sum', '1', 'zeros', 'same', 'float32'] 
 		dtype_STR = dtype_STR_strlist[fh.get_int(min_int=0, max_int=len(dtype_STR_strlist)-1)]
 		dtype_choices.append(dtype_STR)
 		dtype = dtype_choices[0]
 		data_format_choices = []
-		data_format_STR_strlist = ['', 'zeros', 'sum', 'valid', '1', 'channels_first', 'channels_last', 'same'] 
+		data_format_STR_strlist = ['', 'valid', 'sum', '1', 'zeros', 'channels_last', 'same', 'channels_first'] 
 		data_format_STR = data_format_STR_strlist[fh.get_int(min_int=0, max_int=len(data_format_STR_strlist)-1)]
 		data_format_choices.append(data_format_STR)
 		data_format = data_format_choices[0]

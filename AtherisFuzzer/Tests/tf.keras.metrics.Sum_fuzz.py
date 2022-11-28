@@ -9,7 +9,7 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.keras.metrics.Sum_exception.txt","a")
 	try:
 		dtype_choices = []
-		dtype_DTYPE_dtypelist = ['', 'zeros', 'sum', 'tf.float64', 'valid', '1', 'same'] 
+		dtype_DTYPE_dtypelist = ['', 'valid', 'sum', 'tf.float64', '1', 'zeros', 'same'] 
 		dtype_DTYPE = eval(dtype_DTYPE_dtypelist[fh.get_int(min_int=0, max_int=len(dtype_DTYPE_dtypelist)-1)])
 		dtype_choices.append(dtype_DTYPE)
 		dtype = dtype_choices[0]
@@ -39,7 +39,7 @@ def TestOneInput(data):
 		input_signature_choices.append(input_signature_tensor)
 		input_signature = input_signature_choices[fh.get_int()%3]
 		name_choices = []
-		name_STR_strlist = ['', 'zeros', 'sum', 'valid', '1', 'same', 'my_sum'] 
+		name_STR_strlist = ['', 'valid', 'sum', '1', 'zeros', 'same', 'my_sum'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]

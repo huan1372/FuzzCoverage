@@ -9,3 +9,2003 @@ Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_ov
 Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"16
 Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
 __call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: same. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: . Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: zeros. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+Invalid Reduction Key: valid. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+__call__() missing 1 required positional argument: 'y_pred'26
+Invalid Reduction Key: 1. Expected keys are "('auto', 'none', 'sum', 'sum_over_batch_size')"24

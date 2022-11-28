@@ -28,7 +28,7 @@ def TestOneInput(data):
 		parameter_0_choices.append(parameter_0_tensor)
 		parameter_0 = parameter_0_choices[fh.get_int()%2]
 		dtype_choices = []
-		dtype_DTYPE_dtypelist = ['', 'same', 'valid', 'sum', 'tf.float16', 'zeros', '1'] 
+		dtype_DTYPE_dtypelist = ['', 'valid', 'sum', 'tf.float16', '1', 'zeros', 'same'] 
 		dtype_DTYPE = eval(dtype_DTYPE_dtypelist[fh.get_int(min_int=0, max_int=len(dtype_DTYPE_dtypelist)-1)])
 		dtype_choices.append(dtype_DTYPE)
 		dtype = dtype_choices[0]

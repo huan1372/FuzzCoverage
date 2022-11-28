@@ -9,7 +9,7 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.keras.losses.SquaredHinge_exception.txt","a")
 	try:
 		reduction_choices = []
-		reduction_STR_strlist = ['', 'none', 'zeros', 'sum', 'valid', '1', 'same'] 
+		reduction_STR_strlist = ['', 'valid', 'sum', '1', 'zeros', 'none', 'same'] 
 		reduction_STR = reduction_STR_strlist[fh.get_int(min_int=0, max_int=len(reduction_STR_strlist)-1)]
 		reduction_choices.append(reduction_STR)
 		reduction = reduction_choices[0]

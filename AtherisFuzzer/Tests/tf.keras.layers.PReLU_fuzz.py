@@ -9,7 +9,7 @@ def TestOneInput(data):
 	f = open("/home/usr/FreeFuzz/FuzzCoverage/AtherisFuzzer/Exceptions/tf.keras.layers.PReLU_exception.txt","a")
 	try:
 		name_choices = []
-		name_STR_strlist = ['', 'zeros', 'sum', 'valid', '1', 'p_re_lu', 'same'] 
+		name_STR_strlist = ['', 'valid', 'sum', '1', 'zeros', 'same', 'p_re_lu'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name = name_choices[0]
@@ -26,12 +26,12 @@ def TestOneInput(data):
 		batch_input_shape_choices.append(batch_input_shape_LIST)
 		batch_input_shape = batch_input_shape_choices[0]
 		dtype_choices = []
-		dtype_STR_strlist = ['', 'zeros', 'sum', 'valid', '1', 'float32', 'same'] 
+		dtype_STR_strlist = ['', 'valid', 'sum', '1', 'zeros', 'same', 'float32'] 
 		dtype_STR = dtype_STR_strlist[fh.get_int(min_int=0, max_int=len(dtype_STR_strlist)-1)]
 		dtype_choices.append(dtype_STR)
 		dtype = dtype_choices[0]
 		alpha_initializer_choices = []
-		alpha_initializer_STR_strlist = ['', 'zeros', 'sum', 'valid', '1', 'Zeros', 'same'] 
+		alpha_initializer_STR_strlist = ['', 'valid', 'sum', '1', 'zeros', 'Zeros', 'same'] 
 		alpha_initializer_STR = alpha_initializer_STR_strlist[fh.get_int(min_int=0, max_int=len(alpha_initializer_STR_strlist)-1)]
 		alpha_initializer_choices.append(alpha_initializer_STR)
 		alpha_initializer = alpha_initializer_choices[0]

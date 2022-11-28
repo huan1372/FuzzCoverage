@@ -4045,3 +4045,1079 @@ Value for attr 'T' of complex64 is not in the list of allowed values: float, dou
 [False False False False False False False  True False False  True  True
 [False False False False False False False False  True False  True  True
 [False False False False False False False False False False False False
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor(
+[False  True False  True False False False False  True False False  True
+  True False False False  True  True False False False False False  True
+ False False  True False False  True False  True  True False  True  True
+  True  True  True False False  True False False  True  True  True False
+ False], shape=(49,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor(
+[False  True  True  True  True  True False False False  True  True  True
+ False False False  True False False False  True False  True  True  True
+ False  True False  True False  True  True False  True  True  True  True
+ False  True  True False False  True False  True  True False False False
+ False False False False False  True  True False  True  True False False
+ False  True  True  True  True False  True False  True  True False  True], shape=(72,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True False False  True False], shape=(5,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False False False  True False  True  True], shape=(7,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False False False False  True  True], shape=(6,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True False False  True  True  True], shape=(6,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor(
+[ True False  True False  True False False False  True  True  True  True
+  True  True  True  True False False False False  True  True  True False
+  True  True  True False False  True  True  True False False False False
+  True False False False  True False False  True  True  True  True False
+  True  True  True  True  True  True False False  True False False  True
+ False  True  True  True  True  True False False  True  True  True False], shape=(72,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor(
+[ True  True  True False  True  True False False False False  True  True
+  True  True  True False False False  True False  True False  True False
+  True  True  True  True False  True  True  True  True False False  True
+  True  True  True  True False False  True  True  True False False  True
+  True], shape=(49,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor(
+[False False False  True  True  True False  True  True  True False  True
+  True False  True  True  True  True False  True  True False False  True
+ False False  True False False  True  True  True  True  True  True  True
+ False  True False  True False  True  True False False  True False  True
+ False], shape=(49,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True False False False False], shape=(5,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False False  True  True  True  True], shape=(6,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True False False False  True  True], shape=(6,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False False  True False  True], shape=(5,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True False  True False False], shape=(5,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False False  True False False], shape=(5,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True False  True  True  True], shape=(5,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True  True False  True  True], shape=(5,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False  True  True  True False], shape=(5,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False  True False False  True], shape=(5,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor(
+[False  True  True False False  True  True False  True False  True False
+  True  True  True False  True  True False  True  True False  True  True
+  True False  True  True False False False False False False  True  True
+ False False False  True False  True False False False  True False False
+ False False False False  True False  True  True False False  True  True
+  True False  True  True False False  True False False  True False False], shape=(72,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex64 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([False], shape=(1,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Expected x to be numeric, instead found: tf.Tensor([ True  True  True False  True False False False], shape=(8,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Expected x to be numeric, instead found: tf.Tensor([], shape=(0,), dtype=bool)24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24
+Value for attr 'T' of complex128 is not in the list of allowed values: float, double, int32, uint8, int16, int8, int64, bfloat16, uint16, half, uint32, uint64
+	; NodeDef: {{node LessEqual}}; Op<name=LessEqual; signature=x:T, y:T -> z:bool; attr=T:type,allowed=[DT_FLOAT, DT_DOUBLE, DT_INT32, DT_UINT8, DT_INT16, DT_INT8, DT_INT64, DT_BFLOAT16, DT_UINT16, DT_HALF, DT_UINT32, DT_UINT64]> [Op:LessEqual]24

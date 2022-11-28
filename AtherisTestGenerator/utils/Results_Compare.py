@@ -77,7 +77,7 @@ def Compare_Result(api_name,Atheris_dir,FreeFuzz_dir,output_dir="/home/usr/FreeF
     print(api_name)
     output_f = open(output_dir+api_name+".Compare","w")
     Atheris_f = open(Atheris_dir+api_name+"_1000.Coverage")
-    FreeFuzz_f = open(FreeFuzz_dir+api_name+".Coverage")
+    FreeFuzz_f = open(FreeFuzz_dir+api_name+".coverage")
     Atheris_content = Atheris_f.readlines()
     FreeFuzz_content = FreeFuzz_f.readlines()
     diff = 0
@@ -158,28 +158,31 @@ def Compare_all_file(filename):
 def compare_api(api_name):
     Compare_Result(api_name,Atheris_dir=Atheris_dir,FreeFuzz_dir=FreeFuzz_dir)
 
+def compare_total():
+    Compare_Result("aTotal",Atheris_dir=Atheris_dir,FreeFuzz_dir=FreeFuzz_dir)
 def main():
     #Compare_all_file("/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/random_api_list_50.txt")
+    compare_total()
     # for file in os.listdir(Atheris_E_dir):
     #     import re
     #     print(file)
     #     api_name = file[:-14]
     #     print(api_name)
     #     Filter_Exception(api_name,Atheris_dir=Atheris_E_dir)
-    outf = Compare_dir + "Atheris_Random50Merge.Coverage"
-    outf_temp = Compare_dir + "TempAtheris_Random50Merge.Coverage"
-    with open("/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/random_api_list_50.txt","r") as f:
-        api_name1 = f.readline().rstrip()
-        api_name2 = f.readline().rstrip()
-        api_file1 = Atheris_dir + api_name1 + "_1000.Coverage"
-        api_file2 = Atheris_dir + api_name2 + "_1000.Coverage"
-        print(api_name1,api_name2)
-        merge_result(file1=api_file1,file2=api_file2,out_f=outf_temp)
-        # for line in f.readlines():
-        #     api_name = line.rstrip()
-        #     api_file = Atheris_dir + api_name + "_1000.Coverage"
-        #     merge_result(file1=outf_temp,file2=api_file,out_f=outf)
-        #     import shutil
-        #     shutil.copy(src=outf,dst=outf_temp)
+    # outf = Compare_dir + "Atheris_Random50Merge.Coverage"
+    # outf_temp = Compare_dir + "TempAtheris_Random50Merge.Coverage"
+    # with open("/home/usr/FreeFuzz/FuzzCoverage/AtherisTestGenerator/random_api_list_50.txt","r") as f:
+    #     api_name1 = f.readline().rstrip()
+    #     api_name2 = f.readline().rstrip()
+    #     api_file1 = Atheris_dir + api_name1 + "_1000.Coverage"
+    #     api_file2 = Atheris_dir + api_name2 + "_1000.Coverage"
+    #     print(api_name1,api_name2)
+    #     merge_result(file1=api_file1,file2=api_file2,out_f=outf_temp)
+    #     # for line in f.readlines():
+    #     #     api_name = line.rstrip()
+    #     #     api_file = Atheris_dir + api_name + "_1000.Coverage"
+    #     #     merge_result(file1=outf_temp,file2=api_file,out_f=outf)
+    #     #     import shutil
+    #     #     shutil.copy(src=outf,dst=outf_temp)
 if __name__ == "__main__":
     main()

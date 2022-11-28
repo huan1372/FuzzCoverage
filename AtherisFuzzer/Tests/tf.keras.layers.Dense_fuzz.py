@@ -25,19 +25,19 @@ def TestOneInput(data):
 		input_dim_choices.append(input_dim_INT)
 		input_dim = input_dim_choices[0]
 		kernel_initializer_choices = []
-		kernel_initializer_STR_strlist = ['', 'ones', 'zeros', 'GlorotUniform', 'sum', 'valid', '1', 'VarianceScaling', 'glorot_normal', 'same'] 
+		kernel_initializer_STR_strlist = ['', 'valid', 'VarianceScaling', 'GlorotUniform', 'sum', 'glorot_normal', '1', 'zeros', 'ones', 'same'] 
 		kernel_initializer_STR = kernel_initializer_STR_strlist[fh.get_int(min_int=0, max_int=len(kernel_initializer_STR_strlist)-1)]
 		kernel_initializer_choices.append(kernel_initializer_STR)
 		kernel_initializer_None = None
 		kernel_initializer_choices.append(kernel_initializer_None)
-		kernel_initializer_TF_OBJECT_tfobjlist = ['', 'zeros', 'sum', 'valid', '1', 'same', 'TruncatedNormal'] 
+		kernel_initializer_TF_OBJECT_tfobjlist = ['', 'valid', 'TruncatedNormal', 'sum', '1', 'zeros', 'same'] 
 		kernel_initializer_TF_OBJECT = eval("tf.keras.initializers." + {strListName}[fh.get_int(min_int=0, max_int=len({strListName})-1)])
 		kernel_initializer_choices.append(kernel_initializer_TF_OBJECT)
 		kernel_initializer = kernel_initializer_choices[fh.get_int()%3]
 		kernel_regularizer_choices = []
 		kernel_regularizer_None = None
 		kernel_regularizer_choices.append(kernel_regularizer_None)
-		kernel_regularizer_STR_strlist = ['', 'zeros', 'sum', 'valid', '1', 'same', 'l1'] 
+		kernel_regularizer_STR_strlist = ['', 'valid', 'sum', 'l1', '1', 'zeros', 'same'] 
 		kernel_regularizer_STR = kernel_regularizer_STR_strlist[fh.get_int(min_int=0, max_int=len(kernel_regularizer_STR_strlist)-1)]
 		kernel_regularizer_choices.append(kernel_regularizer_STR)
 		kernel_regularizer = kernel_regularizer_choices[fh.get_int()%2]
@@ -55,14 +55,14 @@ def TestOneInput(data):
 		input_signature_choices.append(input_signature_tensor)
 		input_signature = input_signature_choices[0]
 		activation_choices = []
-		activation_STR_strlist = ['', 'zeros', 'sigmoid', 'sum', 'softplus', 'tanh', 'valid', '1', 'softmax', 'relu', 'same', 'linear'] 
+		activation_STR_strlist = ['', 'valid', 'sigmoid', 'sum', 'softmax', '1', 'zeros', 'softplus', 'tanh', 'same', 'relu', 'linear'] 
 		activation_STR = activation_STR_strlist[fh.get_int(min_int=0, max_int=len(activation_STR_strlist)-1)]
 		activation_choices.append(activation_STR)
 		activation_None = None
 		activation_choices.append(activation_None)
 		activation = activation_choices[fh.get_int()%2]
 		activity_regularizer_choices = []
-		activity_regularizer_STR_strlist = ['', 'zeros', 'sum', 'l2', 'valid', '1', 'same'] 
+		activity_regularizer_STR_strlist = ['', 'l2', 'valid', 'sum', '1', 'zeros', 'same'] 
 		activity_regularizer_STR = activity_regularizer_STR_strlist[fh.get_int(min_int=0, max_int=len(activity_regularizer_STR_strlist)-1)]
 		activity_regularizer_choices.append(activity_regularizer_STR)
 		activity_regularizer_None = None
@@ -77,7 +77,7 @@ def TestOneInput(data):
 		input_shape_choices.append(input_shape_LIST)
 		input_shape = input_shape_choices[0]
 		name_choices = []
-		name_STR_strlist = ['', 'predictions', 'dense_1', 'zeros', 'sum', 'dense_2', 'dense', 'valid', '1', 'out', 'same', 'dense_3'] 
+		name_STR_strlist = ['', 'valid', 'sum', 'dense_3', '1', 'dense_2', 'zeros', 'out', 'predictions', 'dense', 'same', 'dense_1'] 
 		name_STR = name_STR_strlist[fh.get_int(min_int=0, max_int=len(name_STR_strlist)-1)]
 		name_choices.append(name_STR)
 		name_None = None
@@ -96,10 +96,10 @@ def TestOneInput(data):
 		batch_input_shape_choices.append(batch_input_shape_LIST)
 		batch_input_shape = batch_input_shape_choices[0]
 		dtype_choices = []
-		dtype_STR_strlist = ['', 'zeros', 'sum', 'valid', '1', 'float32', 'same'] 
+		dtype_STR_strlist = ['', 'valid', 'sum', '1', 'zeros', 'same', 'float32'] 
 		dtype_STR = dtype_STR_strlist[fh.get_int(min_int=0, max_int=len(dtype_STR_strlist)-1)]
 		dtype_choices.append(dtype_STR)
-		dtype_DTYPE_dtypelist = ['', 'zeros', 'sum', 'tf.float32', 'tf.float64', 'valid', '1', 'same'] 
+		dtype_DTYPE_dtypelist = ['', 'valid', 'sum', 'tf.float64', '1', 'zeros', 'same', 'tf.float32'] 
 		dtype_DTYPE = eval(dtype_DTYPE_dtypelist[fh.get_int(min_int=0, max_int=len(dtype_DTYPE_dtypelist)-1)])
 		dtype_choices.append(dtype_DTYPE)
 		dtype = dtype_choices[fh.get_int()%2]
@@ -116,7 +116,7 @@ def TestOneInput(data):
 		use_bias_choices.append(use_bias_BOOL)
 		use_bias = use_bias_choices[0]
 		bias_initializer_choices = []
-		bias_initializer_STR_strlist = ['', 'zeros', 'sum', 'valid', '1', 'Zeros', 'same'] 
+		bias_initializer_STR_strlist = ['', 'valid', 'sum', '1', 'zeros', 'Zeros', 'same'] 
 		bias_initializer_STR = bias_initializer_STR_strlist[fh.get_int(min_int=0, max_int=len(bias_initializer_STR_strlist)-1)]
 		bias_initializer_choices.append(bias_initializer_STR)
 		bias_initializer = bias_initializer_choices[0]
