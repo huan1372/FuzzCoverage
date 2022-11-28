@@ -1,0 +1,11 @@
+Help on function logical_not in module tensorflow.python.ops.gen_math_ops:
+logical_not(x, name=None)
+Returns the truth value of `NOT x` element-wise.
+Example:
+>>> tf.math.logical_not(tf.constant([True, False]))
+<tf.Tensor: shape=(2,), dtype=bool, numpy=array([False,  True])>
+Args:
+x: A `Tensor` of type `bool`. A `Tensor` of type `bool`.
+name: A name for the operation (optional).
+Returns:
+A `Tensor` of type `bool`.

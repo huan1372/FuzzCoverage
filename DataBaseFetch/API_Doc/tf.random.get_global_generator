@@ -1,0 +1,9 @@
+Help on function get_global_generator in module tensorflow.python.ops.stateful_random_ops:
+get_global_generator()
+Retrieves the global generator.
+This function will create the global generator the first time it is called,
+and the generator will be placed at the default device at that time, so one
+needs to be careful when this function is first called. Using a generator
+placed on a less-ideal device will incur performance regression.
+Returns:
+The global `tf.random.Generator` object.

@@ -1,0 +1,3 @@
+Help on function get in module keras.regularizers:
+get(identifier)
+Retrieve a regularizer instance from a config or identifier.

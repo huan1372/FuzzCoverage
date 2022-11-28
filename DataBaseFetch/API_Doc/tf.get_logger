@@ -1,0 +1,3 @@
+Help on function get_logger in module tensorflow.python.platform.tf_logging:
+get_logger()
+Return TF logger instance.
