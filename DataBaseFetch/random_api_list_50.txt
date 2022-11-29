@@ -1,3 +1,4 @@
+tf.abs
 tf.add
 tf.data.experimental.shuffle_and_repeat
 tf.expand_dims
