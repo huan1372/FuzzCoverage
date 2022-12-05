@@ -3,7 +3,6 @@ from enum import IntEnum
 import re
 import sys
 import io
-
 #* Type for testcase
 class ArgType(IntEnum):
     INT = 1
@@ -19,6 +18,7 @@ class ArgType(IntEnum):
     KERAS_TENSOR = 11
     TF_VARIABLE = 12
     TF_OBJECT = 13
+    NPARRAY = 14
     OTHER = 24
 
 #* Modes to parse different part of comments
@@ -158,6 +158,18 @@ def parse_FreeFuzz_type(tf_api,testcase,argname,type_info):
     if isinstance(type_info,dict):
         if "dtype" in type_info.keys() and "type" in type_info.keys() and (type_info["type"] == "tensor" or type_info["type"]=="KerasTensor"):
             testcase.add_argument(argname,ArgType.TF_TENSOR,Tensor(type_info["dtype"],type_info["shape"]))
+        elif "type" in type_info.keys() and type_info["type"] == "tf_object":
+            testcase.add_argument(argname,ArgType.TF_OBJECT,type_info["value"])
+        elif "type" in type_info.keys() and type_info["type"] == "nparray":
+            testcase.add_argument(argname,ArgType.NPARRAY,Tensor(type_info["dtype"],type_info["shape"]))
+        elif "type" in type_info.keys() and type_info["type"] == "DType":
+            testcase.add_argument(argname,ArgType.TF_DTYPE,type_info["value"])
+        elif "dtype" in type_info.keys() and "type" in type_info.keys() and type_info["type"] == "variable" :
+            testcase.add_argument(argname,ArgType.TF_VARIABLE,Tensor(type_info["dtype"],type_info["shape"]))
+        elif "type" in type_info.keys() and type_info["type"] == "other":
+            testcase.add_argument(argname,ArgType.OTHER,type_info["value"])
+        else:
+            testcase.add_argument(argname,ArgType.OTHER,type_info)
         return 
     if type_info is None:
         testcase.add_argument(argname,ArgType.NULL,"None")
@@ -171,7 +183,7 @@ def FreeFuzz_Data_Collection():
     database_name = "freefuzz-tf"
     results = {}
     DB = pymongo.MongoClient(host=host,port=port)[database_name]
-    with open("/Users/sh69/Documents/FreeFuzz/FuzzCoverage/DataBaseFetch/random_api_list_50.txt") as f:
+    with open("/Users/sh69/Documents/FreeFuzz/FuzzCoverage/DataBaseFetch/api_full_list.txt") as f:
         for line in f.readlines():
             api_name = line.rstrip()
             records = DB[api_name].find({}, {"_id": 0})
@@ -276,6 +288,6 @@ def Fetch_API_Info(api_name,api_doc_dir=API_DOC_DIR):
 if __name__ == "__main__": 
     FreeFuzzresults = FreeFuzz_Data_Collection()
     #HelperDoc = TF_doc_Collection()
-    api_name = "tf.abs"
-    Fetch_API_Info(api_name)
-    print("a")
+    # api_name = "tf.abs"
+    # Fetch_API_Info(api_name)
+    # print("a")
