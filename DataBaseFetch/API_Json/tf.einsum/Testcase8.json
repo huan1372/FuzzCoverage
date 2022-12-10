@@ -1,0 +1,14 @@
+{
+    "api call code": "e = tf.einsum('bij,bjk->bik', s, t)",
+    "comments": "output[a,i,k] = sum_j s[a,i,j] * t[a, j, k]\n",
+    "Arguments": {
+        "s": {
+            "type": "other",
+            "value": "tf.random.normal(shape=[7,5,3])"
+        },
+        "t": {
+            "type": "other",
+            "value": "tf.random.normal(shape=[7,3,2])"
+        }
+    }
+}

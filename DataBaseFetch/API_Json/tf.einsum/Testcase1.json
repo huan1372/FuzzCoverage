@@ -1,0 +1,14 @@
+{
+    "api call code": "e = tf.einsum('ij,jk->ik', m0, m1)",
+    "comments": "output[i,k] = sum_j m0[i,j] * m1[j, k]\n",
+    "Arguments": {
+        "m0": {
+            "type": "other",
+            "value": "tf.random.normal(shape=[2, 3])"
+        },
+        "m1": {
+            "type": "other",
+            "value": "tf.random.normal(shape=[3, 5])"
+        }
+    }
+}

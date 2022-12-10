@@ -1,0 +1,23 @@
+{
+    "inputs": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "axis": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "-1"
+            }
+        }
+    },
+    "**kwargs": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    }
+}

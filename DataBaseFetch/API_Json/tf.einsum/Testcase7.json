@@ -1,0 +1,10 @@
+{
+    "api call code": "trace = tf.einsum('ii', m)  # output[j,i] = trace(m) = sum_i m[i, i]",
+    "comments": "Repeated indices are summed.\n",
+    "Arguments": {
+        "assert trace": {
+            "type": "other",
+            "value": "= sum(diag)"
+        }
+    }
+}

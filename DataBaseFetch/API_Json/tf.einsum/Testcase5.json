@@ -1,0 +1,10 @@
+{
+    "api call code": "e = tf.einsum('ij->ji', m0)  # output[j,i] = m0[i,j]",
+    "comments": "",
+    "Arguments": {
+        "m": {
+            "type": "other",
+            "value": "tf.ones(2,3)"
+        }
+    }
+}

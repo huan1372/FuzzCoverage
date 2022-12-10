@@ -1,0 +1,58 @@
+{
+    "input": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "filters": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "strides": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "padding": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "string": " Either the `string` `\"SAME\"` or `\"VALID\"` indicating the type of"
+    },
+    "data_format": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "'NHWC'"
+            }
+        },
+        "string": " An optional `string` from: `\"NHWC\", \"NCHW\"`."
+    },
+    "dilations": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "optional": "True"
+    }
+}

@@ -5,9 +5,9 @@ This function should *not* be used for operations that have a
 well-defined gradient that is not yet implemented.
 This function is only used when defining a new op type. It may be
 used for ops such as `tf.size()` that are not differentiable.  For
-example:
+For example:
 ```python
-tf.no_gradient("Size")
+>>> tf.no_gradient("Size")
 ```
 The gradient computed for 'op_type' will then propagate zeros.
 For ops that have a well-defined gradient but are not yet implemented,

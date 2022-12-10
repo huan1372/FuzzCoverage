@@ -1,0 +1,36 @@
+{
+    "input_text": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "string": " Input text (string)."
+    },
+    "filters": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "'!\"#$%&()*+,-./:;<=>?@[\\\\]^_`{|}~\\t\\n'"
+            }
+        }
+    },
+    "lower": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "bool",
+                "value": "True"
+            }
+        }
+    },
+    "split": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "' '"
+            }
+        }
+    }
+}

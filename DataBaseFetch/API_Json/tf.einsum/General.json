@@ -1,0 +1,21 @@
+{
+    "equation": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "*inputs": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "**kwargs": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    }
+}

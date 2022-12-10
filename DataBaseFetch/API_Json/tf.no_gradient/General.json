@@ -1,0 +1,9 @@
+{
+    "op_type": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "string": " The string type of an operation. This corresponds to the"
+    }
+}

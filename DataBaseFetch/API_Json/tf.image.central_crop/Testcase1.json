@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.image.central_crop(x, 0.5)",
+    "comments": "",
+    "Arguments": {}
+}

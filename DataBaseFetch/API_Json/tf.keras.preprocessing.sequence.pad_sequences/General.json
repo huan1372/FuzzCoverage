@@ -1,0 +1,56 @@
+{
+    "sequences": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "maxlen": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "dtype": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "'int32'"
+            }
+        },
+        "string": "To pad sequences with variable length strings, you can use `object`.\n"
+    },
+    "padding": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "'pre'"
+            }
+        },
+        "optional": "True"
+    },
+    "truncating": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "'pre'"
+            }
+        },
+        "optional": "True"
+    },
+    "value": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "0.0"
+            }
+        }
+    }
+}

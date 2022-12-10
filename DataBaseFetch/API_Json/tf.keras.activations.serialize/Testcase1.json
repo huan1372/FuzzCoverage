@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.keras.activations.serialize(tf.keras.activations.tanh)",
+    "comments": "",
+    "Arguments": {}
+}

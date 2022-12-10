@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.strings.length(strings).numpy() # default counts bytes",
+    "comments": "",
+    "Arguments": {
+        "strings": {
+            "type": "other",
+            "value": "tf.constant(['Hello','TensorFlow', '\\U0001F642'])"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "api call code": "e = tf.einsum('i,j->ij', u, v)  # output[i,j] = u[i]*v[j]",
+    "comments": "",
+    "Arguments": {
+        "u": {
+            "type": "other",
+            "value": "tf.random.normal(shape=[3])"
+        },
+        "v": {
+            "type": "other",
+            "value": "tf.random.normal(shape=[5])"
+        }
+    }
+}

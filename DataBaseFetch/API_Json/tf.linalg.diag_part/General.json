@@ -1,0 +1,47 @@
+{
+    "input": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "'diag_part'"
+            }
+        },
+        "optional": "True"
+    },
+    "k": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "0"
+            }
+        }
+    },
+    "padding_value": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "0"
+            }
+        }
+    },
+    "align": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "'RIGHT_LEFT'"
+            }
+        },
+        "string": "`align` is a string specifying how superdiagonals and subdiagonals should\n"
+    }
+}

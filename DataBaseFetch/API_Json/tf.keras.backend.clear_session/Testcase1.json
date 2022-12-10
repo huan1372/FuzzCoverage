@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.keras.backend.clear_session()",
+    "comments": "",
+    "Arguments": {
+        "new_layer": {
+            "type": "other",
+            "value": " tf.keras.layers.Dense(10)"
+        }
+    }
+}

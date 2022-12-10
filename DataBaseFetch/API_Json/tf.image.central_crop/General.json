@@ -1,0 +1,15 @@
+{
+    "image": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "central_fraction": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    }
+}

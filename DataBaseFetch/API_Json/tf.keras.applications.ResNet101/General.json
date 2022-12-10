@@ -1,0 +1,63 @@
+{
+    "include_top": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "bool",
+                "value": "True"
+            }
+        }
+    },
+    "weights": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "'imagenet'"
+            }
+        }
+    },
+    "input_tensor": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "input_shape": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "pooling": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "classes": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "1000"
+            }
+        }
+    },
+    "**kwargs": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "classifier_activation": {}
+}

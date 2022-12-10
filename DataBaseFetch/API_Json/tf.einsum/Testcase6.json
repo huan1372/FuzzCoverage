@@ -1,0 +1,10 @@
+{
+    "api call code": "diag = tf.einsum('ii->i', m)",
+    "comments": "",
+    "Arguments": {
+        "m": {
+            "type": "other",
+            "value": "tf.reshape(tf.range(9), [3,3])"
+        }
+    }
+}

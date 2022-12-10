@@ -89,7 +89,7 @@ class TFAPI:
     def parse_args(self,arglist:list):
         for item in arglist:
             if "=" in item:
-                argname,default_v = item.split("=")
+                argname,default_v = item.split("=",1)
                 default = True
                 self.default = True
                 default_v3 = self.parse_default_type(default_v)
@@ -117,6 +117,7 @@ class TFAPI:
             print(type_info)
         
     def parse_line(self,line:str):
+        disp = ""
         if self.mode == ParseMode.IDLE or self.mode == ParseMode.RETURN:
             return
         elif self.mode == ParseMode.EXAMPLE_S or self.mode == ParseMode.EXAMPLE_E :
@@ -133,12 +134,12 @@ class TFAPI:
                     if self.api_name in line_l:
                         self.cur_testcase.set_api_call_code(line_l.strip())
                     elif "=" in line_l:
-                        code = line_l.strip().split("=")
+                        code = line_l.strip().split("=",1)
                         argname = code[0].strip(" ")
                         # if argname not in self.ArgInfo.keys():
                         #     print(argname)
                         #     raise Exception("Argument not found!")
-                        argval = "=".join(code[1:])
+                        argval = code[1].strip(" ")
                         self.cur_testcase.add_argument(argname,ArgType.OTHER,argval)
             # OUTPUT Stage -> add testcase, set to accept next round testcase
             else:
@@ -154,13 +155,20 @@ class TFAPI:
             return
         elif self.mode == ParseMode.ARGS:
             if ":" in line:
-                found = re.search("(\w+):(.+)",line)
-                argname = found.group(1)
-                disp = found.group(2)
-                if argname not in self.ArgInfo.keys():
-                    raise Exception("Argument not found!")
-                else:
-                    self.cur_argname = argname
+                found = re.search("^(\w+):(.+)",line)
+                if found != None:
+                    argname = found.group(1)
+                    argname = "**" + argname if argname == "kwargs" else argname
+                    disp = found.group(2)
+                    if argname not in self.ArgInfo.keys() :
+                        if argname == "inputs" or "**kwargs" in self.ArgInfo.keys():
+                            self.cur_argname = argname
+                            self.ArgInfo[self.cur_argname] = {}
+                        else:
+                            print(argname)
+                            raise Exception("Argument not found!")
+                    else:
+                        self.cur_argname = argname
             
             if "Tensor" in line or "SparseTensor" in line:
                 dtypes = find_types(line,[],TENSOR_TYPE_List)
@@ -177,9 +185,9 @@ class TFAPI:
             elif "(optional)" in line or "(optional" in line:
                 self.ArgInfo[self.cur_argname]["optional"] = "True"
             elif "string" in line:
-                self.ArgInfo[self.cur_argname]["string"] = disp
+                self.ArgInfo[self.cur_argname]["string"] = disp if disp != "" else line
             elif "`bytes`" in line:
-                self.ArgInfo[self.cur_argname]["bytes"] = disp
+                self.ArgInfo[self.cur_argname]["bytes"] = disp if disp != "" else line
             else:
                 print(line)
             return
@@ -345,10 +353,18 @@ def Fetch_func_module(helpdefinestr):
 def Fetch_argsname(func_name,apidefstr):
     if not apidefstr.startswith(func_name):
         raise Exception(f"There is no func definition for %s",api_name)
-    arglist = re.search(func_name+"\((.+)\)",apidefstr).group(1).split(", ")
-    return arglist
+    found = re.search(func_name+"\((.+)\)",apidefstr)
+    if found != None:
+        arglist = found.group(1).split(", ")
+        return arglist
+    else:
+        found = re.search(func_name+"\(\)",apidefstr)
+        if found != None:
+            return []
+        else:
+            raise Exception("No definition of inputs")
 
-def Fetch_API_Info(api_name,api_doc_dir=API_DOC_DIR):
+def Fetch_API_Info(api_name,api_doc_dir=API_DOC_ERR_DIR):
     api_doc_f = open(api_doc_dir + api_name)
     
     #? Fetch func name 
@@ -362,17 +378,20 @@ def Fetch_API_Info(api_name,api_doc_dir=API_DOC_DIR):
         args = Fetch_argsname("class "+func_name,api_doc_f.readline().rstrip())
     tf_api = TFAPI(api_name)
     tf_api.parse_args(args)
-
+    #print(tf_api.ArgInfo)
     #! Main part of Analysis
     #! Currently neglect anything besides For example code + Args comments
     for line in api_doc_f.readlines():
         if "For example" in line or "Example" in line or "Code example:" in line or "The following example" in line:
             tf_api.set_mode(ParseMode.EXAMPLE_S)
             continue
-        elif line.strip() == "Args:":
+        elif line.strip() == "Args:" or line.strip() == "Call arguments:":
             tf_api.set_mode(ParseMode.ARGS)
             continue
         elif line.strip() == "Returns:":
+            tf_api.set_mode(ParseMode.RETURN)
+            continue
+        elif line.strip() == "Raises:":
             tf_api.set_mode(ParseMode.RETURN)
             continue
         tf_api.parse_line(line)
@@ -385,13 +404,15 @@ if __name__ == "__main__":
     #FreeFuzzresults = FreeFuzz_Data_Collection()
     #HelperDoc = TF_doc_Collection()
     
-    #api_name = sys.argv[1]
-    for api_name in sorted(os.listdir(API_DOC_DIR)):
+    api_name = sys.argv[1]
+    Fetch_API_Info(api_name,API_DOC_DIR)
+    for api_name in sorted(os.listdir(API_DOC_ERR_DIR)):
         #print(filename)
-        print(api_name)
+        
         try:
             Fetch_API_Info(api_name)
-        except Exception as e:
             import shutil
-            shutil.move(API_DOC_DIR+api_name, API_DOC_ERR_DIR + api_name)
-    # print("a")
+            shutil.move( API_DOC_ERR_DIR + api_name,API_DOC_DIR+api_name)
+        except Exception as e:
+            print(api_name)
+            print(e)

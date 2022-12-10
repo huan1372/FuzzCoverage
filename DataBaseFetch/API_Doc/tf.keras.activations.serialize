@@ -2,7 +2,7 @@ Help on function serialize in module keras.activations:
 serialize(activation)
 Returns the string identifier of an activation function.
 Args:
-activation : Function object.
+activation:Function object.
 Returns:
 String denoting the name attribute of the input function
 For example:

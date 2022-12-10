@@ -1,0 +1,14 @@
+{
+    "api call code": "e =  tf.einsum('...ij,...jk->...ik', s, t)",
+    "comments": "",
+    "Arguments": {
+        "s": {
+            "type": "other",
+            "value": "tf.random.normal(shape=[11, 7, 5, 3])"
+        },
+        "t": {
+            "type": "other",
+            "value": "tf.random.normal(shape=[11, 7, 3, 2])"
+        }
+    }
+}

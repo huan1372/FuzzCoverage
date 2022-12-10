@@ -6,7 +6,7 @@ AL Maas, AY Hannun, AY Ng - Proc. ICML, 2013]
 (https://ai.stanford.edu/~amaas/papers/relu_hybrid_icml2013_final.pdf).
 Args:
 features: A `Tensor` representing preactivation values. Must be one of
-the following types: `float16`, `float32`, `float64`, `int32`, `int64`.
+the following types - `float16`, `float32`, `float64`, `int32`, `int64`.
 alpha: Slope of the activation function at x < 0.
 name: A name for the operation (optional).
 Returns:

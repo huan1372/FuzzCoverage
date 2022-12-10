@@ -1,0 +1,5 @@
+{
+    "api call code": "e = tf.einsum('ij,jk', m0, m1)  # output[i,k] = sum_j m0[i,j] * m1[j, k]",
+    "comments": "",
+    "Arguments": {}
+}

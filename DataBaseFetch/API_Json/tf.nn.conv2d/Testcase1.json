@@ -1,0 +1,14 @@
+{
+    "api call code": "tf.nn.conv2d(x, kernel, strides=[1, 1, 1, 1], padding='VALID')",
+    "comments": "",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": "tf.constant(x_in, dtype=tf.float32)"
+        },
+        "kernel": {
+            "type": "other",
+            "value": "tf.constant(kernel_in, dtype=tf.float32)"
+        }
+    }
+}
