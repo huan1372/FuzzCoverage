@@ -4,11 +4,11 @@
     "Arguments": {
         "t": {
             "type": "other",
-            "value": " tf.constant([[-1, 0., 10.], [-1, 0, 10]])"
+            "value": "tf.constant([[-1, 0., 10.], [-1, 0, 10]])"
         },
         "clip_min": {
             "type": "other",
-            "value": " [[2],[1]]"
+            "value": "[[2],[1]]"
         }
     }
 }

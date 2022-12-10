@@ -79,6 +79,5 @@
             "default": false,
             "default_value": null
         }
-    },
-    "https": {}
+    }
 }

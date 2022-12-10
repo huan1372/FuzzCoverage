@@ -4,7 +4,7 @@
     "Arguments": {
         "tensor": {
             "type": "other",
-            "value": " tf.range(5)"
+            "value": "tf.range(5)"
         }
     }
 }

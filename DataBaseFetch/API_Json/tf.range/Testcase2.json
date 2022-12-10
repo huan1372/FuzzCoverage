@@ -4,15 +4,15 @@
     "Arguments": {
         "start": {
             "type": "other",
-            "value": " 3"
+            "value": "3"
         },
         "limit": {
             "type": "other",
-            "value": " 1"
+            "value": "1"
         },
         "delta": {
             "type": "other",
-            "value": " -0.5"
+            "value": "-0.5"
         }
     }
 }

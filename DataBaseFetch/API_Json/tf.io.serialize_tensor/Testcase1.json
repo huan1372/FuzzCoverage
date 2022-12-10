@@ -4,7 +4,7 @@
     "Arguments": {
         "t": {
             "type": "other",
-            "value": " tf.constant(1)"
+            "value": "tf.constant(1)"
         }
     }
 }

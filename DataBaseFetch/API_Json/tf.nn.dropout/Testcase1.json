@@ -4,7 +4,7 @@
     "Arguments": {
         "x": {
             "type": "other",
-            "value": " tf.ones([3,10])"
+            "value": "tf.ones([3,10])"
         }
     }
 }

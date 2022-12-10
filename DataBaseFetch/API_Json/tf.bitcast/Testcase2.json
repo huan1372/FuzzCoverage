@@ -4,19 +4,19 @@
     "Arguments": {
         "x": {
             "type": "other",
-            "value": " [1., 2., 3.]"
+            "value": "[1., 2., 3.]"
         },
         "y": {
             "type": "other",
-            "value": " [0., 2., 3.]"
+            "value": "[0., 2., 3.]"
         },
         "equality": {
             "type": "other",
-            "value": " tf.equal(x,y)"
+            "value": "tf.equal(x,y)"
         },
         "equality_cast": {
             "type": "other",
-            "value": " tf.cast(equality,tf.float32)"
+            "value": "tf.cast(equality,tf.float32)"
         }
     }
 }

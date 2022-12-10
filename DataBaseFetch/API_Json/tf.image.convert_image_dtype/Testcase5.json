@@ -4,11 +4,11 @@
     "Arguments": {
         "c": {
             "type": "other",
-            "value": " [[[1], [2]], [[127], [127]]]"
+            "value": "[[[1], [2]], [[127], [127]]]"
         },
         "c_int8": {
             "type": "other",
-            "value": " tf.convert_to_tensor(c, dtype=tf.int8)"
+            "value": "tf.convert_to_tensor(c, dtype=tf.int8)"
         }
     }
 }

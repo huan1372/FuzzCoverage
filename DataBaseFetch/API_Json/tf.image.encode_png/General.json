@@ -5,9 +5,9 @@
             "default_value": null
         },
         "tensor": [
-            "uint8",
-            "uint16",
             "int16",
+            "uint16",
+            "uint8",
             "int8"
         ]
     },

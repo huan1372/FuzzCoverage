@@ -7,8 +7,8 @@
         "tensor": [
             "float32",
             "float64",
-            "float16",
-            "bfloat16"
+            "bfloat16",
+            "float16"
         ]
     },
     "stop": {
@@ -24,8 +24,8 @@
             "default_value": null
         },
         "tensor": [
-            "int32",
-            "int64"
+            "int64",
+            "int32"
         ]
     },
     "name": {

@@ -4,7 +4,7 @@
     "Arguments": {
         "x_int8": {
             "type": "other",
-            "value": " tf.convert_to_tensor(x, dtype=tf.int8)"
+            "value": "tf.convert_to_tensor(x, dtype=tf.int8)"
         }
     }
 }

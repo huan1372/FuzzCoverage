@@ -4,11 +4,11 @@
     "Arguments": {
         "indices": {
             "type": "other",
-            "value": " [[0],[1]]"
+            "value": "[[0],[1]]"
         },
         "new_clips": {
             "type": "other",
-            "value": " tf.ones([2, time, width, height, channels])"
+            "value": "tf.ones([2, time, width, height, channels])"
         }
     }
 }

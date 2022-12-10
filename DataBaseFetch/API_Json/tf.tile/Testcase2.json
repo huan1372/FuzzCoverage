@@ -4,7 +4,7 @@
     "Arguments": {
         "c": {
             "type": "other",
-            "value": " tf.constant([2,1], tf.int32)"
+            "value": "tf.constant([2,1], tf.int32)"
         }
     }
 }

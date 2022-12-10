@@ -5,12 +5,12 @@
             "default_value": null
         },
         "tensor": [
+            "complex64",
             "float64",
             "float32",
-            "int32",
+            "float16",
             "complex128",
-            "complex64",
-            "float16"
+            "int32"
         ]
     },
     "b": {

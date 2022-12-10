@@ -4,7 +4,7 @@
     "Arguments": {
         "a": {
             "type": "other",
-            "value": " tf.constant([-20, -1.0, 0.0, 1.0, 20], dtype = tf.float32)"
+            "value": "tf.constant([-20, -1.0, 0.0, 1.0, 20], dtype = tf.float32)"
         }
     }
 }

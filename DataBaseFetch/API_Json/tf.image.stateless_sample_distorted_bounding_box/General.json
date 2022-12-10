@@ -5,11 +5,11 @@
             "default_value": null
         },
         "tensor": [
-            "uint8",
-            "int32",
             "int64",
-            "int8",
-            "int16"
+            "uint8",
+            "int16",
+            "int32",
+            "int8"
         ]
     },
     "bounding_boxes": {
@@ -27,8 +27,8 @@
             "default_value": null
         },
         "tensor": [
-            "int32",
-            "int64"
+            "int64",
+            "int32"
         ]
     },
     "min_object_covered": {

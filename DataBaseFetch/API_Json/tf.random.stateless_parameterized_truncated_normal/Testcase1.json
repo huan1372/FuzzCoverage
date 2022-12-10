@@ -4,19 +4,19 @@
     "Arguments": {
         "means": {
             "type": "other",
-            "value": " 0."
+            "value": "0."
         },
         "stddevs": {
             "type": "other",
-            "value": " tf.math.exp(tf.random.uniform(shape=[2, 3]))"
+            "value": "tf.math.exp(tf.random.uniform(shape=[2, 3]))"
         },
         "minvals": {
             "type": "other",
-            "value": " [-1., -2., -1000.]"
+            "value": "[-1., -2., -1000.]"
         },
         "maxvals": {
             "type": "other",
-            "value": " [[10000.], [1.]]"
+            "value": "[[10000.], [1.]]"
         }
     }
 }

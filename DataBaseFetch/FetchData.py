@@ -364,7 +364,7 @@ def Fetch_argsname(func_name,apidefstr):
         else:
             raise Exception("No definition of inputs")
 
-def Fetch_API_Info(api_name,api_doc_dir=API_DOC_ERR_DIR):
+def Fetch_API_Info(api_name,api_doc_dir=API_DOC_DIR):
     api_doc_f = open(api_doc_dir + api_name)
     
     #? Fetch func name 
@@ -403,16 +403,16 @@ def Fetch_API_Info(api_name,api_doc_dir=API_DOC_ERR_DIR):
 if __name__ == "__main__": 
     #FreeFuzzresults = FreeFuzz_Data_Collection()
     #HelperDoc = TF_doc_Collection()
-    
-    api_name = sys.argv[1]
-    Fetch_API_Info(api_name,API_DOC_DIR)
-    for api_name in sorted(os.listdir(API_DOC_ERR_DIR)):
+
+   
+    for api_name in sorted(os.listdir(API_DOC_DIR)):
         #print(filename)
         
         try:
             Fetch_API_Info(api_name)
-            import shutil
-            shutil.move( API_DOC_ERR_DIR + api_name,API_DOC_DIR+api_name)
+           
         except Exception as e:
+            import shutil
+            shutil.move( API_DOC_DIR + api_name,API_DOC_ERR_DIR+api_name)
             print(api_name)
             print(e)

@@ -4,11 +4,11 @@
     "Arguments": {
         "a": {
             "type": "other",
-            "value": " tf.constant([True])"
+            "value": "tf.constant([True])"
         },
         "b": {
             "type": "other",
-            "value": " tf.constant([False])"
+            "value": "tf.constant([False])"
         }
     }
 }

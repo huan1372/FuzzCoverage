@@ -5,13 +5,13 @@
             "default_value": null
         },
         "tensor": [
+            "int64",
+            "complex64",
             "float64",
             "float32",
-            "int32",
-            "int64",
+            "float16",
             "complex128",
-            "complex64",
-            "float16"
+            "int32"
         ]
     },
     "y": {
@@ -20,13 +20,13 @@
             "default_value": null
         },
         "tensor": [
+            "int64",
+            "complex64",
             "float64",
             "float32",
-            "int32",
-            "int64",
+            "float16",
             "complex128",
-            "complex64",
-            "float16"
+            "int32"
         ]
     },
     "name": {

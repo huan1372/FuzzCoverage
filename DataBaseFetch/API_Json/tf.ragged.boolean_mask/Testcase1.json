@@ -4,7 +4,7 @@
     "Arguments": {
         "T, F": {
             "type": "other",
-            "value": " (True, False)"
+            "value": "(True, False)"
         }
     }
 }

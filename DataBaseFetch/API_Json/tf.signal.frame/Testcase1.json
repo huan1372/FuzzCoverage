@@ -4,7 +4,7 @@
     "Arguments": {
         "audio": {
             "type": "other",
-            "value": " tf.random.normal([3, 9152])"
+            "value": "tf.random.normal([3, 9152])"
         }
     }
 }

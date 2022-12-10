@@ -5,20 +5,20 @@
             "default_value": null
         },
         "tensor": [
-            "float64",
-            "uint8",
-            "uint16",
-            "float32",
-            "int32",
-            "qint32",
-            "int8",
-            "int64",
-            "half",
-            "complex128",
-            "quint8",
-            "qint8",
             "complex64",
-            "int16"
+            "int64",
+            "uint8",
+            "float64",
+            "half",
+            "qint32",
+            "int16",
+            "float32",
+            "uint16",
+            "qint8",
+            "quint8",
+            "complex128",
+            "int32",
+            "int8"
         ]
     },
     "axis": {

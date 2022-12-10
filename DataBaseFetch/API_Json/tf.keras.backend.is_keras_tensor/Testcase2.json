@@ -4,7 +4,7 @@
     "Arguments": {
         "keras_placeholder": {
             "type": "other",
-            "value": " tf.keras.backend.placeholder(shape=(2, 4, 5))"
+            "value": "tf.keras.backend.placeholder(shape=(2, 4, 5))"
         }
     }
 }

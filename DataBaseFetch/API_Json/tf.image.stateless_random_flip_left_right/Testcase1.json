@@ -4,11 +4,11 @@
     "Arguments": {
         "image": {
             "type": "other",
-            "value": " np.array([[[1], [2]], [[3], [4]]])"
+            "value": "np.array([[[1], [2]], [[3], [4]]])"
         },
         "seed": {
             "type": "other",
-            "value": " (2, 3)"
+            "value": "(2, 3)"
         }
     }
 }

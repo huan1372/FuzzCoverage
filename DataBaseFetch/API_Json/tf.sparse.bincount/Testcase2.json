@@ -4,11 +4,11 @@
     "Arguments": {
         "minlength": {
             "type": "other",
-            "value": " maxlength = 500"
+            "value": "maxlength = 500"
         },
         "data": {
             "type": "other",
-            "value": " np.array([[10, 20, 30, 20], [11, 101, 11, 10001]], dtype=np.int64)"
+            "value": "np.array([[10, 20, 30, 20], [11, 101, 11, 10001]], dtype=np.int64)"
         }
     }
 }

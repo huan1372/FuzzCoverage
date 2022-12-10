@@ -12,8 +12,8 @@
             "default_value": null
         },
         "tensor": [
-            "int32",
-            "int64"
+            "int64",
+            "int32"
         ]
     },
     "batch_dims": {

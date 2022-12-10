@@ -4,7 +4,7 @@
     "Arguments": {
         "x": {
             "type": "other",
-            "value": " tf.Variable(tf.random.uniform([5, 30], -1, 1))"
+            "value": "tf.Variable(tf.random.uniform([5, 30], -1, 1))"
         }
     }
 }

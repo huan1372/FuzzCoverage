@@ -4,15 +4,15 @@
     "Arguments": {
         "tensor": {
             "type": "other",
-            "value": " [[1, 1], [1, 1], [1, 1]]    # tf.rank(tensor) == 2"
+            "value": "[[1, 1], [1, 1], [1, 1]]    # tf.rank(tensor) == 2"
         },
         "indices": {
             "type": "other",
-            "value": " [[0, 1], [2, 0]]           # num_updates == 2, index_depth == 2"
+            "value": "[[0, 1], [2, 0]]           # num_updates == 2, index_depth == 2"
         },
         "updates": {
             "type": "other",
-            "value": " [5, 10]                    # num_updates == 2"
+            "value": "[5, 10]                    # num_updates == 2"
         }
     }
 }

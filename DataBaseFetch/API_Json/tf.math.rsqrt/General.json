@@ -5,9 +5,9 @@
             "default_value": null
         },
         "tensor": [
+            "half",
             "float64",
             "float32",
-            "half",
             "bfloat16",
             "float16"
         ]

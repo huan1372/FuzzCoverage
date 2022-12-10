@@ -15,17 +15,17 @@
             }
         },
         "tensor": [
-            "float64",
-            "uint8",
-            "uint16",
-            "float32",
-            "int32",
-            "int8",
             "int64",
-            "complex128",
+            "uint8",
+            "float64",
             "complex64",
             "int16",
-            "float16"
+            "float32",
+            "uint16",
+            "float16",
+            "complex128",
+            "int32",
+            "int8"
         ]
     },
     "name": {

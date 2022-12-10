@@ -4,11 +4,11 @@
     "Arguments": {
         "x": {
             "type": "other",
-            "value": " tf.constant([2, 4])"
+            "value": "tf.constant([2, 4])"
         },
         "y": {
             "type": "other",
-            "value": " tf.constant(2)"
+            "value": "tf.constant(2)"
         }
     }
 }

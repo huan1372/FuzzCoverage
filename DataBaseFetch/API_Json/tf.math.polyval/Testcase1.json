@@ -4,11 +4,11 @@
     "Arguments": {
         "coefficients": {
             "type": "other",
-            "value": " [1.0, 2.5, -4.2]"
+            "value": "[1.0, 2.5, -4.2]"
         },
         "x": {
             "type": "other",
-            "value": " 5.0"
+            "value": "5.0"
         }
     }
 }

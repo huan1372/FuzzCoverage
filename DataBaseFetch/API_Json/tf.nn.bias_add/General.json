@@ -5,13 +5,13 @@
             "default_value": null
         },
         "tensor": [
-            "uint8",
-            "int32",
-            "int8",
             "int64",
-            "complex128",
+            "uint8",
             "complex64",
-            "int16"
+            "int16",
+            "complex128",
+            "int32",
+            "int8"
         ]
     },
     "bias": {

@@ -4,11 +4,11 @@
     "Arguments": {
         "tensor_a": {
             "type": "other",
-            "value": " tf.range(2)"
+            "value": "tf.range(2)"
         },
         "tensor_b": {
             "type": "other",
-            "value": " tf.range(1, 4, 2)"
+            "value": "tf.range(1, 4, 2)"
         }
     }
 }

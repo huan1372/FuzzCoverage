@@ -4,11 +4,11 @@
     "Arguments": {
         "master_seed": {
             "type": "other",
-            "value": " [1, 2]"
+            "value": "[1, 2]"
         },
         "replica_id": {
             "type": "other",
-            "value": " 3"
+            "value": "3"
         }
     }
 }

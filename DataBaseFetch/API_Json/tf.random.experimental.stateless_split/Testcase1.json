@@ -4,7 +4,7 @@
     "Arguments": {
         "seed": {
             "type": "other",
-            "value": " [1, 2]"
+            "value": "[1, 2]"
         }
     }
 }

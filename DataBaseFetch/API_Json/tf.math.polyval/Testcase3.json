@@ -4,19 +4,19 @@
     "Arguments": {
         "x": {
             "type": "other",
-            "value": " tf.constant(3)"
+            "value": "tf.constant(3)"
         },
         "theta1": {
             "type": "other",
-            "value": " tf.Variable(2)"
+            "value": "tf.Variable(2)"
         },
         "theta2": {
             "type": "other",
-            "value": " tf.Variable(1)"
+            "value": "tf.Variable(1)"
         },
         "theta3": {
             "type": "other",
-            "value": " tf.Variable(0)"
+            "value": "tf.Variable(0)"
         }
     }
 }

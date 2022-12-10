@@ -4,11 +4,11 @@
     "Arguments": {
         "tensor": {
             "type": "other",
-            "value": " [[1, 2], [3, 4], [5, 6]] # 2-D example"
+            "value": "[[1, 2], [3, 4], [5, 6]] # 2-D example"
         },
         "mask": {
             "type": "other",
-            "value": " np.array([True, False, True])"
+            "value": "np.array([True, False, True])"
         }
     }
 }

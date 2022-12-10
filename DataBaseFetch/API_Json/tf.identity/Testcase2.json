@@ -4,7 +4,7 @@
     "Arguments": {
         "a": {
             "type": "other",
-            "value": " tf.Variable(5)"
+            "value": "tf.Variable(5)"
         }
     }
 }

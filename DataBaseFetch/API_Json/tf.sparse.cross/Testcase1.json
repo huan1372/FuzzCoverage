@@ -4,11 +4,11 @@
     "Arguments": {
         "inp_0": {
             "type": "other",
-            "value": " tf.constant([['a'], ['b']])"
+            "value": "tf.constant([['a'], ['b']])"
         },
         "inp_1": {
             "type": "other",
-            "value": " tf.constant([['c'], ['d']])"
+            "value": "tf.constant([['c'], ['d']])"
         }
     }
 }

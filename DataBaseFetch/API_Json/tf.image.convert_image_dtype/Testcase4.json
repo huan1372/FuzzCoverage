@@ -4,11 +4,11 @@
     "Arguments": {
         "b": {
             "type": "other",
-            "value": " [[[0.12], [0.34]], [[0.56], [0.78]]]"
+            "value": "[[[0.12], [0.34]], [[0.56], [0.78]]]"
         },
         "b_float32": {
             "type": "other",
-            "value": " tf.convert_to_tensor(b, dtype=tf.float32)"
+            "value": "tf.convert_to_tensor(b, dtype=tf.float32)"
         }
     }
 }

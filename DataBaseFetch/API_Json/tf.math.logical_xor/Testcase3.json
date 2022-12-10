@@ -4,11 +4,11 @@
     "Arguments": {
         "y": {
             "type": "other",
-            "value": " tf.constant([False, False, True, True])"
+            "value": "tf.constant([False, False, True, True])"
         },
         "z": {
             "type": "other",
-            "value": " tf.constant([False, True, False, True])"
+            "value": "tf.constant([False, True, False, True])"
         }
     }
 }

@@ -4,7 +4,7 @@
     "Arguments": {
         "new_layer": {
             "type": "other",
-            "value": " tf.keras.layers.Dense(10)"
+            "value": "tf.keras.layers.Dense(10)"
         }
     }
 }

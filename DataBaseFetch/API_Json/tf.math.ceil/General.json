@@ -5,12 +5,12 @@
             "default_value": null
         },
         "tensor": [
+            "half",
             "float64",
             "float32",
-            "int32",
-            "half",
             "bfloat16",
-            "float16"
+            "float16",
+            "int32"
         ]
     },
     "name": {

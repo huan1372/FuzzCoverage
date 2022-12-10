@@ -6,10 +6,10 @@
         },
         "tensor": [
             "int64",
-            "int32",
+            "float64",
             "float32",
             "float16",
-            "float64"
+            "int32"
         ]
     },
     "alpha": {

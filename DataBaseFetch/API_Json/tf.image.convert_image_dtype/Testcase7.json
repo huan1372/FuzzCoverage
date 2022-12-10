@@ -4,11 +4,11 @@
     "Arguments": {
         "d": {
             "type": "other",
-            "value": " [[[1000], [2000]], [[3000], [4000]]]"
+            "value": "[[[1000], [2000]], [[3000], [4000]]]"
         },
         "d_int16": {
             "type": "other",
-            "value": " tf.convert_to_tensor(d, dtype=tf.int16)"
+            "value": "tf.convert_to_tensor(d, dtype=tf.int16)"
         }
     }
 }

@@ -4,7 +4,7 @@
     "Arguments": {
         "keras_var": {
             "type": "other",
-            "value": " tf.keras.backend.variable(np_var)"
+            "value": "tf.keras.backend.variable(np_var)"
         }
     }
 }

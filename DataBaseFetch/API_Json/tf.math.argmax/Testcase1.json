@@ -4,7 +4,7 @@
     "Arguments": {
         "A": {
             "type": "other",
-            "value": " tf.constant([2, 20, 30, 3, 6])"
+            "value": "tf.constant([2, 20, 30, 3, 6])"
         }
     }
 }

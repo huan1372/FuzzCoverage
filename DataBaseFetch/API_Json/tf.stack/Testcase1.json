@@ -4,15 +4,15 @@
     "Arguments": {
         "x": {
             "type": "other",
-            "value": " tf.constant([1, 4])"
+            "value": "tf.constant([1, 4])"
         },
         "y": {
             "type": "other",
-            "value": " tf.constant([2, 5])"
+            "value": "tf.constant([2, 5])"
         },
         "z": {
             "type": "other",
-            "value": " tf.constant([3, 6])"
+            "value": "tf.constant([3, 6])"
         }
     }
 }

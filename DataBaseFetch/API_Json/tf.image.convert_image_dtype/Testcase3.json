@@ -4,7 +4,7 @@
     "Arguments": {
         "a_int32": {
             "type": "other",
-            "value": " tf.convert_to_tensor(a, dtype=tf.int32)"
+            "value": "tf.convert_to_tensor(a, dtype=tf.int32)"
         }
     }
 }
