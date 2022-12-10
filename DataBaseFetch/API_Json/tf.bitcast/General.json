@@ -5,20 +5,54 @@
             "default_value": null
         },
         "tensor": [
-            "complex64",
-            "int64",
+            "uint8",
+            "half",
+            "int16",
+            "qint8",
+            "int8",
+            "uint16",
+            "quint8",
+            "bfloat16",
+            "qint32",
+            "uint32",
             "complex128",
-            "int32",
-            "float64",
             "float16",
-            "float32"
+            "float64",
+            "complex64",
+            "quint16",
+            "qint16",
+            "uint64",
+            "int32",
+            "float32",
+            "int64"
         ]
     },
     "type": {
         "defaultInfo": {
             "default": false,
             "default_value": null
-        }
+        },
+        "tf.DType": [
+            "tf.int64",
+            "tf.complex64",
+            "tf.bfloat16",
+            "tf.qint8",
+            "tf.int16",
+            "tf.qint32",
+            "tf.uint16",
+            "tf.int32",
+            "tf.uint64",
+            "tf.uint32",
+            "tf.float64",
+            "tf.float32",
+            "tf.quint8",
+            "tf.int8",
+            "tf.half",
+            "tf.quint16",
+            "tf.complex128",
+            "tf.qint16",
+            "tf.uint8"
+        ]
     },
     "name": {
         "defaultInfo": {

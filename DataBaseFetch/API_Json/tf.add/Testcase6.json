@@ -4,11 +4,11 @@
     "Arguments": {
         "x": {
             "type": "other",
-            "value": "np.ones([1, 2, 1, 4])"
+            "value": " np.ones([1, 2, 1, 4])"
         },
         "y": {
             "type": "other",
-            "value": "np.ones([3, 4])"
+            "value": " np.ones([3, 4])"
         }
     }
 }

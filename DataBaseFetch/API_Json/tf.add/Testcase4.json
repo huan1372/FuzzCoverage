@@ -4,11 +4,11 @@
     "Arguments": {
         "x": {
             "type": "other",
-            "value": "tf.constant([1, 2], dtype=tf.int8)"
+            "value": " tf.constant([1, 2], dtype=tf.int8)"
         },
         "y": {
             "type": "other",
-            "value": "[2**7 + 1, 2**7 + 2]"
+            "value": " [2**7 + 1, 2**7 + 2]"
         }
     }
 }

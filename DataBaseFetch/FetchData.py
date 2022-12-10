@@ -7,7 +7,8 @@ import copy
 import os
 import json
 
-TYPE_List = ["float16","float32","float64","int32","int64","complex64","complex128"]
+TENSOR_TYPE_List = ["bfloat16","half","float16","float32","float64","int8","int16","int32","int64","complex64","complex128","uint8","uint16","uint32","uint64","qint8", "quint8", "qint16", "quint16", "qint32"]
+DType_List = ["tf.bfloat16", "tf.half", "tf.float32", "tf.float64", "tf.int64", "tf.int32", "tf.uint8", "tf.uint16", "tf.uint32", "tf.uint64", "tf.int8", "tf.int16", "tf.complex64", "tf.complex128", "tf.qint8", "tf.quint8", "tf.qint16", "tf.quint16", "tf.qint32"]
 #* Type for testcase
 class ArgType(str,Enum):
     INT = "int"
@@ -37,7 +38,7 @@ class ParseMode(IntEnum):
     ARGS = 3
     RETURN = 5
 
-def find_types(line,dtypes):
+def find_types(line,dtypes,TYPE_List):
     dtypes = set(dtypes)
     for type in TYPE_List:
         if type in line:
@@ -105,6 +106,12 @@ class TFAPI:
     def parse_default_type(self,type_info):
         if type_info == "None":
             return (ArgType.NULL,"None")
+        elif type_info == "False" or type_info == "True":
+            return (ArgType.BOOL,type_info)
+        elif isinstance(type_info,int):
+            return (ArgType.INT,int(type_info))
+        elif isinstance(type_info,str):
+            return (ArgType.STR,type_info)
         else:
             print(type_info)
         
@@ -127,11 +134,19 @@ class TFAPI:
                     elif "=" in line_l:
                         code = line_l.strip().split("=")
                         argname = code[0].strip(" ")
-                        argval = code[1].strip(" ")
+                        # if argname not in self.ArgInfo.keys():
+                        #     print(argname)
+                        #     raise Exception("Argument not found!")
+                        argval = "=".join(code[1:])
                         self.cur_testcase.add_argument(argname,ArgType.OTHER,argval)
             # OUTPUT Stage -> add testcase, set to accept next round testcase
             else:
-                if self.cur_testcase != None:
+                if self.cur_testcase == None:
+                    return
+                if line.startswith("Traceback") or self.cur_testcase.api_call_code == "" :
+                    self.set_mode(ParseMode.EXAMPLE_S)
+                    self.cur_testcase = None
+                elif self.cur_testcase != None:
                     self.Testcase.append(copy.deepcopy(self.cur_testcase))
                     self.cur_testcase = None
                     self.set_mode(ParseMode.EXAMPLE_S)
@@ -145,12 +160,18 @@ class TFAPI:
                     self.cur_argname = argname
             
             if "Tensor" in line or "SparseTensor" in line:
-                dtypes = find_types(line,[])
+                dtypes = find_types(line,[],TENSOR_TYPE_List)
                 self.ArgInfo[self.cur_argname]["tensor"] = dtypes
             elif "tensor" in self.ArgInfo[self.cur_argname].keys():
-                dtypes = find_types(line, self.ArgInfo[self.cur_argname]["tensor"])
+                dtypes = find_types(line, self.ArgInfo[self.cur_argname]["tensor"],TENSOR_TYPE_List)
                 self.ArgInfo[self.cur_argname]["tensor"] = dtypes
-            elif "optional" in line:
+            elif "tf.DType" in line:
+                dtypes = find_types(line,[],DType_List)
+                self.ArgInfo[self.cur_argname]["tf.DType"] = dtypes
+            elif "tf.DType" in self.ArgInfo[self.cur_argname].keys():
+                dtypes = find_types(line, self.ArgInfo[self.cur_argname]["tf.DType"],DType_List)
+                self.ArgInfo[self.cur_argname]["tf.DType"] = dtypes
+            elif "(optional)" in line:
                 self.ArgInfo[self.cur_argname]["optional"] = "True"
             else:
                 print(line)
@@ -349,6 +370,7 @@ def Fetch_API_Info(api_name,api_doc_dir=API_DOC_DIR):
 if __name__ == "__main__": 
     #FreeFuzzresults = FreeFuzz_Data_Collection()
     #HelperDoc = TF_doc_Collection()
-    api_name = "tf.bitcast"
+    api_name = sys.argv[1]
+    #print(api_name)
     Fetch_API_Info(api_name)
     # print("a")
