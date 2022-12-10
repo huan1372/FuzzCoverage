@@ -1,0 +1,26 @@
+{
+    "y": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "num_classes": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "dtype": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "'float32'"
+            }
+        }
+    }
+}

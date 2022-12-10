@@ -1,0 +1,8 @@
+{
+    "keras.layers.pooling.base_pooling3d.Pooling3D": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "keras.layers.rnn.dropout_rnn_cell_mixin.DropoutRNNCellMixin": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "keras.layers.rnn.base_rnn.RNN": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "keras.engine.base_layer.BaseRandomLayer": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    }
+}

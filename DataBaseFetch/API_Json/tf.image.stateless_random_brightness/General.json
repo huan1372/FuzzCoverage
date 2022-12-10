@@ -1,0 +1,24 @@
+{
+    "image": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "max_delta": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "seed": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "int32",
+            "int64"
+        ]
+    }
+}

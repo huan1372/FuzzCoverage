@@ -1,0 +1,67 @@
+{
+    "shape": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "seed": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "int32",
+            "int64"
+        ]
+    },
+    "mean": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "0.0"
+            }
+        },
+        "tensor": []
+    },
+    "stddev": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "1.0"
+            }
+        },
+        "tensor": []
+    },
+    "dtype": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "tf.float32"
+            }
+        }
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "optional": "True"
+    },
+    "alg": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "'auto_select'"
+            }
+        }
+    }
+}

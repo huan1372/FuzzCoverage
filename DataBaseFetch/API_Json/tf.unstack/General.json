@@ -1,0 +1,37 @@
+{
+    "value": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "num": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "axis": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "0"
+            }
+        }
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "'unstack'"
+            }
+        },
+        "optional": "True"
+    }
+}

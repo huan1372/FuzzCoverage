@@ -1,0 +1,26 @@
+{
+    "x": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "y": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "'LogicalXor'"
+            }
+        },
+        "optional": "True"
+    }
+}

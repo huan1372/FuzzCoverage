@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.reduce_sum(x, 1, keepdims=True).numpy()",
+    "comments": "keep the original dimensions\n",
+    "Arguments": {}
+}

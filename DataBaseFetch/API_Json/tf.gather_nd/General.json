@@ -1,0 +1,39 @@
+{
+    "params": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "indices": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "int32",
+            "int64"
+        ]
+    },
+    "batch_dims": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "0"
+            }
+        },
+        "tensor": []
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "optional": "True"
+    }
+}

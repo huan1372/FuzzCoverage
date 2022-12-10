@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.math.log_sigmoid(x)",
+    "comments": "",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": " tf.constant([-100.0, -50.0, -1.0, 0.0])"
+        }
+    }
+}

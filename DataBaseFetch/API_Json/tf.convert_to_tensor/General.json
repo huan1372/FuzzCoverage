@@ -1,0 +1,37 @@
+{
+    "value": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "dtype": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "dtype_hint": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "tensor": []
+    }
+}

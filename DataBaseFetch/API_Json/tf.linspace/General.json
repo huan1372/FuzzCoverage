@@ -1,0 +1,50 @@
+{
+    "start": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "float32",
+            "float64",
+            "float16",
+            "bfloat16"
+        ]
+    },
+    "stop": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "num": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "int32",
+            "int64"
+        ]
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "optional": "True"
+    },
+    "axis": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "0"
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "api call code": "tf.image.convert_image_dtype(a_int8, dtype=tf.float32)",
+    "comments": "",
+    "Arguments": {
+        "a": {
+            "type": "other",
+            "value": " [[[1], [2]], [[3], [4]]]"
+        },
+        "a_int8": {
+            "type": "other",
+            "value": " tf.convert_to_tensor(a, dtype=tf.int8)"
+        }
+    }
+}

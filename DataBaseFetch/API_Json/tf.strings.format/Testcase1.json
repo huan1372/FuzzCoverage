@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.strings.format(\"tensor: {}, suffix\", tensor)",
+    "comments": "",
+    "Arguments": {
+        "tensor": {
+            "type": "other",
+            "value": " tf.range(5)"
+        }
+    }
+}

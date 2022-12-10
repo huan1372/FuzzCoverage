@@ -1,0 +1,19 @@
+{
+    "image": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "seed": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "int32",
+            "int64"
+        ]
+    }
+}

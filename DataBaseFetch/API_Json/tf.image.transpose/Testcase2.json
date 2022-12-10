@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.image.transpose(image)",
+    "comments": "",
+    "Arguments": {
+        "image": {
+            "type": "other",
+            "value": " tf.constant(image)"
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "num_rows": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "int32"
+        ]
+    },
+    "num_columns": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "tensor": [
+            "int32"
+        ]
+    },
+    "batch_shape": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "tensor": []
+    },
+    "dtype": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "tf.float32"
+            }
+        },
+        "tensor": []
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    }
+}

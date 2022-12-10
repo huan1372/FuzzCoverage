@@ -1,0 +1,8 @@
+{
+    "keras.layers.pooling.base_global_pooling1d.GlobalPooling1D": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    }
+}

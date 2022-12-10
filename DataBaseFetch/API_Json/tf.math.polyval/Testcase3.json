@@ -1,0 +1,22 @@
+{
+    "api call code": "tf.math.polyval([theta1, theta2, theta3], x)",
+    "comments": "",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": " tf.constant(3)"
+        },
+        "theta1": {
+            "type": "other",
+            "value": " tf.Variable(2)"
+        },
+        "theta2": {
+            "type": "other",
+            "value": " tf.Variable(1)"
+        },
+        "theta3": {
+            "type": "other",
+            "value": " tf.Variable(0)"
+        }
+    }
+}

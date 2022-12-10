@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.image.stateless_random_jpeg_quality(x, 75, 95, seed)",
+    "comments": "",
+    "Arguments": {
+        "seed": {
+            "type": "other",
+            "value": " (1, 2)"
+        }
+    }
+}

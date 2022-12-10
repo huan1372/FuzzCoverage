@@ -1,0 +1,92 @@
+{
+    "image_size": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "uint8",
+            "int32",
+            "int64",
+            "int8",
+            "int16"
+        ]
+    },
+    "bounding_boxes": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "float32"
+        ]
+    },
+    "seed": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "int32",
+            "int64"
+        ]
+    },
+    "min_object_covered": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "0.1"
+            }
+        },
+        "tensor": [
+            "float32"
+        ]
+    },
+    "aspect_ratio_range": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "area_range": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "max_attempts": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "use_image_if_no_bounding_boxes": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "optional": "True"
+    }
+}

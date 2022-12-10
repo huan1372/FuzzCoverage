@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.keras.backend.is_keras_tensor(keras_placeholder)",
+    "comments": "A placeholder is a Keras tensor.\n",
+    "Arguments": {
+        "keras_placeholder": {
+            "type": "other",
+            "value": " tf.keras.backend.placeholder(shape=(2, 4, 5))"
+        }
+    }
+}

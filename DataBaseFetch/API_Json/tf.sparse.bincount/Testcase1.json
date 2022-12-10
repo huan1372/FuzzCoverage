@@ -1,0 +1,10 @@
+{
+    "api call code": "output = tf.sparse.bincount(data, axis=-1)",
+    "comments": "",
+    "Arguments": {
+        "data": {
+            "type": "other",
+            "value": " np.array([[10, 20, 30, 20], [11, 101, 11, 10001]], dtype=np.int64)"
+        }
+    }
+}

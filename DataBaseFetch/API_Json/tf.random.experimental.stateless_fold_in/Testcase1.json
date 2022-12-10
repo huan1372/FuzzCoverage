@@ -1,0 +1,14 @@
+{
+    "api call code": "replica_seed = tf.random.experimental.stateless_fold_in(",
+    "comments": "",
+    "Arguments": {
+        "master_seed": {
+            "type": "other",
+            "value": " [1, 2]"
+        },
+        "replica_id": {
+            "type": "other",
+            "value": " 3"
+        }
+    }
+}

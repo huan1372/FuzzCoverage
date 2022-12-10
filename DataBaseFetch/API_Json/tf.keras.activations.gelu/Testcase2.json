@@ -1,0 +1,5 @@
+{
+    "api call code": "y = tf.keras.activations.gelu(x, approximate=True)",
+    "comments": "",
+    "Arguments": {}
+}

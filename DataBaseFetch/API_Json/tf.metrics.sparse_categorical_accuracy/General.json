@@ -1,0 +1,14 @@
+{
+    "y_true": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "y_pred": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    }
+}

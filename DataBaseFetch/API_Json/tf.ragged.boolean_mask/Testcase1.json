@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.ragged.boolean_mask(  # Mask a 2D Tensor.",
+    "comments": "Aliases for True & False so data and mask line up.\n",
+    "Arguments": {
+        "T, F": {
+            "type": "other",
+            "value": " (True, False)"
+        }
+    }
+}

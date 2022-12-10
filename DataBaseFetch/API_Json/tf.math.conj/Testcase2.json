@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.math.conj(x)",
+    "comments": "",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": " tf.constant([-2.25, 3.25])"
+        }
+    }
+}

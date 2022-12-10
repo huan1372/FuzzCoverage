@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.nest.flatten(array)",
+    "comments": "",
+    "Arguments": {
+        "array": {
+            "type": "other",
+            "value": " np.array([[1, 2], [3, 4]])"
+        }
+    }
+}

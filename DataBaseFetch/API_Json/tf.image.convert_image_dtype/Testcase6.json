@@ -1,0 +1,5 @@
+{
+    "api call code": "c_int8_back = tf.image.convert_image_dtype(c_int16, dtype=tf.int8)",
+    "comments": "",
+    "Arguments": {}
+}

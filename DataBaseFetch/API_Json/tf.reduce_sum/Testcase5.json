@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.reduce_sum(x, [0, 1]).numpy()",
+    "comments": "reduce along both dimensions\nthe result is 1 + 1 + 1 + 1 + 1 + 1 = 6\nor, equivalently, reduce along rows, then reduce the resultant array\n[1, 1, 1] + [1, 1, 1] = [2, 2, 2]\n2 + 2 + 2 = 6\n",
+    "Arguments": {}
+}

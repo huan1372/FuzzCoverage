@@ -1,0 +1,14 @@
+{
+    "api call code": "output = tf.sparse.cross([inp_0, inp_1], separator='_Y_')",
+    "comments": "",
+    "Arguments": {
+        "inp_0": {
+            "type": "other",
+            "value": " tf.constant([['a'], ['b']])"
+        },
+        "inp_1": {
+            "type": "other",
+            "value": " tf.constant([['c'], ['d']])"
+        }
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "data": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "targets": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "sequence_length": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "sequence_stride": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "1"
+            }
+        }
+    },
+    "sampling_rate": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "1"
+            }
+        }
+    },
+    "batch_size": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "128"
+            }
+        }
+    },
+    "shuffle": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "bool",
+                "value": "False"
+            }
+        }
+    },
+    "seed": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "start_index": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "end_index": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    }
+}

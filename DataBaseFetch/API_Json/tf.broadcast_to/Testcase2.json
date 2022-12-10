@@ -1,0 +1,10 @@
+{
+    "api call code": "y = tf.broadcast_to(x, [2, 3])",
+    "comments": "",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": " tf.constant([1, 2, 3])   # Shape (3,)"
+        }
+    }
+}

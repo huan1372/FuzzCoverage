@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.keras.backend.is_keras_tensor(keras_layer_output)",
+    "comments": "Any Keras layer output is a Keras tensor.\n",
+    "Arguments": {
+        "keras_layer_output": {
+            "type": "other",
+            "value": " tf.keras.layers.Dense(10)(keras_input)"
+        }
+    }
+}

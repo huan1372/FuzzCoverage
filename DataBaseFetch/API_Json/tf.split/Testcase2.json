@@ -1,0 +1,5 @@
+{
+    "api call code": "split0, split1, split2 = tf.split(x, [4, 15, 11], 1)",
+    "comments": "Split `x` into 3 tensors with sizes [4, 15, 11] along dimension 1\n",
+    "Arguments": {}
+}

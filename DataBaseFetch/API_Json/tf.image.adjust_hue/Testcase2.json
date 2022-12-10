@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.image.adjust_hue(image, 0.2)",
+    "comments": "",
+    "Arguments": {
+        "image": {
+            "type": "other",
+            "value": " tf.constant(image)"
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "input": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "string": " The tensor to reduce. Should be of numeric type, `bool`, or `string`."
+    },
+    "axis": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "keepdims": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "dtype": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "tf.int64"
+            }
+        }
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "optional": "True"
+    }
+}

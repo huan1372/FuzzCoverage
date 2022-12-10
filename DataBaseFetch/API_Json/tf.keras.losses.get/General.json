@@ -1,0 +1,9 @@
+{
+    "identifier": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "string": " A loss identifier. One of None or string name of a loss"
+    }
+}

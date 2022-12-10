@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.random.normal([2,2], 0, 1, tf.float32, seed=1)",
+    "comments": "",
+    "Arguments": {}
+}

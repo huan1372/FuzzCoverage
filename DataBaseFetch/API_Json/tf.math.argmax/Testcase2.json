@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.math.argmax(B, 0)",
+    "comments": "",
+    "Arguments": {}
+}

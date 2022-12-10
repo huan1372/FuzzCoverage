@@ -1,0 +1,67 @@
+{
+    "input": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "float32"
+        ]
+    },
+    "size": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "int32"
+        ]
+    },
+    "offsets": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "float32"
+        ]
+    },
+    "centered": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "bool",
+                "value": "True"
+            }
+        }
+    },
+    "normalized": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "bool",
+                "value": "True"
+            }
+        }
+    },
+    "noise": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "'uniform'"
+            }
+        },
+        "string": " An optional `string`. Defaults to `uniform`. indicates if the noise"
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "optional": "True"
+    }
+}

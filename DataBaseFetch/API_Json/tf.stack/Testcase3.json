@@ -1,0 +1,5 @@
+{
+    "api call code": "np.array_equal(np.stack([x, y, z]), tf.stack([x, y, z]))",
+    "comments": "",
+    "Arguments": {}
+}

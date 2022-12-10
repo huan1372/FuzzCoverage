@@ -1,0 +1,14 @@
+{
+    "tensorflow.python.module.module.Module": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "keras.utils.version_utils.LayerVersionSelector": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    }
+}

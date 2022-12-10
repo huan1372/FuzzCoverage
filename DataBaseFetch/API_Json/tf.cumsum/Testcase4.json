@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.cumsum(x, exclusive=True)",
+    "comments": "tf.cumsum([a, b, c], exclusive=True)  => [0, a, a + b]\n",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": " tf.constant([2, 4, 6, 8])"
+        }
+    }
+}

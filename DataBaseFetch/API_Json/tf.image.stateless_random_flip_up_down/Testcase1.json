@@ -1,0 +1,14 @@
+{
+    "api call code": "tf.image.stateless_random_flip_up_down(image, seed).numpy().tolist()",
+    "comments": "",
+    "Arguments": {
+        "image": {
+            "type": "other",
+            "value": " np.array([[[1], [2]], [[3], [4]]])"
+        },
+        "seed": {
+            "type": "other",
+            "value": " (2, 3)"
+        }
+    }
+}

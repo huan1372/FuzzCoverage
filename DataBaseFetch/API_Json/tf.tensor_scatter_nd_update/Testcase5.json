@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.tensor_scatter_nd_update(video_batch, indices, new_images)",
+    "comments": "",
+    "Arguments": {}
+}

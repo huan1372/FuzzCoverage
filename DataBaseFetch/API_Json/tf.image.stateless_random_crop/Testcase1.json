@@ -1,0 +1,14 @@
+{
+    "api call code": "tf.image.stateless_random_crop(value=image, size=(1, 2, 3), seed=seed)",
+    "comments": "",
+    "Arguments": {
+        "image": {
+            "type": "other",
+            "value": " [[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]]"
+        },
+        "seed": {
+            "type": "other",
+            "value": " (1, 2)"
+        }
+    }
+}

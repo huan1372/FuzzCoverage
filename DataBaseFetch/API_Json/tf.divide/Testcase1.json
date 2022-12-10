@@ -1,0 +1,14 @@
+{
+    "api call code": "tf.divide(x,y)",
+    "comments": "",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": " tf.constant([16, 12, 11])"
+        },
+        "y": {
+            "type": "other",
+            "value": " tf.constant([4, 6, 2])"
+        }
+    }
+}

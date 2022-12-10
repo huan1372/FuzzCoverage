@@ -1,0 +1,10 @@
+{
+    "api call code": "b = tf.keras.activations.hard_sigmoid(a)",
+    "comments": "",
+    "Arguments": {
+        "a": {
+            "type": "other",
+            "value": " tf.constant([-3.0,-1.0, 0.0,1.0,3.0], dtype = tf.float32)"
+        }
+    }
+}

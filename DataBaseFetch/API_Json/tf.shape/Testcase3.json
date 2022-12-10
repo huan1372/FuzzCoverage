@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.shape(a)",
+    "comments": "",
+    "Arguments": {
+        "a": {
+            "type": "other",
+            "value": " tf.keras.layers.Input((None, 10))"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "x": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "y": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "sample_weight": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    }
+}

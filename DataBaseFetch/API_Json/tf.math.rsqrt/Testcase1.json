@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.math.rsqrt(x)",
+    "comments": "",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": " tf.constant([2., 0., -2.])"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "batch_size": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "int64"
+        ]
+    },
+    "drop_remainder": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "bool",
+                "value": "False"
+            }
+        },
+        "tensor": []
+    },
+    "row_splits_dtype": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "tf.int64"
+            }
+        },
+        "tensor": []
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "api call code": "blue_hsv_image = tf.image.rgb_to_hsv(blue_image)",
+    "comments": "",
+    "Arguments": {}
+}

@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.image.random_contrast(x, 0.2, 0.5)",
+    "comments": "",
+    "Arguments": {}
+}

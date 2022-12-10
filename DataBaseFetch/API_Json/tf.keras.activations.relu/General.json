@@ -1,0 +1,35 @@
+{
+    "x": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "alpha": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "0.0"
+            }
+        }
+    },
+    "max_value": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "threshold": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "0.0"
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "api call code": "tf.stack([x, y, z])",
+    "comments": "",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": " tf.constant([1, 4])"
+        },
+        "y": {
+            "type": "other",
+            "value": " tf.constant([2, 5])"
+        },
+        "z": {
+            "type": "other",
+            "value": " tf.constant([3, 6])"
+        }
+    }
+}

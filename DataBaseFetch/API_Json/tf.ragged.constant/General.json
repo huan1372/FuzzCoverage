@@ -1,0 +1,61 @@
+{
+    "pylist": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "dtype": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "tensor": []
+    },
+    "ragged_rank": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "tensor": []
+    },
+    "inner_shape": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "tensor": []
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "optional": "True"
+    },
+    "row_splits_dtype": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "tf.int64"
+            }
+        },
+        "tensor": [
+            "int32",
+            "int64"
+        ]
+    }
+}

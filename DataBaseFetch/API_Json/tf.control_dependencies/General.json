@@ -1,0 +1,9 @@
+{
+    "control_inputs": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    }
+}

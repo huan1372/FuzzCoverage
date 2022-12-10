@@ -1,0 +1,44 @@
+{
+    "value": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "uint8",
+            "int32",
+            "int8",
+            "int64",
+            "complex128",
+            "complex64",
+            "int16"
+        ]
+    },
+    "bias": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "data_format": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "string": " A string. 'N...C' and 'NC...' are supported. If `None` (the"
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "optional": "True"
+    }
+}

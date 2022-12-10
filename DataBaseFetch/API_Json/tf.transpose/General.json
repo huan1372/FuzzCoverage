@@ -1,0 +1,37 @@
+{
+    "a": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "perm": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "conjugate": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "bool",
+                "value": "False"
+            }
+        }
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "'transpose'"
+            }
+        },
+        "optional": "True"
+    }
+}

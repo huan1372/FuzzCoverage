@@ -4,7 +4,7 @@
     "Arguments": {
         "x": {
             "type": "other",
-            "value": "tf.constant([-2.25, 3.25])"
+            "value": " tf.constant([-2.25, 3.25])"
         }
     }
 }

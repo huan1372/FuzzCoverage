@@ -1,0 +1,5 @@
+{
+    "api call code": "x_jpeg = tf.image.adjust_jpeg_quality(x, 75)",
+    "comments": "",
+    "Arguments": {}
+}

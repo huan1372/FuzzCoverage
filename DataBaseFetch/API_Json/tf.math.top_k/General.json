@@ -1,0 +1,39 @@
+{
+    "input": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "k": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "1"
+            }
+        },
+        "tensor": [
+            "int32"
+        ]
+    },
+    "sorted": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "bool",
+                "value": "True"
+            }
+        }
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "prefix": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "''"
+            }
+        }
+    }
+}

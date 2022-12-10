@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.math.reduce_std(x, 1)",
+    "comments": "",
+    "Arguments": {}
+}

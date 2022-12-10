@@ -1,0 +1,8 @@
+{
+    "keras.layers.convolutional.base_separable_conv.SeparableConv": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    }
+}

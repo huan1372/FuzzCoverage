@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.image.random_flip_left_right(images, 6).numpy().tolist()",
+    "comments": "",
+    "Arguments": {}
+}

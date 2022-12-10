@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.keras.backend.set_floatx('float32')",
+    "comments": "",
+    "Arguments": {}
+}

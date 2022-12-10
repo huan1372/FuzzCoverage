@@ -1,0 +1,5 @@
+{
+    "api call code": "are_equal = soln == tf.linalg.banded_triangular_solve(x2, tf.ones([3, 1]))",
+    "comments": "",
+    "Arguments": {}
+}

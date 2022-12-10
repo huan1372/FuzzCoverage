@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.math.log1p(x)",
+    "comments": "",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": " tf.constant([0, 0.5, 1, 5])"
+        }
+    }
+}

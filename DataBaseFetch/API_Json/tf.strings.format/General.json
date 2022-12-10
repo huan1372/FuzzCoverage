@@ -1,0 +1,45 @@
+{
+    "template": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "string": " A string template to format tensor values into."
+    },
+    "inputs": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "placeholder": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "'{}'"
+            }
+        },
+        "string": " An optional `string`. Defaults to `{}`."
+    },
+    "summarize": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "3"
+            }
+        }
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "optional": "True"
+    }
+}

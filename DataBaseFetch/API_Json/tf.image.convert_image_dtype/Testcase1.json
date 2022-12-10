@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.image.convert_image_dtype(x_int8, dtype=tf.float16, saturate=False)",
+    "comments": "",
+    "Arguments": {
+        "x_int8": {
+            "type": "other",
+            "value": " tf.convert_to_tensor(x, dtype=tf.int8)"
+        }
+    }
+}

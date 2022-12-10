@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.image.stateless_random_hue(x, 0.2, seed)",
+    "comments": "",
+    "Arguments": {
+        "seed": {
+            "type": "other",
+            "value": " (1, 2)"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.strings.as_string([3.1415926, 2.71828], precision=2).numpy()",
+    "comments": "",
+    "Arguments": {}
+}

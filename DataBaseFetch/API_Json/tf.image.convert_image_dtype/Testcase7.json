@@ -1,0 +1,14 @@
+{
+    "api call code": "d_int16_back = tf.image.convert_image_dtype(d_uint8, dtype=tf.int16)",
+    "comments": "",
+    "Arguments": {
+        "d": {
+            "type": "other",
+            "value": " [[[1000], [2000]], [[3000], [4000]]]"
+        },
+        "d_int16": {
+            "type": "other",
+            "value": " tf.convert_to_tensor(d, dtype=tf.int16)"
+        }
+    }
+}

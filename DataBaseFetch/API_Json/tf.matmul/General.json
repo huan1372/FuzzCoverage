@@ -1,0 +1,98 @@
+{
+    "a": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "float64",
+            "float32",
+            "int32",
+            "complex128",
+            "complex64",
+            "float16"
+        ]
+    },
+    "b": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "transpose_a": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "bool",
+                "value": "False"
+            }
+        }
+    },
+    "transpose_b": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "bool",
+                "value": "False"
+            }
+        }
+    },
+    "adjoint_a": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "bool",
+                "value": "False"
+            }
+        }
+    },
+    "adjoint_b": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "bool",
+                "value": "False"
+            }
+        }
+    },
+    "a_is_sparse": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "bool",
+                "value": "False"
+            }
+        },
+        "tensor": []
+    },
+    "b_is_sparse": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "bool",
+                "value": "False"
+            }
+        },
+        "tensor": []
+    },
+    "output_type": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "optional": "True"
+    }
+}

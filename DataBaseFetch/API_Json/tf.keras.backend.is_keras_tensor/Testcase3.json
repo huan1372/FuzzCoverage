@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.keras.backend.is_keras_tensor(keras_input)",
+    "comments": "An Input is a Keras tensor.\n",
+    "Arguments": {
+        "keras_input": {
+            "type": "other",
+            "value": " tf.keras.layers.Input([10])"
+        }
+    }
+}

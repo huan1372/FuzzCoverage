@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.type_spec_from_value(np.array([4.0, 5.0], np.float64))",
+    "comments": "",
+    "Arguments": {}
+}

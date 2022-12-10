@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.math.argmax(C) # Returns smallest index in case of ties",
+    "comments": "",
+    "Arguments": {
+        "C": {
+            "type": "other",
+            "value": " tf.constant([0, 0, 0, 0])"
+        }
+    }
+}

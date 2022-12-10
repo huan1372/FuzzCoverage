@@ -1,0 +1,14 @@
+{
+    "api call code": "tf.math.logical_and(a, b)",
+    "comments": "",
+    "Arguments": {
+        "a": {
+            "type": "other",
+            "value": " tf.constant([True])"
+        },
+        "b": {
+            "type": "other",
+            "value": " tf.constant([False])"
+        }
+    }
+}

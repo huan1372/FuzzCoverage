@@ -1,0 +1,10 @@
+{
+    "api call code": "@tf.function(input_signature=[tf.type_spec_from_value(example_input)])",
+    "comments": "",
+    "Arguments": {
+        "example_input": {
+            "type": "other",
+            "value": " tf.ragged.constant([[1, 2], [3]])"
+        }
+    }
+}

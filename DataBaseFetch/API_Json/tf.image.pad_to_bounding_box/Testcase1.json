@@ -1,0 +1,5 @@
+{
+    "api call code": "padded_image = tf.image.pad_to_bounding_box(x, 1, 1, 4, 4)",
+    "comments": "",
+    "Arguments": {}
+}

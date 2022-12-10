@@ -1,0 +1,14 @@
+{
+    "api call code": "tf.math.logical_xor(c, x)",
+    "comments": "",
+    "Arguments": {
+        "c": {
+            "type": "other",
+            "value": " tf.constant([True])"
+        },
+        "x": {
+            "type": "other",
+            "value": " tf.constant([False, True, True, False])"
+        }
+    }
+}

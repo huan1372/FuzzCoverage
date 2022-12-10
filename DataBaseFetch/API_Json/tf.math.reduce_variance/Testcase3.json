@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.math.reduce_variance(x, 1)",
+    "comments": "",
+    "Arguments": {}
+}

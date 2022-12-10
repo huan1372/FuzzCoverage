@@ -1,0 +1,5 @@
+{
+    "api call code": "soln = tf.linalg.banded_triangular_solve(x, tf.ones([4, 1]), lower=False)",
+    "comments": "",
+    "Arguments": {}
+}

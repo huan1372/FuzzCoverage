@@ -1,0 +1,64 @@
+{
+    "x": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "float64",
+            "uint8",
+            "uint16",
+            "float32",
+            "int32",
+            "qint32",
+            "int8",
+            "int64",
+            "half",
+            "complex128",
+            "quint8",
+            "qint8",
+            "complex64",
+            "int16"
+        ]
+    },
+    "axis": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "0"
+            }
+        },
+        "tensor": [
+            "int32"
+        ]
+    },
+    "exclusive": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "bool",
+                "value": "False"
+            }
+        }
+    },
+    "reverse": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "bool",
+                "value": "False"
+            }
+        }
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "optional": "True"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "api call code": "a = tf.keras.utils.to_categorical([0, 1, 2, 3], num_classes=4)",
+    "comments": "",
+    "Arguments": {
+        "a": {
+            "type": "other",
+            "value": " tf.constant(a, shape=[4, 4])"
+        }
+    }
+}

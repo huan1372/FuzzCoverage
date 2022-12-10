@@ -1,0 +1,14 @@
+{
+    "api call code": "tf.math.maximum(x, y)",
+    "comments": "",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": " tf.constant([0., 0., 0., 0.])"
+        },
+        "y": {
+            "type": "other",
+            "value": " tf.constant([-2., 0., 2., 5.])"
+        }
+    }
+}

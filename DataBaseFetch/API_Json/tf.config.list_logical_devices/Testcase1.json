@@ -1,0 +1,5 @@
+{
+    "api call code": "logical_devices = tf.config.list_logical_devices('GPU')",
+    "comments": "",
+    "Arguments": {}
+}

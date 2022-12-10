@@ -1,0 +1,14 @@
+{
+    "api call code": "c_int16 = tf.image.convert_image_dtype(c_int8, dtype=tf.int16)",
+    "comments": "",
+    "Arguments": {
+        "c": {
+            "type": "other",
+            "value": " [[[1], [2]], [[127], [127]]]"
+        },
+        "c_int8": {
+            "type": "other",
+            "value": " tf.convert_to_tensor(c, dtype=tf.int8)"
+        }
+    }
+}

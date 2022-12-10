@@ -1,0 +1,14 @@
+{
+    "api call code": "tf.broadcast_dynamic_shape(shape_x, shape_y)",
+    "comments": "",
+    "Arguments": {
+        "shape_x": {
+            "type": "other",
+            "value": " (1, 2, 3)"
+        },
+        "shape_y": {
+            "type": "other",
+            "value": " (5, 1, 3)"
+        }
+    }
+}

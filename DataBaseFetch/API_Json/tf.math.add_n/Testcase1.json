@@ -1,0 +1,14 @@
+{
+    "api call code": "tf.math.add_n([a, b, a])",
+    "comments": "",
+    "Arguments": {
+        "a": {
+            "type": "other",
+            "value": " tf.constant([[3, 5], [4, 8]])"
+        },
+        "b": {
+            "type": "other",
+            "value": " tf.constant([[1, 6], [2, 9]])"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.transpose(x, perm=[0, 2, 1])",
+    "comments": "",
+    "Arguments": {}
+}

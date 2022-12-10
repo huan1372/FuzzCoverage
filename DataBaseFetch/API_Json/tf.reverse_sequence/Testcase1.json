@@ -1,0 +1,5 @@
+{
+    "api call code": "output = tf.reverse_sequence(input, seq_lengths, seq_axis=1, batch_axis=0)",
+    "comments": "",
+    "Arguments": {}
+}

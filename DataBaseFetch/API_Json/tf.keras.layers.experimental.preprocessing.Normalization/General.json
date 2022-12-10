@@ -1,0 +1,8 @@
+{
+    "keras.engine.base_preprocessing_layer.PreprocessingLayer": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    }
+}

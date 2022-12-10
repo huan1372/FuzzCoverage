@@ -1,0 +1,14 @@
+{
+    "api call code": "tf.tensor_scatter_nd_update(video_batch, indices, new_clips)",
+    "comments": "",
+    "Arguments": {
+        "indices": {
+            "type": "other",
+            "value": " [[0],[1]]"
+        },
+        "new_clips": {
+            "type": "other",
+            "value": " tf.ones([2, time, width, height, channels])"
+        }
+    }
+}

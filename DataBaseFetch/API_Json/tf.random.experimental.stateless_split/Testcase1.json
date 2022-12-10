@@ -1,0 +1,10 @@
+{
+    "api call code": "new_seeds = tf.random.experimental.stateless_split(seed, num=3)",
+    "comments": "",
+    "Arguments": {
+        "seed": {
+            "type": "other",
+            "value": " [1, 2]"
+        }
+    }
+}

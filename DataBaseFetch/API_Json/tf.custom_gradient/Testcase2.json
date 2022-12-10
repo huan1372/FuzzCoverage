@@ -1,0 +1,10 @@
+{
+    "api call code": "@tf.custom_gradient",
+    "comments": "",
+    "Arguments": {
+        "weights": {
+            "type": "other",
+            "value": " tf.Variable(tf.ones([2]))  # Trainable variable weights"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "bytes_or_text": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "bytes": " A `bytearray`, `bytes`, `str`, or `unicode` object."
+    },
+    "encoding": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "'utf-8'"
+            }
+        },
+        "string": " A string indicating the charset for encoding unicode."
+    }
+}

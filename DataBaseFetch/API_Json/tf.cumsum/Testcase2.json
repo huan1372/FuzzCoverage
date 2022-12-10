@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.cumsum(y, axis=0)",
+    "comments": "using varying `axis` values\n",
+    "Arguments": {
+        "y": {
+            "type": "other",
+            "value": " tf.constant([[2, 4, 6, 8], [1,3,5,7]])"
+        }
+    }
+}

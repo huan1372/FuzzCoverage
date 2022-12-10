@@ -1,0 +1,8 @@
+{
+    "keras.engine.base_layer.BaseRandomLayer": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    }
+}

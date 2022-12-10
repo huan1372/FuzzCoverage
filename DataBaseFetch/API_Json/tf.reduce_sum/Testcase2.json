@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.reduce_sum(x, 0).numpy()",
+    "comments": "reduce along the first dimension\nthe result is [1, 1, 1] + [1, 1, 1] = [2, 2, 2]\n",
+    "Arguments": {}
+}

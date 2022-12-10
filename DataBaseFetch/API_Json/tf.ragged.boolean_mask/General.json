@@ -1,0 +1,24 @@
+{
+    "data": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "mask": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "optional": "True"
+    }
+}

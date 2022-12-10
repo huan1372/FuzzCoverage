@@ -1,0 +1,9 @@
+{
+    "data_format": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "string": " string. `'channels_first'` or `'channels_last'`."
+    }
+}

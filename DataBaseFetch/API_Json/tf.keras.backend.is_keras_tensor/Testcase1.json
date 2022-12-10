@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.keras.backend.is_keras_tensor(keras_var)",
+    "comments": "A variable created with the keras backend is not a Keras tensor.\n",
+    "Arguments": {
+        "keras_var": {
+            "type": "other",
+            "value": " tf.keras.backend.variable(np_var)"
+        }
+    }
+}

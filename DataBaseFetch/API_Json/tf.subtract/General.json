@@ -1,0 +1,42 @@
+{
+    "x": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "uint32",
+            "float64",
+            "uint8",
+            "uint16",
+            "float32",
+            "int32",
+            "uint64",
+            "int8",
+            "half",
+            "int64",
+            "complex128",
+            "bfloat16",
+            "complex64",
+            "int16",
+            "float16"
+        ]
+    },
+    "y": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "name": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "optional": "True"
+    }
+}

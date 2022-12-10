@@ -1,0 +1,14 @@
+{
+    "image": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "delta": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    }
+}

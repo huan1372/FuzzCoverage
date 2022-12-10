@@ -1,0 +1,14 @@
+{
+    "api call code": "tf.math.minimum(x, y)",
+    "comments": "",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": " tf.constant([0., 0., 0., 0.])"
+        },
+        "y": {
+            "type": "other",
+            "value": " tf.constant([-5., -2., 0., 3.])"
+        }
+    }
+}

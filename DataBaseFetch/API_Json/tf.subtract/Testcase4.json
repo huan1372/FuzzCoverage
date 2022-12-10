@@ -1,0 +1,14 @@
+{
+    "api call code": "tf.subtract(x, y)",
+    "comments": "",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": " tf.constant([1, 2], dtype=tf.int8)"
+        },
+        "y": {
+            "type": "other",
+            "value": " [2**8 + 1, 2**8 + 2]"
+        }
+    }
+}

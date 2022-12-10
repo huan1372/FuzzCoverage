@@ -1,0 +1,17 @@
+{
+    "name": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "custom_objects": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    }
+}

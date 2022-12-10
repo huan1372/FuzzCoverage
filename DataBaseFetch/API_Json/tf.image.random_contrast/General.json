@@ -1,0 +1,29 @@
+{
+    "image": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "lower": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "upper": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "seed": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    }
+}

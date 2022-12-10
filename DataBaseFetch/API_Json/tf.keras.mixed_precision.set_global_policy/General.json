@@ -1,0 +1,9 @@
+{
+    "policy": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "string": " A Policy, or a string that will be converted to a Policy. Can also"
+    }
+}

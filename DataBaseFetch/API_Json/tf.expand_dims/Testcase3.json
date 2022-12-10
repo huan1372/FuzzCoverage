@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.expand_dims(image, -1).shape.as_list()",
+    "comments": "",
+    "Arguments": {}
+}

@@ -1,0 +1,18 @@
+{
+    "api call code": "tf.range(start, limit, delta)",
+    "comments": "",
+    "Arguments": {
+        "start": {
+            "type": "other",
+            "value": " 3"
+        },
+        "limit": {
+            "type": "other",
+            "value": " 1"
+        },
+        "delta": {
+            "type": "other",
+            "value": " -0.5"
+        }
+    }
+}

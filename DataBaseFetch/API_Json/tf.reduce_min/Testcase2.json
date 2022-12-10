@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.reduce_min(b, axis=0)",
+    "comments": "",
+    "Arguments": {
+        "b": {
+            "type": "other",
+            "value": " tf.constant([[1, 2, 3], [4, 5, 6]])"
+        }
+    }
+}

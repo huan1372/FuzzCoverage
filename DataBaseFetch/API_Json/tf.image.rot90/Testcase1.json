@@ -1,0 +1,5 @@
+{
+    "api call code": "a_rot=tf.image.rot90(a)",
+    "comments": "rotating `a` counter clockwise by 90 degrees\n",
+    "Arguments": {}
+}

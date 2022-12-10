@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.strings.unicode_script([1, 31, 38])",
+    "comments": "",
+    "Arguments": {}
+}

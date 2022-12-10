@@ -1,0 +1,8 @@
+{
+    "keras.layers.convolutional.base_depthwise_conv.DepthwiseConv": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    }
+}

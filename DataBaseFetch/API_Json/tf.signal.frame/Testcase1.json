@@ -1,0 +1,10 @@
+{
+    "api call code": "frames = tf.signal.frame(audio, 512, 180, pad_end=True)",
+    "comments": "A batch size 3 tensor of 9152 audio samples.\nCompute overlapping frames of length 512 with a step of 180 (frames overlap\nby 332 samples). By default, only 49 frames are generated since a frame\nwith start position j*180 for j > 48 would overhang the end.\nWhen pad_end is enabled, the final two frames are kept (padded with zeros).\n",
+    "Arguments": {
+        "audio": {
+            "type": "other",
+            "value": " tf.random.normal([3, 9152])"
+        }
+    }
+}

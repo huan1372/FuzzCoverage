@@ -1,0 +1,10 @@
+{
+    "api call code": "b = tf.keras.activations.softsign(a)",
+    "comments": "",
+    "Arguments": {
+        "a": {
+            "type": "other",
+            "value": " tf.constant([-1.0, 0.0, 1.0], dtype = tf.float32)"
+        }
+    }
+}

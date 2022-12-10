@@ -1,0 +1,41 @@
+{
+    "y_true": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "y_pred": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "from_logits": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "bool",
+                "value": "False"
+            }
+        }
+    },
+    "axis": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "-1"
+            }
+        }
+    },
+    "ignore_class": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        }
+    }
+}

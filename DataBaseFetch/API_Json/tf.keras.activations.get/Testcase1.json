@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.keras.activations.get('softmax')",
+    "comments": "",
+    "Arguments": {}
+}

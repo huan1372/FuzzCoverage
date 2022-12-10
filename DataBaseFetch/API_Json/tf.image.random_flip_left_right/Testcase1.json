@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.image.random_flip_left_right(image, 5).numpy().tolist()",
+    "comments": "",
+    "Arguments": {
+        "image": {
+            "type": "other",
+            "value": " np.array([[[1], [2]], [[3], [4]]])"
+        }
+    }
+}

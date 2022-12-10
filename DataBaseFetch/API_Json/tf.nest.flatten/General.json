@@ -1,0 +1,18 @@
+{
+    "structure": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "expand_composites": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "bool",
+                "value": "False"
+            }
+        },
+        "tensor": []
+    }
+}

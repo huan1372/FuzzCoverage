@@ -1,0 +1,9 @@
+{
+    "identifier": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "string": " Function or string"
+    }
+}

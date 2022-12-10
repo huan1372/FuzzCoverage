@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.tensor_scatter_nd_update(tensor, indices, updates).numpy()",
+    "comments": "",
+    "Arguments": {}
+}

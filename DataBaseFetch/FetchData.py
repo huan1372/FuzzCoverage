@@ -6,7 +6,8 @@ import io
 import copy
 import os
 import json
-
+API_DOC_DIR = "/Users/sh69/Documents/FreeFuzz/FuzzCoverage/DataBaseFetch/API_Doc/"
+API_DOC_ERR_DIR = "/Users/sh69/Documents/FreeFuzz/FuzzCoverage/DataBaseFetch/API_Failed_Doc/"
 TENSOR_TYPE_List = ["bfloat16","half","float16","float32","float64","int8","int16","int32","int64","complex64","complex128","uint8","uint16","uint32","uint64","qint8", "quint8", "qint16", "quint16", "qint32"]
 DType_List = ["tf.bfloat16", "tf.half", "tf.float32", "tf.float64", "tf.int64", "tf.int32", "tf.uint8", "tf.uint16", "tf.uint32", "tf.uint64", "tf.int8", "tf.int16", "tf.complex64", "tf.complex128", "tf.qint8", "tf.quint8", "tf.qint16", "tf.quint16", "tf.qint32"]
 #* Type for testcase
@@ -153,7 +154,9 @@ class TFAPI:
             return
         elif self.mode == ParseMode.ARGS:
             if ":" in line:
-                argname = re.search("(\w+):.+",line).group(1)
+                found = re.search("(\w+):(.+)",line)
+                argname = found.group(1)
+                disp = found.group(2)
                 if argname not in self.ArgInfo.keys():
                     raise Exception("Argument not found!")
                 else:
@@ -171,8 +174,12 @@ class TFAPI:
             elif "tf.DType" in self.ArgInfo[self.cur_argname].keys():
                 dtypes = find_types(line, self.ArgInfo[self.cur_argname]["tf.DType"],DType_List)
                 self.ArgInfo[self.cur_argname]["tf.DType"] = dtypes
-            elif "(optional)" in line:
+            elif "(optional)" in line or "(optional" in line:
                 self.ArgInfo[self.cur_argname]["optional"] = "True"
+            elif "string" in line:
+                self.ArgInfo[self.cur_argname]["string"] = disp
+            elif "`bytes`" in line:
+                self.ArgInfo[self.cur_argname]["bytes"] = disp
             else:
                 print(line)
             return
@@ -210,7 +217,7 @@ class TFAPI:
 
 
 
-API_DOC_DIR = "/Users/sh69/Documents/FreeFuzz/FuzzCoverage/DataBaseFetch/API_Doc/"
+
 
 # func to parse information used by FreeFuzz
 def parse_FreeFuzz_type(tf_api,testcase,argname,type_info):
@@ -329,7 +336,11 @@ def TF_doc_Collection():
 
 def Fetch_func_module(helpdefinestr):
     found = re.search("Help on function (\w+) in module ([\w|.]+):",helpdefinestr)
-    return found.group(1),found.group(2)
+    if found == None:
+        found = re.search("Help on class (\w+) in module ([\w|.]+):",helpdefinestr)
+        return found.group(1),found.group(2),False
+    else:
+        return found.group(1),found.group(2),True
 
 def Fetch_argsname(func_name,apidefstr):
     if not apidefstr.startswith(func_name):
@@ -341,18 +352,21 @@ def Fetch_API_Info(api_name,api_doc_dir=API_DOC_DIR):
     api_doc_f = open(api_doc_dir + api_name)
     
     #? Fetch func name 
-    func_name, module_name = Fetch_func_module(api_doc_f.readline().rstrip())
+    func_name, module_name, flag = Fetch_func_module(api_doc_f.readline().rstrip())
     
     #? Fetch and store func definition 
     #? Added argument information to TFAPI class
-    args = Fetch_argsname(func_name,api_doc_f.readline().rstrip())
+    if flag:
+        args = Fetch_argsname(func_name,api_doc_f.readline().rstrip())
+    else:
+        args = Fetch_argsname("class "+func_name,api_doc_f.readline().rstrip())
     tf_api = TFAPI(api_name)
     tf_api.parse_args(args)
 
     #! Main part of Analysis
     #! Currently neglect anything besides For example code + Args comments
     for line in api_doc_f.readlines():
-        if "For example" in line or "Example" in line:
+        if "For example" in line or "Example" in line or "Code example:" in line or "The following example" in line:
             tf_api.set_mode(ParseMode.EXAMPLE_S)
             continue
         elif line.strip() == "Args:":
@@ -370,7 +384,14 @@ def Fetch_API_Info(api_name,api_doc_dir=API_DOC_DIR):
 if __name__ == "__main__": 
     #FreeFuzzresults = FreeFuzz_Data_Collection()
     #HelperDoc = TF_doc_Collection()
-    api_name = sys.argv[1]
-    #print(api_name)
-    Fetch_API_Info(api_name)
+    
+    #api_name = sys.argv[1]
+    for api_name in sorted(os.listdir(API_DOC_DIR)):
+        #print(filename)
+        print(api_name)
+        try:
+            Fetch_API_Info(api_name)
+        except Exception as e:
+            import shutil
+            shutil.move(API_DOC_DIR+api_name, API_DOC_ERR_DIR + api_name)
     # print("a")

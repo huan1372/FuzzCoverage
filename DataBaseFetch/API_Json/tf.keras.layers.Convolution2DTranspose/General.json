@@ -1,0 +1,8 @@
+{
+    "keras.layers.convolutional.conv2d.Conv2D": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    }
+}

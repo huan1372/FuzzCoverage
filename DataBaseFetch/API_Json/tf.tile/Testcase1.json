@@ -1,0 +1,14 @@
+{
+    "api call code": "tf.tile(a, b)",
+    "comments": "",
+    "Arguments": {
+        "a": {
+            "type": "other",
+            "value": " tf.constant([[1,2,3],[4,5,6]], tf.int32)"
+        },
+        "b": {
+            "type": "other",
+            "value": " tf.constant([1,2], tf.int32)"
+        }
+    }
+}

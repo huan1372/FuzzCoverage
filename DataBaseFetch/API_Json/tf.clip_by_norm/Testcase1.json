@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.clip_by_norm(some_nums, 2.0).numpy()",
+    "comments": "",
+    "Arguments": {
+        "some_nums": {
+            "type": "other",
+            "value": " tf.constant([[1, 2, 3, 4, 5]], dtype=tf.float32)"
+        }
+    }
+}

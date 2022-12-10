@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.image.stateless_random_saturation(x, 0.5, 1.0, seed)",
+    "comments": "",
+    "Arguments": {
+        "seed": {
+            "type": "other",
+            "value": " (1, 2)"
+        }
+    }
+}

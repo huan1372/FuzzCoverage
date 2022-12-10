@@ -5,17 +5,17 @@
             "default_value": null
         },
         "tensor": [
-            "complex64",
-            "int16",
-            "half",
             "float64",
+            "uint8",
+            "float32",
             "int32",
             "int8",
-            "bfloat16",
+            "half",
             "int64",
-            "float32",
             "complex128",
-            "uint8",
+            "bfloat16",
+            "complex64",
+            "int16",
             "float16"
         ]
     },

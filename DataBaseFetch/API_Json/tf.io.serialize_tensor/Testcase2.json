@@ -1,0 +1,5 @@
+{
+    "api call code": "serialized_nonscalar = tf.io.serialize_tensor(nonscalar)",
+    "comments": "",
+    "Arguments": {}
+}

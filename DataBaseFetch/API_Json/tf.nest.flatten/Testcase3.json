@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.nest.flatten(dict)",
+    "comments": "",
+    "Arguments": {}
+}

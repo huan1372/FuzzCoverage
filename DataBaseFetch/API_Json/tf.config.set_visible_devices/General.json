@@ -1,0 +1,18 @@
+{
+    "devices": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "device_type": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "null",
+                "value": "None"
+            }
+        },
+        "optional": "True"
+    }
+}

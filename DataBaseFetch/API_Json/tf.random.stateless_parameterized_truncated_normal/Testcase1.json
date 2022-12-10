@@ -1,0 +1,22 @@
+{
+    "api call code": "y = tf.random.stateless_parameterized_truncated_normal(",
+    "comments": "",
+    "Arguments": {
+        "means": {
+            "type": "other",
+            "value": " 0."
+        },
+        "stddevs": {
+            "type": "other",
+            "value": " tf.math.exp(tf.random.uniform(shape=[2, 3]))"
+        },
+        "minvals": {
+            "type": "other",
+            "value": " [-1., -2., -1000.]"
+        },
+        "maxvals": {
+            "type": "other",
+            "value": " [[10000.], [1.]]"
+        }
+    }
+}

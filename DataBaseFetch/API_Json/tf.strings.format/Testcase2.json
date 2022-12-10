@@ -1,0 +1,14 @@
+{
+    "api call code": "tf.strings.format(\"a: {}, b: {}, suffix\", (tensor_a, tensor_b))",
+    "comments": "",
+    "Arguments": {
+        "tensor_a": {
+            "type": "other",
+            "value": " tf.range(2)"
+        },
+        "tensor_b": {
+            "type": "other",
+            "value": " tf.range(1, 4, 2)"
+        }
+    }
+}

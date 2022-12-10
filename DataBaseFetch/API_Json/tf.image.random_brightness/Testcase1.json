@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.image.random_brightness(x, 0.2)",
+    "comments": "",
+    "Arguments": {}
+}

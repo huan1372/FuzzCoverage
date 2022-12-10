@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.math.argmax(A)  # A[2] is maximum in tensor A",
+    "comments": "",
+    "Arguments": {
+        "A": {
+            "type": "other",
+            "value": " tf.constant([2, 20, 30, 3, 6])"
+        }
+    }
+}

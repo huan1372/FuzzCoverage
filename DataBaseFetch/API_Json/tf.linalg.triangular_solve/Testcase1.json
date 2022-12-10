@@ -1,0 +1,10 @@
+{
+    "api call code": "x = tf.linalg.triangular_solve(a, b, lower=True)",
+    "comments": "",
+    "Arguments": {
+        "b": {
+            "type": "other",
+            "value": " tf.constant([[4], [2], [4], [2]], dtype=tf.float32)"
+        }
+    }
+}

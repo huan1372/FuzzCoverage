@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.random.uniform(shape=[], minval=-1., maxval=0.)",
+    "comments": "",
+    "Arguments": {}
+}

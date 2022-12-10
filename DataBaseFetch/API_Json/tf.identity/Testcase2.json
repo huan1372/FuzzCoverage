@@ -1,0 +1,10 @@
+{
+    "api call code": "a_identity = tf.identity(a)",
+    "comments": "",
+    "Arguments": {
+        "a": {
+            "type": "other",
+            "value": " tf.Variable(5)"
+        }
+    }
+}

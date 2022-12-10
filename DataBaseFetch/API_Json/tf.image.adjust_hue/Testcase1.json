@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.image.adjust_hue(x, 0.2)",
+    "comments": "",
+    "Arguments": {}
+}

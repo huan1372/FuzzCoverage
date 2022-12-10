@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.math.reduce_std(x)",
+    "comments": "",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": " tf.constant([[1., 2.], [3., 4.]])"
+        }
+    }
+}

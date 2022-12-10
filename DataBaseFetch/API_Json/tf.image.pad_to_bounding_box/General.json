@@ -1,0 +1,33 @@
+{
+    "image": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": []
+    },
+    "offset_height": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "offset_width": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "target_height": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "target_width": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    }
+}

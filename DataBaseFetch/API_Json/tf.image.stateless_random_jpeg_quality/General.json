@@ -1,0 +1,30 @@
+{
+    "image": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "min_jpeg_quality": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "max_jpeg_quality": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "seed": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        },
+        "tensor": [
+            "int32",
+            "int64"
+        ]
+    }
+}

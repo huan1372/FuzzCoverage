@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.linspace([0., 5.], [10., 40.], 5, axis=-1)",
+    "comments": "",
+    "Arguments": {}
+}

@@ -1,0 +1,23 @@
+{
+    "seed": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "data": {
+        "defaultInfo": {
+            "default": false,
+            "default_value": null
+        }
+    },
+    "alg": {
+        "defaultInfo": {
+            "default": true,
+            "default_value": {
+                "type": "str",
+                "value": "'auto_select'"
+            }
+        }
+    }
+}

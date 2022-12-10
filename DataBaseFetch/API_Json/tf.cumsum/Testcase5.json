@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.cumsum(x, reverse=True)",
+    "comments": "tf.cumsum([a, b, c], reverse=True)  # [a + b + c, b + c, c]\n",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": " tf.constant([2, 4, 6, 8])"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.math.reduce_min(a, axis=0, keepdims=True)",
+    "comments": "",
+    "Arguments": {}
+}
