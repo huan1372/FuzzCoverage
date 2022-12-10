@@ -1,0 +1,14 @@
+{
+    "api call code": "tf.add(x, y).shape.as_list()",
+    "comments": "",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": "np.ones([1, 2, 1, 4])"
+        },
+        "y": {
+            "type": "other",
+            "value": "np.ones([3, 4])"
+        }
+    }
+}

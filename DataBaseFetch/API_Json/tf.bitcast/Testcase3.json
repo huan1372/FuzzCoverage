@@ -1,0 +1,5 @@
+{
+    "api call code": "tf.bitcast(tf.constant(0xffffffff, dtype=tf.uint32), tf.uint8)",
+    "comments": "",
+    "Arguments": {}
+}

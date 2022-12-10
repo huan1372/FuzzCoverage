@@ -1,0 +1,22 @@
+{
+    "api call code": "equality_bitcast = tf.bitcast(equality_cast,tf.uint8)",
+    "comments": "",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": "[1., 2., 3.]"
+        },
+        "y": {
+            "type": "other",
+            "value": "[0., 2., 3.]"
+        },
+        "equality": {
+            "type": "other",
+            "value": "tf.equal(x,y)"
+        },
+        "equality_cast": {
+            "type": "other",
+            "value": "tf.cast(equality,tf.float32)"
+        }
+    }
+}

@@ -1,25 +1,30 @@
 import tensorflow as tf
-from enum import IntEnum
+from enum import Enum,IntEnum
 import re
 import sys
 import io
+import copy
+import os
+import json
+
+TYPE_List = ["float16","float32","float64","int32","int64","complex64","complex128"]
 #* Type for testcase
-class ArgType(IntEnum):
-    INT = 1
-    STR = 2
-    FLOAT = 3
-    BOOL = 4
-    TUPLE = 5
-    LIST = 6
-    NULL = 7
-    DICT = 8
-    TF_TENSOR = 9
-    TF_DTYPE = 10
-    KERAS_TENSOR = 11
-    TF_VARIABLE = 12
-    TF_OBJECT = 13
-    NPARRAY = 14
-    OTHER = 24
+class ArgType(str,Enum):
+    INT = "int"
+    STR = "str"
+    FLOAT = "float"
+    BOOL = "bool"
+    TUPLE = "tuple"
+    LIST = "list"
+    NULL = "null"
+    DICT = "dict"
+    TF_TENSOR = "tf tensor"
+    TF_DTYPE = "dtyoe"
+    KERAS_TENSOR = "keras tensor"
+    TF_VARIABLE = "variable"
+    TF_OBJECT = "tf object"
+    NPARRAY = "np array"
+    OTHER = "other"
 
 #* Modes to parse different part of comments
 #* IDLE: No Info to parse
@@ -27,20 +32,38 @@ class ArgType(IntEnum):
 #* ARGS: Curent line is in argument definition
 class ParseMode(IntEnum):
     IDLE = 0
-    EXAMPLE = 1
-    ARGS = 2    
+    EXAMPLE_S = 1
+    EXAMPLE_E = 2
+    ARGS = 3
+    RETURN = 5
+
+def find_types(line,dtypes):
+    dtypes = set(dtypes)
+    for type in TYPE_List:
+        if type in line:
+            dtypes.add(type)
+    return list(dtypes)
 
 class Testcase:
     def __init__(self):
         self.record = {}
-    
+        self.comments = ""
+        self.api_call_code = ""
+
     def add_argument(self,argname:str,argtype:ArgType,argvalue=None):
-        self.record[argname] = (argtype,argvalue)
+        self.record[argname] = {"type":argtype,"value":argvalue}
+
+    def add_comments(self,comment:str):
+        self.comments += comment
+
+    def set_api_call_code(self,code:str):
+        self.api_call_code = code
 
     def get_arg(self,argname:str):
         if argname not in self.record.keys():
             raise Exception(f"%s is not an argument"%(argname))
         return self.record[argname]
+
 class Tensor:
     def __init__(self,dtype,shape=[]):
         self.dtype = dtype
@@ -49,10 +72,14 @@ class Tensor:
 class TFAPI:
     def __init__(self,api_name,default=False):
         self.default = default
-        self.default_val = {}
+        #self.default_val = {}
+        self.ArgInfo = {}
         self.api_name = api_name
         self.Testcase = []
         self.mode = ParseMode.IDLE
+        self.cur_testcase = None
+        self.cur_argname = None
+        self.DIR = "/Users/sh69/Documents/FreeFuzz/FuzzCoverage/DataBaseFetch/API_Json/"
 
     def add_testcase(self,testcase:Testcase):
         self.Testcase.append(testcase)
@@ -63,11 +90,13 @@ class TFAPI:
                 argname,default_v = item.split("=")
                 default = True
                 self.default = True
-                default_v = self.parse_default_type(default_v)
+                default_v3 = self.parse_default_type(default_v)
+                default_v = {"type":default_v3[0],"value":default_v3[1]}
             else:
                 argname,default_v = item,None
                 default = False
-            self.default_val[argname] = (default,default_v)
+            self.ArgInfo[argname] = {}
+            self.ArgInfo[argname]["defaultInfo"] = {"default" : default,"default_value": default_v}
             
 
     def set_mode(self,mode:ParseMode):
@@ -80,58 +109,87 @@ class TFAPI:
             print(type_info)
         
     def parse_line(self,line:str):
-        if self.mode == ParseMode.IDLE:
+        if self.mode == ParseMode.IDLE or self.mode == ParseMode.RETURN:
             return
-        elif self.mode == ParseMode.EXAMPLE:
+        elif self.mode == ParseMode.EXAMPLE_S or self.mode == ParseMode.EXAMPLE_E :
+            # Code 
             if line.startswith(">>>"):
+                if self.mode == ParseMode.EXAMPLE_S:
+                    self.cur_testcase = Testcase()
+                    self.set_mode(ParseMode.EXAMPLE_E)
                 line_l = line.lstrip(">>> ")
                 if line_l.startswith("#"):
-                    return
+                    #? Comments of excute code
+                    self.cur_testcase.add_comments(line_l.lstrip("# "))
                 else:
-                    return
+                    if self.api_name in line_l:
+                        self.cur_testcase.set_api_call_code(line_l.strip())
+                    elif "=" in line_l:
+                        code = line_l.strip().split("=")
+                        argname = code[0].strip(" ")
+                        argval = code[1].strip(" ")
+                        self.cur_testcase.add_argument(argname,ArgType.OTHER,argval)
+            # OUTPUT Stage -> add testcase, set to accept next round testcase
+            else:
+                if self.cur_testcase != None:
+                    self.Testcase.append(copy.deepcopy(self.cur_testcase))
+                    self.cur_testcase = None
+                    self.set_mode(ParseMode.EXAMPLE_S)
+            return
+        elif self.mode == ParseMode.ARGS:
+            if ":" in line:
+                argname = re.search("(\w+):.+",line).group(1)
+                if argname not in self.ArgInfo.keys():
+                    raise Exception("Argument not found!")
+                else:
+                    self.cur_argname = argname
+            
+            if "Tensor" in line or "SparseTensor" in line:
+                dtypes = find_types(line,[])
+                self.ArgInfo[self.cur_argname]["tensor"] = dtypes
+            elif "tensor" in self.ArgInfo[self.cur_argname].keys():
+                dtypes = find_types(line, self.ArgInfo[self.cur_argname]["tensor"])
+                self.ArgInfo[self.cur_argname]["tensor"] = dtypes
+            elif "optional" in line:
+                self.ArgInfo[self.cur_argname]["optional"] = "True"
+            else:
+                print(line)
+            return
+
     def get_default_value(self,argname:str):
         if self.default:
-            if self.default_val[argname][0]:
-                return self.default_val[argname][1]
+            if self.ArgInfo[argname]["defaultInfo"]["default"]:
+                return self.ArgInfo[argname]["defaultInfo"]["default_value"]
             else:
                 return None
         else:
             raise Exception("No default value for %s "%(self.argname))
+    
+    def generate_json(self,dir=None):
+        json_dir = dir if dir != None else self.DIR + api_name + "/"
+        if os.path.isdir(json_dir):
+            for f in os.listdir(json_dir):
+                os.remove(os.path.join(json_dir, f)) 
+        else:
+            os.makedirs(json_dir)
+        #? General Info:
+        #?      Default Value
+        #?      Args Type
+        with open(json_dir+"General.json","w") as Genf:
+            gen_obj = json.dumps(self.ArgInfo, indent=4)
+            Genf.write(gen_obj)
+        for i in range(len(self.Testcase)):
+            filename = json_dir+"Testcase" + str(i+1) + ".json"
+            testcase = self.Testcase[i]
+            testcase_dict = {"api call code":testcase.api_call_code,"comments":testcase.comments,"Arguments":testcase.record}
+            testcase_obj = json.dumps(testcase_dict, indent=4)
+            with open(filename,"w") as testcase_f:
+                testcase_f.write(testcase_obj)
+        return
+
 
 
 API_DOC_DIR = "/Users/sh69/Documents/FreeFuzz/FuzzCoverage/DataBaseFetch/API_Doc/"
-
-# func for parse information could be used by Atheris
-# def process_type(argname,type_info,record,api_name):
-#     # Raw type
-#     if argname not in record.keys():
-#         record[argname] = set()
-
-#     #? There is Data with list/int not string when parsing
-#     if isinstance(type_info,list):
-#         record[argname].add((ArgType.LIST,"raw"))
-#         return record
-#     if isinstance(type_info,int):
-#         record[argname].add((ArgType.INT,"raw"))
-#         return record
-#     if isinstance(type_info,float):
-#         record[argname].add((ArgType.FLOAT,"raw"))
-#         return record
-#     if isinstance(type_info,str):
-#         if type_info == "none":
-#             record[argname].add((ArgType.NULL,"raw"))
-#         else:
-#             record[argname].add((ArgType.STR,"raw"))
-#         return record
-#     if isinstance(type_info,dict):
-#         if "dtype" in type_info.keys() and "type" in type_info.keys() and type_info["type"] == "tensor":
-#             record[argname].add((ArgType.TF_TENSOR,type_info["dtype"]))
-#         return record
-#     if type_info is None:
-#         record[argname].add((ArgType.NULL,"raw"))
-#         return record
-#     print(argname,type(type_info),api_name)  
-#     return
 
 # func to parse information used by FreeFuzz
 def parse_FreeFuzz_type(tf_api,testcase,argname,type_info):
@@ -272,22 +330,25 @@ def Fetch_API_Info(api_name,api_doc_dir=API_DOC_DIR):
 
     #! Main part of Analysis
     #! Currently neglect anything besides For example code + Args comments
-    # for line in api_doc_f.readlines():
-    #     if line.strip() == "For example:":
-    #         tf_api.set_mode(ParseMode.EXAMPLE)
-    #         continue
-    #     elif line.strip() == "Args:":
-    #         tf_api.set_mode(ParseMode.ARGS)
-    #         continue
-    #     tf_api.parse_line(line)
-    
+    for line in api_doc_f.readlines():
+        if "For example" in line or "Example" in line:
+            tf_api.set_mode(ParseMode.EXAMPLE_S)
+            continue
+        elif line.strip() == "Args:":
+            tf_api.set_mode(ParseMode.ARGS)
+            continue
+        elif line.strip() == "Returns:":
+            tf_api.set_mode(ParseMode.RETURN)
+            continue
+        tf_api.parse_line(line)
+    tf_api.generate_json()
     api_doc_f.close()
     
     return tf_api
 
 if __name__ == "__main__": 
-    FreeFuzzresults = FreeFuzz_Data_Collection()
+    #FreeFuzzresults = FreeFuzz_Data_Collection()
     #HelperDoc = TF_doc_Collection()
-    # api_name = "tf.abs"
-    # Fetch_API_Info(api_name)
+    api_name = "tf.bitcast"
+    Fetch_API_Info(api_name)
     # print("a")

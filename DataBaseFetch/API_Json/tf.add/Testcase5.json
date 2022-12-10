@@ -1,0 +1,14 @@
+{
+    "api call code": "tf.add(x, y).shape.as_list()",
+    "comments": "",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": "np.ones(6).reshape(1, 2, 1, 3)"
+        },
+        "y": {
+            "type": "other",
+            "value": "np.ones(6).reshape(2, 1, 3, 1)"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "api call code": "tf.abs(x)",
+    "comments": "complex number\n",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": "tf.constant([[-2.25 + 4.75j], [-3.25 + 5.75j]])"
+        }
+    }
+}

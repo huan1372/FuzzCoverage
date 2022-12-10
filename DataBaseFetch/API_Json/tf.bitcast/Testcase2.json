@@ -1,0 +1,10 @@
+{
+    "api call code": "",
+    "comments": "",
+    "Arguments": {
+        "equality_cast": {
+            "type": "other",
+            "value": "tf.cast(a, tf.complex128)"
+        }
+    }
+}

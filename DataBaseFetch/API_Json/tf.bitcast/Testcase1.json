@@ -1,0 +1,10 @@
+{
+    "api call code": "equality_bitcast = tf.bitcast(a, tf.complex128)",
+    "comments": "",
+    "Arguments": {
+        "a": {
+            "type": "other",
+            "value": "[1., 2., 3.]"
+        }
+    }
+}

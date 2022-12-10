@@ -1,0 +1,14 @@
+{
+    "api call code": "",
+    "comments": "",
+    "Arguments": {
+        "x": {
+            "type": "other",
+            "value": "tf.convert_to_tensor([1, 2, 3, 4, 5])"
+        },
+        "y": {
+            "type": "other",
+            "value": "tf.convert_to_tensor(1)"
+        }
+    }
+}
